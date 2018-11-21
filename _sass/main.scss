@@ -1,0 +1,59 @@
+@import "theme";
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Coda", sans-serif;
+  background: linear-gradient(darken($enlightened, 10%), darken($enlightened, 20%));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  @media(max-height: 480px) {
+    font-size: 0.9em;
+  }
+}
+
+nav.main{
+  background: white;
+  border-bottom: darken($enlightened, 20%);
+  color: darken($enlightened, 20%);
+  padding: 15px;
+}
+
+.pulsate-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: darken(white, 20%);
+  animation: pulsate 3s ease-in infinite;
+
+  .logo {
+    width: 200px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+@keyframes pulsate {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes moveup {
+  from {padding-top: 40px;}
+  to {padding-top: 0;}
+}
