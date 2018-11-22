@@ -30,16 +30,31 @@ nav.main{
   align-items: center;
   text-align: center;
   color: darken(white, 20%);
-  animation: pulsate 3s ease-in infinite;
+  animation: fade-in 0.5s ease-in, pulsate 3s ease-in 0.5s infinite;
 
   .logo {
-    width: 200px;
+    width: 150px;
     img {
       width: 100%;
     }
   }
+
+  p {
+    margin: 0;
+  }
 }
 
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: 40px;
+  }
+  100% {
+    opacity: 0.9;
+    margin-top: 0;
+  }
+}
 
 @keyframes pulsate {
   0% {
@@ -51,9 +66,4 @@ nav.main{
   100% {
     opacity: 0.9;
   }
-}
-
-@keyframes moveup {
-  from {padding-top: 40px;}
-  to {padding-top: 0;}
 }
