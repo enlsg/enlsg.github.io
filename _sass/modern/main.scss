@@ -157,6 +157,13 @@ body.over-top {
 
   background: #212121;
   color: #777;
+
+  .logo {
+    color: #aaa;
+    img {
+      margin-right: 10px;
+    }
+  }
   a {
     color: #bbb;
     text-decoration: none;
