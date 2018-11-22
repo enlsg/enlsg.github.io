@@ -137,7 +137,7 @@ body.over-top {
 
   .welcome {
     margin-left: $phoneWidth + 50px;
-    padding-top: 300px;
+    padding-top: 310px;
     line-height: 1;
     font-size: 3.5em;
     text-shadow: 0 0 5px rgba(0,0,0,0.8);
@@ -205,6 +205,7 @@ body.over-top {
 @media (max-width: 1200px) {
   .banner {
     .welcome {
+      padding-top: 320px;
       font-size: 3em;
     }
   }
@@ -230,11 +231,11 @@ body.over-top {
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   .banner{
-    height: 300px;
+    height: 350px;
     .welcome {
       padding-top: 100px;
       margin-left: ($phoneWidth + 50px) * 0.5;
-      font-size: 1.8em;
+      font-size:1.8em;
     }
     .phone {
       width: $phoneWidth * 0.5;
@@ -246,7 +247,7 @@ body.over-top {
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   .banner{
-    height: 180px;
+    height: 160px;
     background-attachment: local;
     background-position: bottom;
     .welcome {
