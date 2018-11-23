@@ -1,0 +1,27 @@
+.top-nav {
+  .logo {
+    display: block !important;
+  }
+}
+.page-banner {
+  text-align: center;
+  color: white;
+  background-image: url('../images/pages/banner-game.jpg');
+  height: 200px;
+  margin-bottom: 2em;
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 90px;
+  text-shadow: 0 0 4px rgba(0,0,0,0.5);
+}
+
+@media(max-width: 576px) {
+  .page-banner {
+    h1 {
+      font-size: 2em;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/assets/images/ingressprime-favicon.png?{{site.time | date: '%s%N'}}" />
+<link rel="icon" sizes="192x192" href="/assets/images/ingressprime-favicon.png?{{site.time | date: '%s%N'}}">
+<link href="https://fonts.googleapis.com/css?family=Coda|Source+Code+Pro" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/temp.css?{{site.time | date: '%s%N'}}">
+{% seo %}
+</head>
+<body>
+{{ content }}
+{% include google-analytics.html %}
+</body>
+</html>

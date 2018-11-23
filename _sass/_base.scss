@@ -1,0 +1,165 @@
+html, body {
+  height: 100%;
+}
+body {
+  background: white;
+  font-family: "Exo 2", sans-serif;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #388e3c;
+}
+
+a:hover{
+  color: #4caf50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+#content{
+  flex-grow: 1;
+}
+
+body.over-top {
+  .top-nav {
+    background-color: black;
+    .logo {
+      display: block;
+    }
+  }
+}
+
+.top-nav {
+  color: white;
+  text-align: right;
+  line-height: 1;
+  font-size: 1.1em;
+  transition: background-color 0.5s;
+
+  .logo {
+    display: none;
+    float: left;
+    padding: 15px;
+    line-height: 26px;
+
+    img {
+      width: 25px;
+      float: left;
+      margin-right:10px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0.8em;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin-left: 1em;
+
+      a {
+        display: inline-block;
+        color: #eee;
+        text-decoration: none;
+      }
+      a:hover{
+        color: white;
+      }
+    }
+
+    li.cta {
+      a {
+        background: green;
+        padding: 0.3em 0.6em 0.4em;
+        border-radius: 3px;
+      }
+    }
+
+    li.menu {
+      margin-left: 0.5em;
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 0.3em 0.5em;
+    }
+  }
+}
+
+.breaker-top {
+  position: relative;
+  &:before{
+    content: "";
+    background-image: url('../images/breaker-bottom.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -40px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 90px;
+  }
+}
+
+.breaker-bottom {
+  position: relative;
+  &:after{
+    content: "";
+    background-image: url('../images/breaker.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 90px;
+  }
+}
+
+#footer {
+  background: #212121;
+  color: #777;
+
+  .logo {
+    color: #aaa;
+    img {
+      margin-right: 10px;
+    }
+  }
+  a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #fff;
+  }
+
+  .site-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading {
+    color: #bbb;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .contact-us {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
