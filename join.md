@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Join Us
-banner_title: Join Us
 description: Join the Enlightened Singapore today to enjoy the greatest gameplay with Ingress!
 ---
 <style type="text/css">

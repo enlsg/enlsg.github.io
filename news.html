@@ -1,0 +1,39 @@
+---
+layout: page
+title: News
+---
+<style type="text/css">
+  .post .footer{
+    font-size: 0.9em;
+    color: #777;
+  }
+</style>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-8">
+      {% for post in site.categories.news %}
+      <div class="post">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="content">
+          {{ post.content }}
+        </div>
+        <div class="footer">
+          {{ post.date | date: "%b %-d, %Y %I:%M%P"}}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="posts">
+        <h5><i class="fas fa-rss-square"></i> News</h5>
+        <ul>
+          {% for post in site.categories.news %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

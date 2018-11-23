@@ -5,7 +5,7 @@ $phoneHeight: 738px;
   color: white;
   background-image: url('../images/banner.jpg');
   height: 550px;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 
   background-attachment: fixed;
   background-position: bottom left;
@@ -95,7 +95,7 @@ $phoneHeight: 738px;
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
   .banner{
-    height: 160px;
+    height: 200px;
     background-attachment: local;
     background-position: bottom;
     .welcome {

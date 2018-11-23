@@ -13,14 +13,45 @@ title: Welcome to Enlightened Singapore
 </div>
 
 <div class="container">
-  <h2>Welcome, agent!</h2>
-  <p>Singapore Enlightened Agents are thrilled to welcome you to our city!</p>
-  <p>If this is your first time playing this game, do check out <a href="#">our game guides</a>
-    on how ot play this game. Otherwise, if you are foreign agents, do check out <a href="#">Singapore portals guide</a>
-    to know more about portal clusters in Singapore</p>
-  <p>Otherwise, welcome, agents!</p>
-</div>
+  <div class="row">
+    <div class="col-12 col-md-8">
+      <h3>Welcome, agent!</h3>
+      <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
+      <p>If this is your first time playing this game, do check out <a href="/game">our game guides</a>
+        on how to play this game. Otherwise, if you are foreign agents, do check out <a href="#">Singapore portals guide</a>
+        to know more about portal clusters in Singapore</p>
+      <p>Otherwise, welcome agents!</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="posts">
+        <h5><i class="fas fa-rss-square"></i> News</h5>
+        <ul>
+          {% for post in site.categories.news %}
+            {% if forloop.index < 5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        {% if site.categories.news.size >= 5 %}
+          <div class="more"><a href="/blogs">more...</a></div>
+        {% endif %}
+      </div>
 
-<div class="demo-placeholder breaker-bottom breaker-top mb-5 mt-5">
-  Some images
+      <div class="posts">
+        <h5><i class="fas fa-rss-square"></i> Sitreps</h5>
+        <ul>
+          {% for post in site.categories.sitreps %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        {% if site.categories.sitreps.size >= 5 %}
+          <div class="more"><a href="/sitreps">more...</a></div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>
