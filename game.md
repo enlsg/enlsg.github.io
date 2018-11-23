@@ -2,6 +2,7 @@
 layout: page
 title: Game
 banner_title: What's Ingress
+description: A guide to teach you how to play Ingress the right way!
 ---
 
 # Heading 1
