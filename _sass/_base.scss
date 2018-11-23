@@ -1,10 +1,11 @@
+$menuWidth: 150px;
+
 html, body {
   height: 100%;
 }
 body {
   background: white;
   font-family: "Exo 2", sans-serif;
-  transition: all 0.5s;
   display: flex;
   flex-direction: column;
 }
@@ -48,7 +49,7 @@ body.over-top {
     line-height: 26px;
 
     img {
-      width: 25px;
+      width: 23px;
       float: left;
       margin-right:10px;
     }
@@ -60,11 +61,11 @@ body.over-top {
   }
   ul {
     margin: 0;
-    padding: 0.8em;
+    padding: 0;
     list-style-type: none;
     li {
       display: inline-block;
-      margin-left: 1em;
+      padding: 0.8em 0.8em 0.8em 0;
 
       a {
         display: inline-block;
@@ -78,17 +79,86 @@ body.over-top {
 
     li.cta {
       a {
-        background: green;
+        background: #558b2f;
         padding: 0.3em 0.6em 0.4em;
         border-radius: 3px;
+        transition: all 0.2s;
+      }
+      a:hover{
+        background: darken(#558b2f, 1%);
       }
     }
 
     li.menu {
-      margin-left: 0.5em;
-      border-radius: 3px;
-      border: 1px solid rgba(255,255,255,0.3);
-      padding: 0.3em 0.5em;
+      a {
+        border-radius: 3px;
+        border: 1px solid rgba(255,255,255,0.2);
+        padding: 0.3em 0.5em;
+        transition: all 0.2s;
+      }
+      a:hover{
+        background: rgba(255,255,255,0.3);
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .top-nav {
+    .menu-links {
+      position: fixed;
+      z-index: 1070;
+      top: 0;
+      right: -$menuWidth;
+      bottom: 0;
+      width: $menuWidth;
+      background: black;
+      display: block !important;
+      text-align: right;
+      transition: right 0.2s;
+      padding: 5px;
+      ul {
+        margin-top: 10px;
+        li {
+          display: block;
+          padding: 0.4em;
+        }
+      }
+
+      .close {
+        a {
+          font-size: 1.5em;
+          color: white;
+          font-family: serif;
+          font-weight: 300;
+          text-shadow: none;
+          text-decoration: none;
+        }
+        position: absolute;
+        left: 15px;
+        top: 10px;
+        color: white;
+      }
+    }
+  }
+
+  body.menu-opened {
+    &:after {
+      content: '';
+      display: block;
+      position: fixed;
+      z-index: 500;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.2);
+    }
+
+    .top-nav {
+      .menu-links {
+        right: 0;
+      }
     }
   }
 }
