@@ -1,6 +1,7 @@
 ---
 layout: city-guide
 title: City Guide
+description: Enlightened Singapore City Guide - A comprehensive guide for agents who's traveling in Singapore
 ---
 
 ### Weather, Temperature
