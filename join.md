@@ -2,13 +2,8 @@
 layout: page
 title: Join Us
 description: Join the Enlightened Singapore today to enjoy the greatest gameplay with Ingress!
+banner: /assets/images/pages/banner-join-us.jpg
 ---
-<style type="text/css">
-.page-banner {
-  background-image: url("/assets/images/pages/banner-join-us.jpg");
-}
-</style>
-
 #### Why YOU should join?
 
 Ingress is a game which requires _tons_ of collaboration among players to be able to
