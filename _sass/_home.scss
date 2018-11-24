@@ -1,21 +1,59 @@
 $phoneWidth: 353px;
 $phoneHeight: 738px;
+$xsWidth: 576px;
 
-.banner {
-  color: white;
-  background-image: url('../images/banner.jpg');
-  height: 550px;
-  margin-bottom: 0.5em;
+section {
+  margin: 4em 0;
+  @media(max-width: $xsWidth) {
+    margin: 1.2em 0;
+  }
+}
+
+.section-banner{
+  height: 200px;
 
   background-attachment: fixed;
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding-top: 80px;
+
+  display: flex;
+  align-items: center;
+
+  .section-title {
+    flex-grow: 1;
+    font-size: 3em;
+    color: white;
+    text-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+  }
+
+  @media(max-width: $xsWidth) {
+    height: 150px;
+    background-attachment: local;
+
+    .section-title {
+      font-size: 2em;
+    }
+  }
+}
+
+.banner {
+  color: white;
+  background-image: url('/assets/images/home/banner.jpg');
+  height: 550px;
+
+  background-attachment: fixed;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 90px;
 
   .phone {
-    background-image: url('../images/phone.png');
+    background-image: url('/assets/images/home/phone.png');
     width: $phoneWidth;
     height: $phoneHeight;
     float: left;
@@ -35,18 +73,17 @@ $phoneHeight: 738px;
   }
 }
 
+#footer {
+  margin-top: 0 !important;
+}
+
 @keyframes image-in{
   0% {opacity: 0; margin-top: 50px;}
   100% {opacity: 1; margin-top: 0;}
 }
 
-.demo-placeholder {
-  background: #aaa;
-  width: 100%;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-banner-visitor {
+  background-image: url('/assets/images/home/merlion.jpg');
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -93,7 +130,7 @@ $phoneHeight: 738px;
   }
 }
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
+@media (max-width: $xsWidth) {
   .banner{
     height: 200px;
     background-attachment: local;

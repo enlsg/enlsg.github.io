@@ -2,7 +2,6 @@
 layout: page
 title: Green vs Blue
 ---
-
 ### Enlightened vs Resistance, aka green vs blue
 
 This game is partitioned into two __factions__, aka __Enlightened__ and __Resistance__. Story wise, Enlightened, as what you may have chosen, is the faction that harness the power of __Exotic Matter__ (XM) to evolve mankind to a higher level, vs Resistance, who seek to battle the forces that are attempting to use Exotic Matter to enslave humanity.

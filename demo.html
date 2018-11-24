@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Welcome to Enlightened Singapore
 ---
 <div class="banner breaker-bottom">
@@ -12,46 +12,25 @@ title: Welcome to Enlightened Singapore
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-md-8">
-      <h3>Welcome, agent!</h3>
-      <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
-      <p>If this is your first time playing this game, do check out <a href="/game">our game guides</a>
-        on how to play this game. Otherwise, if you are foreign agents, do check out <a href="#">Singapore portals guide</a>
-        to know more about portal clusters in Singapore</p>
-      <p>Otherwise, welcome agents!</p>
-    </div>
-    <div class="col-12 col-md-4">
-      <div class="posts">
-        <h5><i class="fas fa-rss-square"></i> News</h5>
-        <ul>
-          {% for post in site.categories.news %}
-            {% if forloop.index < 5 %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-        {% if site.categories.news.size >= 5 %}
-          <div class="more"><a href="/blogs">more...</a></div>
-        {% endif %}
-      </div>
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2>Hello Agents!</h2>
+        <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
 
-      <div class="posts">
-        <h5><i class="fas fa-rss-square"></i> Sitreps</h5>
-        <ul>
-          {% for post in site.categories.sitreps %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        {% if site.categories.sitreps.size >= 5 %}
-          <div class="more"><a href="/sitreps">more...</a></div>
-        {% endif %}
+        <p>If you have just downloaded and started this game, do check out <a href="/game-guide">our unofficial game guides</a>
+          on how to play this game in Singapore. We will try to give you all the tips and tricks on how to get on track
+          as fast as possible!</p>
+
+        <h4>Visiting Singapore?</h4>
+        <p>Are you Enlightened Agent who is just staying in Singapore for a short period of time? Check out our
+          <a href="/city-guide">City Guide</a> to learn more about this country. Do check out our <a href="/city-guide/featured-missions">featured missions</a>.</p>
       </div>
     </div>
   </div>
-</div>
+</section>
+
+<section class="mb-0">
+  <div class="section-banner section-banner-visitor"></div>
+</section>
