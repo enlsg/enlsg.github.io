@@ -20,12 +20,24 @@
   }
 
   .post-content {
-    margin-top: 0.25em;
+    margin-top: 0.5em;
     font-size: 0.9em;
 
     img {
       max-width: 100%;
     }
+  }
+}
+
+.single-post {
+  margin: 0;
+  border: none;
+  padding: 0;
+  background: transparent;
+
+  .post-title {
+    font-size: 1.5em;
+    font-weight: 600;
   }
 }
 

@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css?family=Exo+2|Source+Code+Pro" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="/assets/css/page.css?{{site.time | date: '%s%N'}}">
+<link rel="stylesheet" href="/assets/css/post.css?{{site.time | date: '%s%N'}}">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/assets/js/layout.js?{{site.time | date: '%s%N'}}"></script>
 {% seo %}
@@ -22,12 +22,7 @@
       <h1>{{ page.title }}</h1>
     </div>
   </div>
-  <div class="breadcrumb">
-    <div class="container">
-      <a href="/news">News</a> &gt; {{ page.title }}
-    </div>
-  </div>
-  <div class="container mt-3 mb-5">
+  <div class="mt-3 mb-3">
     {{ content }}
   </div>
 </div>

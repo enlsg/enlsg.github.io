@@ -5,9 +5,13 @@ description: Enlightened Singapore City Guide - A comprehensive guide for agents
 banner: /assets/images/pages/banner-city.jpg
 ---
 
-### Weather, Temperature
+### Weather &amp; Temperature
 
-- Whole day hot, umbrella, rain coat
+Singapore doesn't have any distinct seasons as it is located right on the equator.
+The weather is pretty much hot and sunny all year round with the exception of the monsoon season
+(during Christmas time/January), where it still very hot but rains often.
+
+Pack light, wear casual.
 
 ### Cell Services Recommendations
 

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: single-post
 title:  First 1b AP agent
 date:   2018-11-22 02:00:00 +0800
 categories: news

@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: single-post
 title:  Recursion Prime!
 date:   2018-11-22 23:00:00 +0800
 categories: news
