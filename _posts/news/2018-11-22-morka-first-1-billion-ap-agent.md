@@ -6,4 +6,4 @@ categories: news
 ---
 Morka becomes the first agent to hit 1B AP!
 
-![Morka](/assets/images/news/morka1b.jpg =600x)
+<img src="/assets/images/news/morka1b.jpg" width="600">
