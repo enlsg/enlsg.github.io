@@ -1,24 +1,18 @@
 ---
-layout: page
+layout: post
 title: News
 ---
-<style type="text/css">
-  .post .footer{
-    font-size: 0.9em;
-    color: #777;
-  }
-</style>
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-8">
       {% for post in site.categories.news %}
       <div class="post">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <div class="content">
-          {{ post.content }}
+        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <div class="post-date">
+          {{ post.date | date: "%b %-d, %Y %-I:%M%P"}}
         </div>
-        <div class="footer">
-          {{ post.date | date: "%b %-d, %Y %I:%M%P"}}
+        <div class="post-content">
+          {{ post.content }}
         </div>
       </div>
       {% endfor %}

@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Game Guide
+layout: game-guide
+title: Main Screen
 ---
 ### Main Screen
 

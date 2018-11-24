@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Green vs Blue
+layout: game-guide
+title: Enlightened vs Resistance
 ---
 ### Enlightened vs Resistance, aka green vs blue
 
