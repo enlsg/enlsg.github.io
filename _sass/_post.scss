@@ -1,8 +1,10 @@
 .post {
-  margin: 1em 0;
+  margin: 1em 0 2em;
+  border-top: 8px solid #aaa;
 
   padding: 1em 1em 0.25em;
   background: #f3f3f3;
+  overflow: hidden;
 
   .post-title {
     font-size: 1.3em;
@@ -13,12 +15,17 @@
   }
 
   .post-date {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #aaa;
   }
 
   .post-content {
     margin-top: 0.25em;
+    font-size: 0.9em;
+
+    img {
+      max-width: 100%;
+    }
   }
 }
 

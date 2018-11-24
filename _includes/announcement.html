@@ -1,0 +1,18 @@
+{% comment %}
+Please ensure there is only one announcement at one time
+The date from/top govern when will the announcement will be shown
+and only the matched date will be shown, for once.
+
+Please use iso date, and also increment the id else user won't be able to dismiss properly
+{% endcomment %}
+
+<div class="announcement" data-id="1" data-from="2018-11-23T10:00:00Z" data-to="2018-11-25T10:20:30Z">
+  <div class="popup">
+    <div class="close">&times;</div>
+    <h3>Heads up!</h3>
+    <div class="content">
+      <p>Hey agents! This is just an announcement test to test the pop up!</p>
+      <p>An here is a <a href="#">link to some important page</a>.</p>
+    </div>
+  </div>
+</div>

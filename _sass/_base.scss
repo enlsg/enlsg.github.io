@@ -48,6 +48,7 @@ body.over-top {
   line-height: 1;
   font-size: 1.1em;
   transition: background-color 0.5s;
+  text-shadow: 0 0 4px rgba(0,0,0,0.4);
 
   .logo {
     display: none;
@@ -72,7 +73,7 @@ body.over-top {
     list-style-type: none;
     li {
       display: inline-block;
-      padding: 0.8em 0.8em 0.8em 0;
+      padding: 15px 15px 15px 0;
 
       a {
         display: inline-block;
@@ -259,4 +260,66 @@ body.over-top {
     padding: 0;
     list-style-type: none;
   }
+}
+
+.announcement {
+  display: none;
+  background: rgba(0,0,0,0.7);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 2000;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  animation: announcement-backdrop 0.5s;
+
+  &.show {
+    display: flex;
+  }
+
+  .popup {
+    position: relative;
+    background: white;
+    padding: 1em 1.5em 0.25em;
+    width: 500px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    animation: announcement-in 0.5s;
+
+    .close {
+      font-family: sans-serif;
+      font-size: 2em;
+      font-weight: 300;
+      position: absolute;
+      top: 5px;
+      right: 10px;
+    }
+
+    h3 {
+      margin: 0 0 0.5em;
+    }
+  }
+
+  @media(max-width: 576px) {
+    .popup {
+      width: auto;
+      margin: 1em;
+    }
+    h3 {
+      font-size: 1.25em;
+    }
+  }
+}
+
+@keyframes announcement-backdrop{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes announcement-in{
+  0% {margin-top: -200px;}
+  100% {margin-top: 0;}
 }
