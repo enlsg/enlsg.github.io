@@ -18,20 +18,11 @@ section {
   background-size: cover;
   overflow: hidden;
 
-  display: flex;
-  align-items: center;
-
-  .section-title {
-    flex-grow: 1;
-    font-size: 3em;
-    color: white;
-    text-shadow: 0 0 8px rgba(0,0,0,0.6);
-    background: rgba(0,0,0,0.5);
-    text-align: center;
-  }
+  // Weird fix for a 1px border in mobile view
+  margin-bottom: -1px;
 
   @media(max-width: $xsWidth) {
-    height: 150px;
+    height: 180px;
     background-attachment: local;
 
     .section-title {
