@@ -1,44 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<title>{{ page.title }} | {{ site.title }}</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="/assets/images/ingressprime-favicon.png?{{site.time | date: '%s%N'}}" />
-<link rel="icon" sizes="192x192" href="/assets/images/ingressprime-favicon.png?{{site.time | date: '%s%N'}}">
-<link href="https://fonts.googleapis.com/css?family=Exo+2|Source+Code+Pro" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="/assets/css/game-guide.css?{{site.time | date: '%s%N'}}">
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="/assets/js/layout.js?{{site.time | date: '%s%N'}}"></script>
-{% seo %}
-</head>
-<body>
-{% include nav.html %}
-<div id="content">
-  <div class="page-banner breaker-bottom">
-    <div class="container">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
-
-  <div class="breadcrumb">
-    <div class="container">
-      <a href="/game-guide">Game Guide</a> &gt; {{ page.title }}
-    </div>
-  </div>
-
-  <div class="container mt-3 mb-5">
-    {{ content }}
-  </div>
-
-  <div class="container game-guide-navigation">
-    {% include game-guide-navigation.html %}
-  </div>
+---
+layout: page
+stylesheets:
+  - /assets/css/page.css # layout extending layout, include again!
+  - /assets/css/game-guide.css
+---
+{{ content }}
+<div class="container game-guide-navigation">
+  {% include game-guide-navigation.html %}
 </div>
-{% include footer.html %}
-{% include announcement.html %}
-{% include google-analytics.html %}
-</body>
-</html>

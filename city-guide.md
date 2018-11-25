@@ -5,7 +5,9 @@ description: Enlightened Singapore City Guide - A comprehensive guide for agents
 banner: /assets/images/pages/banner-city.jpg
 ---
 
-### Weather &amp; Temperature
+Welcome to Singapore, agent!
+
+#### Weather &amp; Temperature
 
 Singapore doesn't have any distinct seasons as it is located right on the equator.
 The weather is pretty much hot and sunny all year round with the exception of the monsoon season
@@ -13,29 +15,46 @@ The weather is pretty much hot and sunny all year round with the exception of th
 
 Pack light, wear casual.
 
-### Cell Services Recommendations
+#### Cell Services Recommendations
 
 - Prepaid cards, Singtel, starhub
 
-### Travel Around In Singapore
+#### Getting Around in Singapore
 
-- EzLink, Bus, SMRT
+Getting around in Singapore is pretty easy.
 
-### Accommodations
+##### EZ-Link
 
-### Entertainments
+![EZ-Link Card](/assets/images/city-guide/ezlink.jpg){: .float-left .mr-3} EZ-Link card
+{: .clearfix}
 
-BEERRSS
+##### Singapore Tourist Pass
 
-### Place of Interests
+
+Visit [Singapore Tourist Pass](http://thesingaporetouristpass.com.sg/){:target="_blank"}
+to learn more about the different passes and rates.
+
+##### By Train (MRT)
+
+##### By Bus
+
+##### By Taxi
+
+#### Accommodations
+
+#### Entertainments
+
+- Where to have beers?
+
+#### Place of Interests
 
 - Cultural places with pictures pls!
 - Operation timings
 
-### Featured Missions
+#### Featured Missions
 
 There are plenty of missions in Singapore. Check here for more about the featured missions!
 
-### Ethnicity
+#### Ethnicity
 
-### Food
+#### Food

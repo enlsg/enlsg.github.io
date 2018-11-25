@@ -1,34 +1,34 @@
 ---
-layout: news
+layout: page
 title: News
 description: Latest local and global news surrounding us!
+stylesheets:
+  - /assets/css/post.css
 ---
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-lg-8">
-      {% for post in site.categories.news %}
-      <div class="post">
-        <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <div class="post-date">
-          {{ post.date | date: "%b %-d, %Y %-I:%M%P"}}
-        </div>
-        <div class="post-content">
-          {{ post.content }}
-        </div>
+<div class="row">
+  <div class="col-12 col-lg-8">
+    {% for post in site.categories.news %}
+    <div class="post">
+      <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="post-date">
+        {{ post.date | date: "%b %-d, %Y %-I:%M%P"}}
       </div>
-      {% endfor %}
+      <div class="post-content">
+        {{ post.content }}
+      </div>
     </div>
-    <div class="col-12 col-lg-4">
-      <div class="posts">
-        <h5><i class="fas fa-rss-square"></i> News</h5>
-        <ul>
-          {% for post in site.categories.news %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+    {% endfor %}
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="posts">
+      <h5><i class="fas fa-rss-square"></i> News</h5>
+      <ul>
+        {% for post in site.categories.news %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>

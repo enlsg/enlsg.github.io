@@ -1,6 +1,10 @@
 ---
 layout: game-guide
 title: Enlightened vs Resistance
+breadcrumbs:
+  - url: /game-guide
+    text: Game Guide
+  - text: Enlightened vs Resistance
 ---
 ### Enlightened vs Resistance, aka green vs blue
 

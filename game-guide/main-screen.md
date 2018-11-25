@@ -1,6 +1,10 @@
 ---
 layout: game-guide
 title: Main Screen
+breadcrumbs:
+  - url: /game-guide
+    text: Game Guide
+  - text: Main Screen
 ---
 ### Main Screen
 
