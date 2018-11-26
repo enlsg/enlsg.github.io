@@ -13,9 +13,11 @@
     </div>
     <ul>
       <li><a href="/demo">Home</a></li>
+      <li><a href="/news">News</a></li>
+      {% if site.version > 1 %}
       <li><a href="/game-guide">Game Guide</a></li>
       <li><a href="/city-guide">City Guide</a></li>
-      <li><a href="/news">News</a></li>
+      {% endif %}
       <li class="cta d-block d-md-none"><a href="/join" class="btn-enlightened">Join Us</a></li>
     </ul>
   </div><ul class="d-inline-block">

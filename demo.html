@@ -19,17 +19,17 @@ stylesheets:
     <h4>Hello Agent!</h4>
     <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
 
-    <p>If you have just downloaded and started this game, do check out our unofficial game guides
-      on how to play this game in Singapore.</p>
+    <p>If you have just downloaded and started this game, <strong>Join Us</strong> now to learn more about this game!</p>
 
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <p><a href="/game-guide" class="btn btn-enlightened btn-block">Unofficial Game Guide &gt;</a></p>
+        <p><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
       </div>
     </div>
   </div>
 </section>
 
+{% if site.version > 1 %}
 <section>
   <div class="container">
     <h4>Visiting Singapore?</h4>
@@ -44,6 +44,7 @@ stylesheets:
 
   </div>
 </section>
+{% endif %}
 
 
 <div class="section-banner section-banner-visitor"></div>

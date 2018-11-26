@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+version: 1
 google_analytics: UA-1197861-9
 
 # Exclude from processing.
