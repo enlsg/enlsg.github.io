@@ -3,6 +3,8 @@ layout: page
 title: City Guide
 description: Enlightened Singapore City Guide - A comprehensive guide for agents who's traveling in Singapore
 banner: /assets/images/pages/banner-city.jpg
+stylesheets:
+  - /assets/css/city-guide.css
 ---
 
 Welcome to Singapore, agent!
@@ -55,6 +57,15 @@ to learn more about the different passes and rates.
 
 There are plenty of missions in Singapore. Check here for more about the featured missions!
 
-#### Ethnicity
+#### Emergency Contact
+
+Should you need emergency assistance in Singapore, do contact the following numbers
+immediately:
+
+| __Emergency Ambulance & Fire__ | 995 |
+| __Non-Emergency Ambulance__ | 1777 |
+| __Police Emergency__ | 999 |
+| __Police Hotline__ | 1800 255 0000 |
+{: .table .table-striped .table-bordered}
 
 #### Food
