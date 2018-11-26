@@ -12,7 +12,7 @@
     counter-increment: steps-counter;
     padding-left: 40px;
     position: relative;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.4em;
   }
 
   li:before{
@@ -20,13 +20,13 @@
     color: white;
     background-color: #777;
     border-radius: 100%;
-    width: 28px;
-    height: 28px;
-    line-height: 28px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
     text-align: center;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -1px;
     font-weight: 600;
   }
 
