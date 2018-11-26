@@ -20,7 +20,7 @@ Follow the steps below to join us on __Telegram__, the mobile communication tool
     [![Download on App Store](/assets/images/join-us/appstore.png){:width="180px" .d-inline-block .mb-3 .mr-3}](https://itunes.apple.com/sg/app/telegram-messenger/id686449807?mt=8){:target="_blank"}
     [![Download on Play Store](/assets/images/join-us/playstore.png){:width="180px" .d-inline-block .mb-3 .mr-3}](https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=en){:target="_blank"}
 
-2. Create an account on Telegram, and preferably set a username up!
+2. Create an account on Telegram, and setup a username! This will enable others to find you by that username. (Telegram is our preferred mode of communication between players.)
 
 3. Join our Enlightened Player Chat at [@enlsg](https://t.me/enlsg){:target="_blank"}!
 
