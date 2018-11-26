@@ -23,3 +23,5 @@ Follow the steps below to join us on __Telegram__, the mobile communication tool
 2. Create an account on Telegram, and preferably set a username up!
 
 3. Join our Enlightened Player Chat at [@enlsg](https://t.me/enlsg){:target="_blank"}!
+
+4. Introduce yourself in the chat, together with a screenshot of your scanner. Do let us know the places you frequently play at (e.g. Bedok and Raffles Place) and someone will get in touch with you real soon!
