@@ -12,8 +12,7 @@ section {
 .section-banner{
   height: 200px;
 
-  background-attachment: fixed;
-  background-position: bottom left;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -22,8 +21,9 @@ section {
   margin-bottom: -1px;
 
   @media(max-width: $xsWidth) {
-    height: 180px;
+    height: 170px;
     background-attachment: local;
+    background-position: center center;
 
     .section-title {
       font-size: 2em;
@@ -33,11 +33,10 @@ section {
 
 .banner {
   color: white;
-  background-image: url('/assets/images/home/banner.jpg');
+  background-image: url('/assets/images/home/banner2.jpg');
   height: 550px;
 
-  background-attachment: fixed;
-  background-position: bottom left;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -56,8 +55,10 @@ section {
     padding-top: 310px;
     line-height: 1;
     font-size: 3.5em;
-    text-shadow: 0 0 5px rgba(0,0,0,0.8);
+    text-shadow: 0 0 10px rgba(0,0,0,0.9);
+    font-weight: 400;
     .tagline {
+      font-weight: 400;
       font-size: 0.6em;
       opacity: 0.7;
     }

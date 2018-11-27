@@ -13,12 +13,9 @@
 
       <div class="col-12 col-sm-4 mb-3 mb-sm-0">
         <ul class="site-navigation">
-          <li><a href="/">Home</a></li>
-          <li><a href="/news">News</a></li>
-          {% if site.version > 1 %}
-          <li><a href="/game-guide">Game Guide</a></li>
-          <li><a href="/city-guide">City Guide</a></li>
-          {% endif %}
+          {% for nav in site.data.nav %}
+            <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
+          {% endfor %}
           <li class="cta"><a href="/join">Join Us</a></li>
         </ul>
       </div>
