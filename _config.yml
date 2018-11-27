@@ -28,7 +28,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-version: 1
+timezone: Asia/Singapore
+
 google_analytics: UA-1197861-9
 
 # Exclude from processing.

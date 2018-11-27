@@ -35,12 +35,24 @@ section {
   color: white;
   background-image: url('/assets/images/home/banner2.jpg');
   height: 550px;
+  position: relative;
 
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-top: 90px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 70px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
 
   .phone {
     background-image: url('/assets/images/home/phone.png');
