@@ -5,8 +5,13 @@ description: Directory of links to everywhere else on the Internet
 ---
 Here are some of the helpful links for your convenience!
 
+<<<<<<< HEAD
 ##### Official Websites and FAQs
 - [Niantic Labs](https://www.nianticlabs.com){: target="_blank"}
+=======
+##### Official Websites
+- [Niantic Labs](https://www.nianticlabs.com){: target="_blank"} - The official Ingress Website
+>>>>>>> 3938d20310e01e834119634052af3e8f7c970a01
 - [Ingress](https://www.ingress.com){: target="_blank"}
 - [Ingress Help Center](https://support.ingress.com/hc/en-us){: target="_blank"}
 - [Ingress Community Guidelines](https://support.ingress.com/hc/en-us/articles/206606858-Ingress-Community-Guidelinesm){: target="_blank"}
