@@ -23,6 +23,6 @@ You will need Ruby, RubyGems and some other dependencies installed. Do check out
 ### Running it
 You should be able to run the site by running the following command:
 
-        bundler exec jekyll serve
+    bundler exec jekyll serve
 
 And the website will be visible at http://localhost:4000
