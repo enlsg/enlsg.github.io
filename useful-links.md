@@ -7,9 +7,6 @@ Here are some of the helpful links for your convenience!
 
 ##### Official Websites and FAQs
 - [Niantic Labs](https://www.nianticlabs.com){: target="_blank"}
-=======
-##### Official Websites
-- [Niantic Labs](https://www.nianticlabs.com){: target="_blank"} - The official Ingress Website
 - [Ingress](https://www.ingress.com){: target="_blank"}
 - [Ingress Help Center](https://support.ingress.com/hc/en-us){: target="_blank"}
 - [Ingress Community Guidelines](https://support.ingress.com/hc/en-us/articles/206606858-Ingress-Community-Guidelinesm){: target="_blank"}
