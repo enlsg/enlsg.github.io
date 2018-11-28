@@ -42,8 +42,3 @@ Here are some of the helpful links for your convenience!
 ##### Reviews and Interviews
 - [Ingress Prime Announcement](https://www.theverge.com/2017/12/2/16725884/ingress-prime-update-niantic-pokemon-go){: target="_blank"} - Niantic’s first AR game Ingress is getting a massive overhaul in 2018
 - [Venturebeat Group Interview](https://venturebeat.com/2018/11/11/how-niantic-designers-tackled-ingress-prime-reboot/view-all/){: target="_blank"} - How Niantic designers tackled Ingress Prime reboot
-
-
-
-
-

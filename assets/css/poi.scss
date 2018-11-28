@@ -1,0 +1,48 @@
+---
+---
+$portalImageSize: 200px;
+
+.portal-of-interests {
+  .portal {
+    background: #f3f3f3;
+    padding: 15px;
+    .portal-image {
+      float: left;
+      border-radius: 10px;
+      overflow: hidden;
+      width: $portalImageSize;
+      img {
+        width: 100%;
+      }
+    }
+    .portal-body {
+      margin-left: $portalImageSize + 15px;
+      .portal-name {
+        font-size: 1.3em;
+        font-weight: 600;
+      }
+
+      .portal-description {
+
+      }
+    }
+
+    .portal-location {
+      font-size: 0.9em;
+
+      .location-icon {
+        font-size: 0.9em;
+      }
+    }
+
+    @media(max-width: 576px) {
+      .portal-image {
+        width: auto;
+        float: none;
+      }
+      .portal-body {
+        margin: 15px 0 0;
+      }
+    }
+  }
+}

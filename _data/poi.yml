@@ -1,0 +1,33 @@
+- name: Ct Hub
+  lat: 1.31246
+  lng: 103.862259
+  photo: https://lh3.googleusercontent.com/eUWwXCf6wp-L8kENqq46S-oH8Tv32d8Rk4c4e_0STkj1z7n7Mmj5d2jZx3UO43o1NsWnMmcIqgplMzm7nbGc
+  intel: https://intel.ingress.com/intel?ll=1.311962,103.861936&z=17&pll=1.31246,103.862259
+  description_type: markdown
+  description: |
+    This is one of the most stacked portal in Singapore and one should vist
+    this portal as much as they should and this is a very long description
+    that I'm going to break it.
+
+    Trying new paragraph to see if it works. __Markdown supported!__
+
+- name: Ct Hub
+  lat: 1.31246
+  lng: 103.862259
+  photo: https://lh3.googleusercontent.com/eUWwXCf6wp-L8kENqq46S-oH8Tv32d8Rk4c4e_0STkj1z7n7Mmj5d2jZx3UO43o1NsWnMmcIqgplMzm7nbGc
+  intel: https://intel.ingress.com/intel?ll=1.311962,103.861936&z=17&pll=1.31246,103.862259
+  description_type: html
+  description: |
+    <p>This is an example of HTML</p>
+    <h3>Hey!</h3>
+
+- name: Ct Hub
+  lat: 1.31246
+  lng: 103.862259
+  photo: https://lh3.googleusercontent.com/eUWwXCf6wp-L8kENqq46S-oH8Tv32d8Rk4c4e_0STkj1z7n7Mmj5d2jZx3UO43o1NsWnMmcIqgplMzm7nbGc
+  intel: https://intel.ingress.com/intel?ll=1.311962,103.861936&z=17&pll=1.31246,103.862259
+  published: false # A simple flag to disable publish. We can add more flags like when to show.. etc, but later.
+  description_type: html
+  description: |
+    <p>This is an example of HTML</p>
+    <h3>Hey!</h3>
