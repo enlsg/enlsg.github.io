@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Portals of Interest</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<!-- mapbox -->
+	<meta charset='utf-8' />
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+	<link href="https://fonts.googleapis.com/css?family=Cabin|Cabin+Condensed" rel="stylesheet">
+
+	<!-- turf / d3 -->
+	<script src='https://d3js.org/d3.v5.min.js' charset='utf-8'></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+
+
+<style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+
+	a:link { text-decoration: none;font-weight: bold; } 
+	a:visited { text-decoration: none;font-weight: bold; }
+	a { text-decoration: none;font-weight: bold; color: #2b2b2b }
+
+	.mapboxgl-popup {
+	  max-width: 260px;
+	  max-height: 358px;
+	}
+	.mapboxgl-popup-content {
+	  text-align: center;
+	  font-family: 'Open Sans', sans-serif;
+	} 
+	.img2 {
+		text-align: left;
+		height:340px;
+		width:240px;
+	}
+</style>
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoidXp6aWtpZTEyIiwiYSI6ImNqajlhNTQ5YzBjajgzd3Ftb201MzNzZTAifQ.v0YxN9znBuNt8h81AAuIVQ';
+	var map = new mapboxgl.Map({
+	    style: 'mapbox://styles/uzzikie12/cjp0txnoj0l122rpbmt0bt4j6',
+	    center: [103.8123, 1.2862],
+	    zoom: 10.9,
+	    pitch: 0,
+	    //bearing: -17.6,
+	    hash: true,
+	    container: 'map',
+	   attributionControl: false
+	   //infoControl: true   
+	});
+
+	map.addControl(new mapboxgl.ScaleControl({
+	    maxWidth: 100,
+	    unit: 'metric'
+	}));
+
+
+	map.addControl(new mapboxgl.GeolocateControl({
+	    positionOptions: {
+	        enableHighAccuracy: true
+	    },
+	    fitBoundsOptions: {maxZoom: 18}
+	    //trackUserLocation: true
+	}));
+
+	map.addControl(new mapboxgl.NavigationControl());
+
+	map.on('load', function () {
+
+
+		map.addSource("portal_data", {
+		    "type": "geojson",
+		    "data": {
+		        "type": "FeatureCollection",
+		        "features": [
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.818165,1.270491]},"properties": {"title":"Japanese Navy Admiral Tomb", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/4-rBuvi2ZUi7N6FrA9iasInqeSoV-DI3W8wvDv7B9366MIvhSoY9N3dndS0rTFED6p1SC04b1hGITIUoICKa", "id":"103.818165,1.270491", "desc": "Located near Mount Faber, this tombstone is the final resting place for Japanese naval officer was buried there in 1943."  }},
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.812194,1.308772]},"properties": {"title":"Istana Woodneuk", "p":"N", "d": "N", "i":"https://lh6.ggpht.com/TkemSsGUK9QWrJaOQNaSo1_W06dGALAr3NTNN-LZ7rj7voWR3ECd9fZU1gMSSXuUp6P7xdzJWPykDQYp80XdqQ", "id":"103.812194,1.308772", "desc": "This abandoned two-storey palace is located near the Singapore Botanic Gardens. It belongs to the State of Johor, and currently out of bounds to outsiders."   }},
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.740621,1.160054]},"properties": {"title":"Raffles Lighthouse", "p":"N", "d": "N", "i":"https://lh5.ggpht.com/vyPyVPoSyj5EQ6qf2fRERKRsWON3yFxo3QMChxxSL-hDThqRwIWPwKGjMAInYkl-jS6qqiF3sgyAKdtgMe6_", "id":"103.740621,1.160054", "desc": "Built in 1855, it's one of two operating lighthouses in Singapore. It's closed to public access except in April, when Maritime Port Authority will conduct educational tours."   }}
+		        ]
+		    }
+		});
+												    
+
+		
+		map.addLayer({
+		    id: "unclustered-point",
+		    type: "symbol",
+		    source: "portal_data",
+		    layout: {
+		        "icon-image": "marker-11",
+		        "icon-optional": true,
+		        "text-size": 11.45,
+		        "text-field": "{title}",
+		        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+		        "text-offset": [0, 0.9],
+		        "text-anchor": "top"
+		    },
+			"paint": {
+			    //"text-color": "#EBEDEF",
+			    "text-color": "#c7cbd1",
+			    "text-opacity": 0.9,
+			    "text-halo-color": "#131c20",
+	            "text-halo-blur": 0.0,
+	            "text-halo-width": 1		
+			}    						    
+		});	
+
+		map.on('click', function(e) {
+			
+		  var features = map.queryRenderedFeatures(e.point, {
+		    layers: ['unclustered-point'] // replace this with the name of the layer
+		  });
+		
+		  if (!features.length) {
+		    return;
+		  }
+
+		  var feature = features[0];
+		
+		  var title = feature.properties.title;
+		  var image = feature.properties.i;
+		  var desc = feature.properties.desc;
+		  var latlng = feature.properties.id;
+
+		  var data = '<div class="img2" id="p103.818165,1.270491" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:228px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green;" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
+
+
+
+		  var popup = new mapboxgl.Popup({ offset: [0, 0] })
+		    .setLngLat(feature.geometry.coordinates)
+		    .setHTML(data)
+		    .setLngLat(feature.geometry.coordinates)
+		    .addTo(map);
+  
+
+
+		    
+		});
+
+
+
+	});
+
+
+</script>
+</body>
+</html>
