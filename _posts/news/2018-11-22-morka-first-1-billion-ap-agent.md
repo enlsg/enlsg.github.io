@@ -6,6 +6,6 @@ categories: news
 ---
 Morka becomes the first agent to hit 1B AP!
 
-<img src="/assets/images/news/morka1b.jpg">
+<img src="/assets/images/news/morka1b.png">
 
 The top ENL agent in Singapore is xiaohuaidan, with 690m AP as of writing.

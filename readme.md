@@ -1,13 +1,28 @@
-Enlightened Singapore
+The Enlightened Singapore
 ---
 
-[Ingress](https://ingress.com/), is a location-based, augmented-reality mobile game developed by Niantic.
-We created this page just to celebrate the new Ingress 2.0, aka, Ingress Prime.
+This repository is the source code for the [enl.sg](https://enl.sg). We use
+[jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com) for
+easy update and hosting.
 
-What you see here is the source code for the static web for https://enl.sg,
-brought to you by your fellow Singapore agents. It's built by [jekyll](https://jekyllrb.com/) and is
-currently hosted on [GitHub Pages](https://pages.github.com).
+The Enlightened Singapore is an info website built for the popular location-based
+game [Ingress](https://ingress.com/) which is produced by [Niantic](https://www.nianticlabs.com).
+We do not intend to infringe any copyrighted materials.
 
-Submit issues or pull requests shall you need to edit the content.
+Do submit issues or make a pull requests if you spotted any issues on this website.
 
-We will update this site with more useful stuff in the near future. Stay tuned!
+## Development
+
+To develop this site, you will need a few softwares installed on your machine:
+
+### Jekyll installation
+You will need Ruby, RubyGems and some other dependencies installed. Do check out the
+[jekyll installation guide](https://jekyllrb.com/docs/installation/).
+
+
+### Running it
+You should be able to run the site by running the following command:
+
+    bundler exec jekyll serve
+
+And the website will be visible at http://localhost:4000

@@ -19,7 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Enlightened Singapore is the official website for the Enlightened Agents
   in Singapore. Visit us for Ingress guides, tips and news happening in Singapore.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://enl.sg" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/images/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -28,7 +29,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-version: 1
+timezone: Asia/Singapore
+
 google_analytics: UA-1197861-9
 
 # Exclude from processing.

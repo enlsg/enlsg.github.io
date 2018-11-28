@@ -12,12 +12,9 @@
       <div class="logo-watermark"><img src="/assets/images/ingress-logo.png" /></div>
     </div>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/news">News</a></li>
-      {% if site.version > 1 %}
-      <li><a href="/game-guide">Game Guide</a></li>
-      <li><a href="/city-guide">City Guide</a></li>
-      {% endif %}
+      {% for nav in site.data.nav %}
+        <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
+      {% endfor %}
       <li class="cta d-block d-md-none"><a href="/join" class="btn-enlightened">Join Us</a></li>
     </ul>
   </div><ul class="d-inline-block">

@@ -21,6 +21,18 @@
   flex-direction: row;
   align-items: center;
 
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 70px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+
   h1 {
     flex-grow: 1;
     margin: 0;

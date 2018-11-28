@@ -1,0 +1,34 @@
+---
+layout: page
+title: Portal of Interests
+description: Visiting Singapore? Here is a list of portal of interests in this tiny red dot!
+stylesheets:
+  - /assets/css/poi.css
+---
+<div class="portal-of-interests">
+{% for poi in site.data.poi %}
+  {% if poi.published %}
+  <div class="portal mb-3 clearfix">
+    <div class="portal-image">
+      <img src="{{ poi.photo }}" alt="{{ poi.name }}" />
+    </div>
+
+    <div class="portal-body">
+      <div class="portal-name">{{ poi.name }}</div>
+      <div class="portal-description">
+        {% if poi.description_type == 'html' %}
+          {{ poi.description }}
+        {% elsif poi.description_type == blank or poi.description_type == 'markdown' %}
+          {{ poi.description | markdownify }}
+        {% endif %}
+      </div>
+      <div class="portal-location">
+        <i class="fas fa-map-marker-alt location-icon mr-1"></i> Location:
+        <span class="google-maps"><a href="https://www.google.com.sg/maps/search/?api=1&query={{ poi.lat }},{{ poi.lng }}" target="_blank">Map</a></span> &middot;
+        <span class="intel-maps"><a href="{{ poi.intel }}" target="_blank">Intel</a></span>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
