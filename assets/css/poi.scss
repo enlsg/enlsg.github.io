@@ -1,6 +1,27 @@
 ---
 ---
+@import 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css';
+
 $portalImageSize: 200px;
+
+.map-wrapper {
+  margin-bottom: 2em;
+  &:before {
+    z-index: 50;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 70px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+}
+
+#map {
+  height: 400px;
+}
 
 .portal-of-interests {
   .portal {

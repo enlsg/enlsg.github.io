@@ -29,6 +29,16 @@
 {% endif %}
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="/assets/js/layout.js?{{site.time | date: '%s%N'}}"></script>
+{% if layout.scripts %}
+{% for script in layout.scripts %}
+<script src="{{ script }}?{{site.time | date: '%s%N'}}"></script>
+{% endfor %}
+{% endif %}
+{% if page.scripts %}
+{% for script in page.scripts %}
+<script src="{{ script }}?{{site.time | date: '%s%N'}}"></script>
+{% endfor %}
+{% endif %}
 </head>
 <body>
 {% include nav.html %}

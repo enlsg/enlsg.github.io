@@ -30,8 +30,10 @@ plugins:
   - jekyll-seo-tag
 
 timezone: Asia/Singapore
+ignore: ['node_modules']
 
 google_analytics: UA-1197861-9
+mapbox_access_token: pk.eyJ1IjoidXp6aWtpZTEyIiwiYSI6ImNqajlhNTQ5YzBjajgzd3Ftb201MzNzZTAifQ.v0YxN9znBuNt8h81AAuIVQ
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

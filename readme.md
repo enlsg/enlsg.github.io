@@ -26,3 +26,19 @@ You should be able to run the site by running the following command:
     bundler exec jekyll serve
 
 And the website will be visible at http://localhost:4000
+
+### Javascript related
+
+Simple webpack and babel loader has been included so in order to transpile Javascript
+codes, do the following commands:
+
+##### To develop (watch)
+
+    npm run watch
+
+##### To build (production)
+
+    npm run prod
+
+Always compile the code before commit to upstream so jekyll will get the compiled
+codes.
