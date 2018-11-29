@@ -1,5 +1,3 @@
-import mapboxgl from 'mapbox-gl';
-
 /**
  * For building a map
  */
@@ -8,6 +6,7 @@ class Map {
   constructor(accessToken) {
     mapboxgl.accessToken = accessToken;
     this.config = {
+      style: 'mapbox://styles/mapbox/basic-v9',
       center: [103.8123, 1.362],
       zoom: 10,
       attributionControl: false
@@ -15,29 +14,51 @@ class Map {
     this.controls = [];
   }
 
+  /**
+   * Changing mapbox style
+   * @param {string} style
+   * @return {this}
+   */
   style(style) {
-    this.config['style'] = style;
-    return this;
+    return this._setConfig('setStyle', 'style', style);
   }
 
+  /**
+   * Changing map center, or fly to the place
+   * @param {numeric} lat Latitude
+   * @param {numeric} lng Longitude
+   * @return {this}
+   */
   center(lat, lng) {
-    this.config['center'] = [lng, lat];
-    return this;
+    return this._setConfig('flyTo', 'center', [lng, lat]);
   }
 
+  /**
+   * Changing map center, or fly to the place
+   * @param {numeric} lat Latitude
+   * @param {numeric} lng Longitude
+   * @return {this}
+   */
   zoom(zoom) {
-    this.config['zoom'] = zoom;
-    return this;
+    return this._setConfig('zoomTo', 'zoom', zoom);
   }
 
+  /**
+   * Changing map pitch
+   * @param {numeric} pitch The pitch number
+   * @return {this}
+   */
   pitch(pitch) {
-    this.config['pitch'] = pitch;
-    return this;
+    return this._setConfig('setPitch', 'pitch', pitch);
   }
 
-  accessToken(accessToken) {
-    mapboxgl.accessToken = accessToken;
-    return this;
+  /**
+   * Changing map bearing
+   * @param {numeric} bearing The bearing number
+   * @return {this}
+   */
+  bearing(bearing) {
+    return this._setConfig('setBearing', 'bearing', bearing);
   }
 
   onMapLoad() {
@@ -176,29 +197,80 @@ class Map {
 
   }
 
+  /**
+   * To add a cross hair geo control on the top right
+   * hand corner to get user location
+   * @param {object} opt Options to override default options
+   * @return {this}
+   */
   withGeoControl(opt = null) {
-    this.controls.push(new mapboxgl.GeolocateControl(opt || {
+    return this._addControl(new mapboxgl.GeolocateControl(opt || {
       positionOptions: {
         enableHighAccuracy: true
 	    },
 	    fitBoundsOptions: {maxZoom: 18},
 	    trackUserLocation: false
     }));
-    return this;
   }
 
+  /**
+   * To add a scale control at the bottom of the map
+   * @param {object} opt Options to override default options
+   * @return {this}
+   */
   withScaleControl(opt = null) {
-    this.controls.push(new mapboxgl.ScaleControl(opt || {
+    return this._addControl(new mapboxgl.ScaleControl(opt || {
       maxWidth: 100,
       unit: 'metric'
     }));
+  }
+
+  /**
+   * To add a navigation control at the right screen
+   * hand corner to get user location
+   * @param {object} opt Options to override default options
+   * @return {this}
+   */
+  withNavigationControl(opt = null) {
+    return this._addControl(new mapboxgl.NavigationControl(opt));
+  }
+
+  /**
+   * Standard set config
+   * @param {string} functionName The mapbox function name
+   * @param {string} configName The mapbox config name
+   * @param {mixed} value
+   * @return {this}
+   */
+  _setConfig(functionName, configName, value) {
+    if (this.map) {
+      this.map[functionName]({center: value});
+      console.log(this.map[functionName], {center: value});
+    } else {
+      this.config[configName] = value;
+    }
+    return this;
+  }
+
+  /**
+   * Add control
+   * @param {object} control
+   * @return {this}
+   */
+  _addControl(control) {
+    if (this.map) {
+      this.map.addControl(control);
+    } else {
+      this.controls.push(control);
+    }
     return this;
   }
 
   renderTo(el) {
-    const map = this.map = new mapboxgl.Map($.extend({
-      container: el
-    }, this.config));
+    const map = this.map = new mapboxgl.Map({
+      container: el,
+      ...this.config
+    });
     // Controls!
     this.controls.forEach(control => map.addControl(control));
     map.on('load', this.onMapLoad.bind(this));
