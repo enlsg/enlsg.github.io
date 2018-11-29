@@ -5,13 +5,38 @@ import mapboxgl from 'mapbox-gl';
  */
 class Map {
 
-  setAccessToken(accessToken) {
+  constructor(accessToken) {
     mapboxgl.accessToken = accessToken;
+    this.config = {
+      center: [103.8123, 1.362],
+      zoom: 10,
+      attributionControl: false
+    };
+    this.controls = [];
+  }
+
+  style(style) {
+    this.config['style'] = style;
     return this;
   }
 
-  setMapConfig(config) {
-    this.config = config;
+  center(lat, lng) {
+    this.config['center'] = [lng, lat];
+    return this;
+  }
+
+  zoom(zoom) {
+    this.config['zoom'] = zoom;
+    return this;
+  }
+
+  pitch(pitch) {
+    this.config['pitch'] = pitch;
+    return this;
+  }
+
+  accessToken(accessToken) {
+    mapboxgl.accessToken = accessToken;
     return this;
   }
 
@@ -152,25 +177,21 @@ class Map {
   }
 
   withGeoControl(opt = null) {
-    if (this.map) {
-      this.map.addControl(new mapboxgl.GeolocateControl(opt || {
-        positionOptions: {
-          enableHighAccuracy: true
-  	    },
-  	    fitBoundsOptions: {maxZoom: 18},
-  	    trackUserLocation: false
-      }));
-    }
+    this.controls.push(new mapboxgl.GeolocateControl(opt || {
+      positionOptions: {
+        enableHighAccuracy: true
+	    },
+	    fitBoundsOptions: {maxZoom: 18},
+	    trackUserLocation: false
+    }));
     return this;
   }
 
   withScaleControl(opt = null) {
-    if (this.map) {
-      this.map.addControl(new mapboxgl.ScaleControl(opt || {
-        maxWidth: 100,
-        unit: 'metric'
-      }));
-    }
+    this.controls.push(new mapboxgl.ScaleControl(opt || {
+      maxWidth: 100,
+      unit: 'metric'
+    }));
     return this;
   }
 
@@ -178,6 +199,8 @@ class Map {
     const map = this.map = new mapboxgl.Map($.extend({
       container: el
     }, this.config));
+    // Controls!
+    this.controls.forEach(control => map.addControl(control));
     map.on('load', this.onMapLoad.bind(this));
     return this;
   }

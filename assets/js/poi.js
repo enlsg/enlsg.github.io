@@ -161,20 +161,46 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 var Map =
 /*#__PURE__*/
 function () {
-  function Map() {
+  function Map(accessToken) {
     _classCallCheck(this, Map);
+
+    mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.accessToken = accessToken;
+    this.config = {
+      center: [103.8123, 1.362],
+      zoom: 10,
+      attributionControl: false
+    };
+    this.controls = [];
   }
 
   _createClass(Map, [{
-    key: "setAccessToken",
-    value: function setAccessToken(accessToken) {
-      mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.accessToken = accessToken;
+    key: "style",
+    value: function style(_style) {
+      this.config['style'] = _style;
       return this;
     }
   }, {
-    key: "setMapConfig",
-    value: function setMapConfig(config) {
-      this.config = config;
+    key: "center",
+    value: function center(lat, lng) {
+      this.config['center'] = [lng, lat];
+      return this;
+    }
+  }, {
+    key: "zoom",
+    value: function zoom(_zoom) {
+      this.config['zoom'] = _zoom;
+      return this;
+    }
+  }, {
+    key: "pitch",
+    value: function pitch(_pitch) {
+      this.config['pitch'] = _pitch;
+      return this;
+    }
+  }, {
+    key: "accessToken",
+    value: function accessToken(_accessToken) {
+      mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.accessToken = _accessToken;
       return this;
     }
   }, {
@@ -314,33 +340,25 @@ function () {
     key: "withGeoControl",
     value: function withGeoControl() {
       var opt = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
-
-      if (this.map) {
-        this.map.addControl(new mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.GeolocateControl(opt || {
-          positionOptions: {
-            enableHighAccuracy: true
-          },
-          fitBoundsOptions: {
-            maxZoom: 18
-          },
-          trackUserLocation: false
-        }));
-      }
-
+      this.controls.push(new mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.GeolocateControl(opt || {
+        positionOptions: {
+          enableHighAccuracy: true
+        },
+        fitBoundsOptions: {
+          maxZoom: 18
+        },
+        trackUserLocation: false
+      }));
       return this;
     }
   }, {
     key: "withScaleControl",
     value: function withScaleControl() {
       var opt = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
-
-      if (this.map) {
-        this.map.addControl(new mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.ScaleControl(opt || {
-          maxWidth: 100,
-          unit: 'metric'
-        }));
-      }
-
+      this.controls.push(new mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.ScaleControl(opt || {
+        maxWidth: 100,
+        unit: 'metric'
+      }));
       return this;
     }
   }, {
@@ -348,7 +366,11 @@ function () {
     value: function renderTo(el) {
       var map = this.map = new mapbox_gl__WEBPACK_IMPORTED_MODULE_0___default.a.Map($.extend({
         container: el
-      }, this.config));
+      }, this.config)); // Controls!
+
+      this.controls.forEach(function (control) {
+        return map.addControl(control);
+      });
       map.on('load', this.onMapLoad.bind(this));
       return this;
     }
@@ -379,17 +401,8 @@ if (!$) {
 
 $(function () {
   if (window.mapboxAccessToken) {
-    var map = new _Map__WEBPACK_IMPORTED_MODULE_0__["default"]();
-    map.setAccessToken(window.mapboxAccessToken).setMapConfig({
-      style: 'mapbox://styles/uzzikie12/cjp0txnoj0l122rpbmt0bt4j6',
-      center: [103.8123, 1.362],
-      zoom: 10,
-      //pitch: 40,
-      //bearing: -17.6,
-      //hash: true,
-      attributionControl: false
-    }).renderTo($('#map').get(0)); // .withGeoControl()
-    // .withScaleControl();
+    var map = new _Map__WEBPACK_IMPORTED_MODULE_0__["default"](window.mapboxAccessToken);
+    map.style('mapbox://styles/uzzikie12/cjp0txnoj0l122rpbmt0bt4j6').center(1.362, 103.8123).zoom(10).withGeoControl().withScaleControl().renderTo($('#map').get(0));
   } else {
     console.error('Missing mapboxAccessToken');
   }
