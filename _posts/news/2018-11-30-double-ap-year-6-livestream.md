@@ -1,6 +1,7 @@
 ---
 layout: single-post
 title:  Another Double AP Event in December
+description: Double AP Event from 7 to 11 Dec 
 date:   2018-11-30 09:05:00 +0800
 categories: news
 ---
