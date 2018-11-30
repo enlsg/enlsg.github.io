@@ -21,7 +21,9 @@ Action |
 Deploy 1st to 7th Resonators   | - 2x AP
 Deploy 8th Resonators  | - 3x AP
 Destroy Resonators/Links/Fields  | - 2x AP
-<br>
+
+
+
 So mark your calendars and start hogging resonators and bursters now!
 
 
