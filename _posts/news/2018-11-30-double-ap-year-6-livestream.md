@@ -15,9 +15,11 @@ Here's the official announcement over at [Instagram](https://www.instagram.com/p
 
 Only certain actions qualify for the double AP; using the criteria somewhat similar to the previous Cassandra Neutralizrer Neutralizer event.
 
-**Resonator 1st to 7th deploy:** 2x AP
-**Resonator 8th deploy:** 3x AP
-**Resonator/Link/Field destroyed**: 2x AP
+Action | AP
+--- | --- 
+Deploy 1st to 7th Resonators   | 2x AP
+Deploy 8th Resonators  | 2x AP
+Destroy Resonators/Links/Fields  | 2x AP
 
 So mark your calendars and start hogging resonators and bursters now!
 
