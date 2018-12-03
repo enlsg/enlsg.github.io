@@ -10,6 +10,7 @@ stylesheets:
 ---
 <script>
   window.mapboxAccessToken = '{{ site.mapbox_access_token }}';
+  window.poi = {{ site.data.poi | jsonify }};
 </script>
 
 <div class="map-wrapper">
@@ -17,6 +18,9 @@ stylesheets:
 </div>
 
 <div class="container">
+  <h2 class="mb-4 text-center">Portal of Interests</h2>
+  <p>In Singapore, we have more than 10,000 portals scattered in this small island. Some of the portals
+    are pretty well known. Here is the top few portals that we think may interest you!</p>
   <div class="portal-of-interests">
   {% for poi in site.data.poi %}
     {% if poi.published %}
