@@ -1,3 +1,7 @@
+---
+# ignore for unpublished pages
+sitemap: false
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,7 +25,7 @@
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
 
-	a:link { text-decoration: none;font-weight: bold; } 
+	a:link { text-decoration: none;font-weight: bold; }
 	a:visited { text-decoration: none;font-weight: bold; }
 	a { text-decoration: none;font-weight: bold; color: #2b2b2b }
 
@@ -32,7 +36,7 @@
 	.mapboxgl-popup-content {
 	  text-align: center;
 	  font-family: 'Open Sans', sans-serif;
-	} 
+	}
 	.img2 {
 		text-align: left;
 		height:340px;
@@ -55,7 +59,7 @@
 	    hash: true,
 	    container: 'map',
 	   attributionControl: false
-	   //infoControl: true   
+	   //infoControl: true
 	});
 
 	map.addControl(new mapboxgl.ScaleControl({
@@ -91,9 +95,9 @@
 		        ]
 		    }
 		});
-												    
 
-		
+
+
 		map.addLayer({
 		    id: "unclustered-point",
 		    type: "symbol",
@@ -113,34 +117,34 @@
 			    "text-opacity": 0.9,
 			    "text-halo-color": "#131c20",
 	            "text-halo-blur": 0.0,
-	            "text-halo-width": 1		
-			}    						    
-		});	
+	            "text-halo-width": 1
+			}
+		});
 
 
-		
-		
+
+
 		map.on('mouseenter', 'unclustered-point', function(e) {
 		    // Change the cursor style as a UI indicator.
 		    map.getCanvas().style.cursor = 'pointer';
 		 });
-		
+
 		map.on('mouseleave', 'unclustered-point', function() {
 		    map.getCanvas().style.cursor = '';
 		});
 
 		map.on('click', function(e) {
-			
+
 		  var features = map.queryRenderedFeatures(e.point, {
 		    layers: ['unclustered-point'] // replace this with the name of the layer
 		  });
-		
+
 		  if (!features.length) {
 		    return;
 		  }
 
 		  var feature = features[0];
-		
+
 		  var title = feature.properties.title;
 		  var image = feature.properties.i;
 		  var desc = feature.properties.desc;
@@ -155,13 +159,13 @@
 		    .setHTML(data)
 		    .setLngLat(feature.geometry.coordinates)
 		    .addTo(map);
- 		    
+
 		});
 
 
 		// Insert the layer beneath any symbol layer.
 		var layers = map.getStyle().layers;
-		
+
 		var labelLayerId;
 		for (var i = 0; i < layers.length; i++) {
 		    if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
@@ -180,7 +184,7 @@
 		    'paint': {
 		        //'fill-extrusion-color': '#5D6D7E',
 		        'fill-extrusion-color': '#EBEDEF',
-		
+
 		        //'fill-extrusion-color': {
 		        //    "property": "height",
 		        //    "stops":[
@@ -191,7 +195,7 @@
 		        //        [55, "rgb(8, 69, 148)"]       // 20 floors
 		        //    ]
 		        //},
-		        
+
 		        // use an 'interpolate' expression to add a smooth transition effect to the
 		        // buildings as the user zooms in
 		        'fill-extrusion-height': [

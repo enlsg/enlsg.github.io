@@ -5,6 +5,8 @@ breadcrumbs:
   - url: /game-guide
     text: Game Guide
   - text: Enlightened vs Resistance
+# ignore for unpublished pages
+sitemap: false
 ---
 ### Enlightened vs Resistance, aka green vs blue
 

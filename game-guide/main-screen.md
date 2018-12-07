@@ -5,6 +5,8 @@ breadcrumbs:
   - url: /game-guide
     text: Game Guide
   - text: Main Screen
+# ignore for unpublished pages
+sitemap: false
 ---
 ### Main Screen
 

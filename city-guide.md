@@ -5,6 +5,8 @@ description: Enlightened Singapore City Guide - A comprehensive guide for agents
 banner: /assets/images/pages/banner-city.jpg
 stylesheets:
   - /assets/css/city-guide.css
+# ignore for unpublished pages
+sitemap: false
 ---
 
 Welcome to Singapore, agent!
