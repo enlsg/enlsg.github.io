@@ -32,3 +32,4 @@ For official announcements, join [SG IFS TG Channel](https://t.me/SingaporeIngre
 
 |<i class="fas fa-map-marked-alt"></i>|Location: __FOMO__, 38 Sultan Gate, Singapore|
 |<i class="fas fa-burn"></i>|Reg Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}|
+{: .mb-3}
