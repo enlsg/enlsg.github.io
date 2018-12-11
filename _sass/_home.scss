@@ -5,7 +5,7 @@ $xsWidth: 576px;
 section {
   margin: 3em 0;
   @media(max-width: $xsWidth) {
-    margin: 15px 15px;
+    margin: 20px 15px;
   }
   .container {
     background: white;
@@ -52,6 +52,7 @@ section {
   background-image: url('/assets/images/home/banner2.jpg');
   height: 550px;
   position: relative;
+  font-family: Ubuntu, sans-serif;
 
   background-position: center center;
   background-repeat: no-repeat;

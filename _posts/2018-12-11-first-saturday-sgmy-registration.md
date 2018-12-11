@@ -19,7 +19,8 @@ There will also be a special restocking portal after the event.
 
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=10574){: .btn .btn-enlightened target="_blank"}
 
-For the latest announcements, join Singapore IFS TG Channel:
+For latest announcements, join Singapore IFS TG Channel:
+
 [SG IFS TG Channel](https://t.me/SingaporeIngressFS){: .link-telegram}
 
 #### Activities on 5 January 2019

@@ -6,9 +6,10 @@ html, body {
 
 body {
   background: #f3f3f3;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   display: flex;
   flex-direction: column;
+  font-size: 0.95em;
 }
 
 .btn-enlightened {
@@ -54,6 +55,7 @@ a:hover{
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
+  font-family: Ubuntu, sans-serif;
 }
 
 .breadcrumb {
