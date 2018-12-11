@@ -12,6 +12,14 @@ body {
   font-size: 0.95em;
 }
 
+.card {
+  border-radius: 6px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 .btn-enlightened {
   background-color: #558b2f;
   border-color: #558b2f;
@@ -62,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   font-weight: 600;
   padding: 0;
-
+  margin-bottom: 0.5em;
 }
 
 #content{
@@ -259,7 +267,7 @@ body.over-top {
 
   .logo {
     color: #aaa;
-    line-height: 1.1;
+    line-height: 1.2;
     padding-top: 10px;
     img {
       margin-top: -5px;

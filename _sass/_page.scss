@@ -21,7 +21,6 @@
   flex-direction: row;
   align-items: center;
 
-
   &:before {
     content: '';
     position: absolute;
@@ -35,7 +34,8 @@
 
   h1 {
     flex-grow: 1;
-    margin: 0;
+    // Illusion hack
+    margin: 30px 0 0;
   }
 }
 

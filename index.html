@@ -15,7 +15,7 @@ stylesheets:
 </div>
 
 <section>
-  <div class="container">
+  <div class="container card">
     <h4>Hello Agent!</h4>
     <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
 
@@ -30,13 +30,13 @@ stylesheets:
 </section>
 
 <section>
-  <div class="container">
+  <div class="container card">
     <h4>Latest News</h4>
 
     {% for post in site.posts %}
     <div class="post">
       <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-      <div class="post-content">
+      <div class="post-content pb-2 pt-2">
         {{ post.content }}
       </div>
     </div>

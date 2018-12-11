@@ -19,9 +19,7 @@ There will also be a special restocking portal after the event.
 
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=10574){: .btn .btn-enlightened target="_blank"}
 
-For latest announcements, join Singapore IFS TG Channel:
-
-[SG IFS TG Channel](https://t.me/SingaporeIngressFS){: .link-telegram}
+For official announcements, join [SG IFS TG Channel](https://t.me/SingaporeIngressFS){: .link-telegram}
 
 #### Activities on 5 January 2019
 {: .text-center .mt-5 .mb-4}
@@ -32,5 +30,5 @@ For latest announcements, join Singapore IFS TG Channel:
 | 6 PM   | Restock portal is  activated |
 {: .table}
 
-<i class="fas fa-map-marked-alt"></i> Location: __FOMO__, 38 Sultan Gate, Singapore<br>
-<i class="fas fa-burn mr-1"></i> Reg Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}
+|<i class="fas fa-map-marked-alt"></i>|Location: __FOMO__, 38 Sultan Gate, Singapore|
+|<i class="fas fa-burn"></i>|Reg Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}|
