@@ -22,6 +22,28 @@ body {
   }
 }
 
+.link-telegram {
+  background-color: #0088cc;
+  color: white;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 4px;
+
+  &:before{
+    content: '\f2c6';
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    margin: 0 5px 0 0;
+  }
+
+  &:hover {
+    color: white;
+    background-color: #0099dd;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+}
+
 a {
   color: #388e3c;
 }
