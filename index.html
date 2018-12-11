@@ -34,13 +34,14 @@ stylesheets:
     <h4>Latest News</h4>
 
     {% for post in site.posts %}
+    {% if post.pin_home %}
     <div class="post">
       <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
       <div class="post-content pb-2 pt-2">
         {{ post.content }}
       </div>
     </div>
-    {% break %}
+    {% endif %}
     {% endfor %}
 
     <div class="row">

@@ -1,3 +1,67 @@
 ---
 ---
-@import "_page.scss";
+.top-nav {
+  .logo {
+    display: block !important;
+  }
+}
+.page-banner {
+  text-align: center;
+  color: white;
+  background-color: black;
+  background-image: url('../images/pages/banner-game.jpg');
+  height: 250px;
+  margin-bottom: 2em;
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+  text-shadow: 0 0 4px rgba(0,0,0,0.5);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 70px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+
+  h1 {
+    flex-grow: 1;
+    // Illusion hack
+    margin: 30px 0 0;
+  }
+}
+
+@media(max-width: 576px) {
+  .page-banner {
+    height: 180px;
+    h1 {
+      font-size: 1.7em;
+    }
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+}

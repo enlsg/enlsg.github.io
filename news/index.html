@@ -11,7 +11,7 @@ stylesheets:
     <div class="post card">
       <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <div class="post-date">
-        {{ post.date | date: "%b %-d, %Y %-I:%M%P"}}
+        <i class="fas fa-calendar-alt"></i> {{ post.date | date: "%b %-d, %Y %-I:%M%P"}}
       </div>
       <div class="post-content">
         {{ post.content }}

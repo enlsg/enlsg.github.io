@@ -1,11 +1,9 @@
 ---
 ---
 .steps {
-  padding-left: 0;
   list-style-type: none;
   counter-reset: steps-counter;
   background: white;
-  padding: 1em;
 
   li {
     counter-increment: steps-counter;
