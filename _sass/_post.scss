@@ -3,8 +3,9 @@
   border-top: 8px solid #aaa;
 
   padding: 1em 1em 0.25em;
-  background: #f3f3f3;
+  background: white;
   overflow: hidden;
+  word-wrap: break-word;
 
   .post-title {
     font-size: 1.3em;
@@ -21,7 +22,7 @@
 
   .post-content {
     margin-top: 0.5em;
-    font-size: 0.9em;
+    font-size: 1em;
 
     img {
       max-width: 100%;
@@ -33,7 +34,9 @@
   margin: 0;
   border: none;
   padding: 0;
-  background: transparent;
+  background: white;
+  padding: 15px;
+  word-wrap: break-word;
 
   .post-title {
     font-size: 1.5em;
@@ -43,7 +46,7 @@
 
 .posts {
   margin-top: 1em;
-  background: #f3f3f3;
+  background: white;
   padding: 1em;
   h5 {
     margin: 0 0 0.5em;
@@ -52,5 +55,12 @@
   ul {
     margin: 0;
     padding-left: 20px;
+  }
+}
+
+.pagination {
+  margin: 1em 0;
+  .previous, .next, .page_number {
+    margin: 0 0.2em;
   }
 }

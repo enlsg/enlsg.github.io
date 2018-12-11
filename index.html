@@ -23,7 +23,29 @@ stylesheets:
 
     <div class="row">
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <p><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
+        <p class="m-0"><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h4>Latest News</h4>
+
+    {% for post in site.posts %}
+    <div class="post">
+      <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+    </div>
+    {% break %}
+    {% endfor %}
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <p class="m-0"><a href="/news" class="btn btn-enlightened btn-block">More News &gt;</a></p>
       </div>
     </div>
   </div>

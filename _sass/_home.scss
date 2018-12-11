@@ -5,7 +5,23 @@ $xsWidth: 576px;
 section {
   margin: 3em 0;
   @media(max-width: $xsWidth) {
-    margin: 1.2em 0;
+    margin: 15px 15px;
+  }
+  .container {
+    background: white;
+    padding: 2em;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    @media(max-width: $xsWidth) {
+      padding: 20px;
+    }
+    word-wrap: break-word;
+  }
+  img {
+    max-width: 100%;
+  }
+  h4 {
+
   }
 }
 

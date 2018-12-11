@@ -4,9 +4,10 @@
   padding-left: 0;
   list-style-type: none;
   counter-reset: steps-counter;
-  background: #f3f3f3;
+  background: white;
   padding: 1em;
   border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
   li {
     counter-increment: steps-counter;
