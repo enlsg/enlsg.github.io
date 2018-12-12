@@ -238,7 +238,7 @@ body.over-top {
   position: relative;
   &:before{
     content: "";
-    background-image: url('../images/breaker-bottom.svg?2');
+    background-image: url('../images/breaker-bottom.svg?3');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center -40px;
@@ -255,7 +255,7 @@ body.over-top {
   position: relative;
   &:after{
     content: "";
-    background-image: url('../images/breaker.svg?2');
+    background-image: url('../images/breaker.svg?3');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
