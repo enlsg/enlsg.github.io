@@ -10,3 +10,11 @@ categories: news
 Niantic has pushed out the Ouroboros year 6 medal to all agents this morning.
 Recursed agents will qualify for the Onyx tier badge no matter what level they are currently at.
 
+{: .text-center .mt-5 .mb-4}
+
+| 3 | Bronze |
+| 9 | Silver |
+| 13 | Gold |
+| 15   | Platinum |
+| 16   | Onyx |
+{: .table}
