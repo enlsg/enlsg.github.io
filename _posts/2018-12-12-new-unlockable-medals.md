@@ -8,7 +8,7 @@ categories: news
 
 Niantic quietly made a change on their server side to enable 6 more unlockable medals for everyone.
 
-"First Saturday" is a new medal awarded to agents who attend Ingress First Saturday events.
+As previously announced, "First Saturday" is a new medal awarded to agents who attend Ingress First Saturday events.
 The other 5 medals were previously not display your agent profile if did not have them. However. it is now displayed as a unlockable badge.
 
 {: .text-center .mt-5 .mb-4}
