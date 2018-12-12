@@ -4,6 +4,31 @@ title:  6 New Unlockable Medals
 description: More medals 🏅 to unlock for every agent
 date:   2018-12-12 15:01:00 +0800
 categories: news
+badge_img_path: /assets/images/news/2018-12-12-badges/
+badges:
+  - name: first_saturday
+    title: First Saturday
+    tiers: [1, 6, 12, 24, 36]
+
+  - name: ocf
+    title: Operation Clear Field
+    tiers: [1, 3, 6, 10, 20]
+
+  - name: intelops
+    title: Intel Ops
+    tiers: [1, 3, 6, 10, 20]
+
+  - name: oprlive
+    title: OPR Live
+    tiers: [1, 3, 6, 10, 20]
+
+  - name: primechallenge
+    title: Prime Challenge
+    tiers: [1, 2, 3, 4, 0]
+
+  - name: stealthops
+    title: Stealth Ops
+    tiers: [1, 3, 6, 10, 20]
 ---
 
 Niantic quietly made a change on their server side to enable 6 more unlockable medals for everyone.
@@ -15,11 +40,31 @@ The other 5 medals were previously not display your agent profile if did not hav
 
 {: .text-center .mt-5 .mb-4}
 
-| __Badge Name__ | __Medal__ |
-|First Saturday|![](/assets/images/news/first_saturday1.png)![](/assets/images/news/first_saturday2.png)![](/assets/images/news/first_saturday3.png)![](/assets/images/news/first_saturday4.png)![](/assets/images/news/first_saturday5.png)|
-|Operation Clear Field|![](/assets/images/news/ocf1.png)![](/assets/images/news/ocf2.png)![](/assets/images/news/ocf3.png)![](/assets/images/news/ocf4.png)![](/assets/images/news/ocf5.png)|
-|Intel Ops|![](/assets/images/news/intelops1.png)![](/assets/images/news/intelops2.png)![](/assets/images/news/intelops3.png)![](/assets/images/news/intelops4.png)![](/assets/images/news/intelops5.png)|
-|OPR Live|![](/assets/images/news/oprlive1.png)![](/assets/images/news/oprlive2.png)![](/assets/images/news/oprlive3.png)![](/assets/images/news/oprlive4.png)![](/assets/images/news/oprlive5.png)|
-|Prime Challenge|![](/assets/images/news/primechallenge1.png)![](/assets/images/news/primechallenge2.png)![](/assets/images/news/primechallenge3.png)![](/assets/images/news/primechallenge4.png)|
-|Stealth Ops|![](/assets/images/news/stealthops1.png)![](/assets/images/news/stealthops2.png)![](/assets/images/news/stealthops3.png)![](/assets/images/news/stealthops4.png)![](/assets/images/news/stealthops5.png)|
-{: .table}
+<table class="table table-sm">
+<tbody>
+{% for badge in page.badges %}
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">{{ badge.title }}</th>
+  </tr>
+  <tr>
+    {% for tier in badge.tiers %}
+      {% if tier > 0 %}
+        <td><img src="{{ page.badge_img_path }}{{ badge.name }}{{ forloop.index }}.png" /></td>
+      {% else %}
+        <td></td>
+      {% endif %}
+    {% endfor %}
+    </tr>
+    <tr>
+    {% for tier in badge.tiers %}
+      {% if tier > 0 %}
+        <td>{{ tier }}</td>
+      {% else %}
+        <td></td>
+      {% endif %}
+    {% endfor %}
+  </tr>
+  <tr><td colspan="5" style="height: 50px;">&nbsp;</td></tr>
+{% endfor %}
+</tbody>
+</table>
