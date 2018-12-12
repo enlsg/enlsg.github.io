@@ -11,6 +11,8 @@ Niantic quietly made a change on their server side to enable 6 more unlockable m
 As previously announced, "First Saturday" is a new medal awarded to agents who attend Ingress First Saturday events.
 The other 5 medals were previously not display your agent profile if did not have them. However. it is now displayed as a unlockable badge.
 
+"Prime Challenge" seems to be currently missing the Onyx tier. Perhaps it will added at a later time.
+
 {: .text-center .mt-5 .mb-4}
 
 | __Badge Name__ | __Medal__ |
