@@ -12,10 +12,10 @@ Recursed agents will qualify for the Onyx tier badge no matter what level they a
 
 {: .text-center .mt-5 .mb-4}
 
-| __Level__ | __Tier__ |
-| 3 | Bronze |
-| 9 | Silver |
-| 13 | Gold |
-| 15   | Platinum |
-| 16   | Onyx |
+| __Medal__ | __Level__ | __Tier__ |
+|[](/assets/images/news/ouroboros1.png)| 3 | Bronze |
+|[](/assets/images/news/ouroboros2.png)| 9 | Silver |
+|[](/assets/images/news/ouroboros3.png)| 13 | Gold |
+|[](/assets/images/news/ouroboros4.png)| 15   | Platinum |
+|[](/assets/images/news/ouroboros5.png)| 16   | Onyx |
 {: .table}
