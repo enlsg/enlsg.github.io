@@ -1,7 +1,7 @@
 ---
 layout: single-post
 title:  6 New Unlockable Medals
-description: More medals to unlock for every agent
+description: More medals 🏅 to unlock for every agent
 date:   2018-12-12 15:01:00 +0800
 categories: news
 ---
