@@ -1,7 +1,7 @@
 ---
 layout: single-post
 title:  Ingress Prime Scanner Update
-description: In recognition of your contributions during Ingress Year Six
+description: Niantic has just pushed a new Ingress Prime update to the public. Kudos to the dev team!
 date:   2018-12-20 10:20:48 +0800
 categories: news
 
