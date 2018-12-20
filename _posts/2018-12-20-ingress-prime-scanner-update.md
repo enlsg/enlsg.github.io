@@ -67,7 +67,7 @@ Niantic just pushed out another update for the Ingress Prime scanner:
 </tbody>
 </table>
 
-###### WHAT ARE WE WORKING ON NEXT?
+###### Things they are working on
 - Portal Nominations
 - Regional Scoring
 - Continued Bug Fixes
@@ -75,3 +75,5 @@ Niantic just pushed out another update for the Ingress Prime scanner:
 ###### Known issues:
 To see a list of known issues go here:
 [http://bit.ly/IngressPrimeKnownIssues](http://bit.ly/IngressPrimeKnownIssues){: target="_blank"}
+
+[Source](https://plus.google.com/+Ingress/posts/BKsmRvgwdgg){: target="_blank"}
