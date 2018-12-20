@@ -43,7 +43,7 @@ logs: |
   UI: Changed Store layout to show three CMU bundles per row to save screen space.
 ---
 
-![Ouroboros](/assets/images/news/ingressprimeupdate.png){: .fill-width}
+![Ingress Prime Update](/assets/images/news/ingressprimeupdate.png){: .fill-width}
 
 Niantic just pushed out another update for the Ingress Prime scanner:
 
