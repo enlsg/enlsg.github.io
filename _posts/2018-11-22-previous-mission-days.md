@@ -6,6 +6,7 @@ date:   2018-11-20 21:00:00 +0800
 categories: news
 ---
 
+{: .text-center }
 <div style="font-size: 1.2em;background:#ddd;color:black;">Aug 2018 - MD: Singapore-Sentosa</div>
 
 <div class="card-group">
