@@ -34,7 +34,9 @@ categories: news
       <small class="text-muted">28d5245c3c22479f8c379e336b24b26a.1c</small>
     </div>
   </div>		
-  	
+</div>
+		
+<div class="card-group">
   <div class="card">
     <img class="card-img-top" src="https://lh3.googleusercontent.com/yMLDJcWSaLfx1ncNrW3l49juEipDABj1RsCY35z3GsqM4Ni24GNp3jecWgjY4NrPiWelaie-tD3UtTqPIe0">
     <div class="card-body ">
@@ -92,7 +94,9 @@ categories: news
       <small class="text-muted">b700e613dd794a1d8fd6739b86b022c8.1c</small>
     </div>
   </div>		
-  	
+</div>
+		
+<div class="card-group">  	
   <div class="card">
     <img class="card-img-top" src="https://lh3.googleusercontent.com/BKNjTn5psphTvqzT6mv4Ifjpz-Zgyq2ZCL3Us4lrrfOmbXqHEypX7P1lPASIET3BMUC2JSxYC38hTXMZ0L_m">
     <div class="card-body ">
@@ -150,7 +154,9 @@ categories: news
       <small class="text-muted">5540a9d0084e4dc3baf64996feb96d50.1c</small>
     </div>
   </div>		
-  	
+</div>
+		
+<div class="card-group">  	
   <div class="card">
     <img class="card-img-top" src="https://lh3.googleusercontent.com/mOnGbEmnCfrIijJbLcAcfwmJaIwbLNifSV294xbvixA3EdA37bdlahwRL8fQGdwj4jINBXU7yor0pOSMN_aD">
     <div class="card-body ">
