@@ -384,6 +384,71 @@ categories: news
 
 
 {: .text-center }
+<div style="font-size: 1.2em;background:#ddd;color:black;">July 2016 - MD: Shine Festival 2016</div>
+<div class="card-group">
+  
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/pUXe0waWPvNC0aH2lFj3grJCQCgqdJ9KCbzqTS-0nTe5mithe32K0IzhFgx-VgDIuQjOzQ12mSZlx3FTO88">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Pop Culture</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development and the National Youth Council.</p>
+      <small class="text-muted">5c13e51cd39d45238f423c77cb9369b6.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/m89VXupctkqtvcx7tOCYON9ZbPC2tsIaaq0O1st7twPU27HsaT-PEZCL-aIC4LNF5AZL7orLb2iQL8br9M4">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Interactive Media</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development and the National Youth Council.</p>
+      <small class="text-muted">99ac2b1191654b9ab98172e6fc10fa7d.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/Es7otZgke4sxeJ_nQWHuWi2Pu2G7V7hlGVh_yiKo1SKd9OAtKV1lVXhdblZHFfq53QySKxq-FW36PoNZgE4cIg">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Music & Dance</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development and the National Youth Council.</p>
+      <small class="text-muted">87a68e552ea34666b9c6e27ccc577782.1c</small>
+    </div>
+  </div>    
+    
+</div>
+    
+<div class="card-group">
+          
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/eGJFtEsrIcP-P50_b56yDS_Yz8yLyTbSc1w4xgtlDN805nCUQsV1x2_yBKfcgQYHZcoxxPSdOpUoZMYKRwtd">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Urban Art</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development  and the National Youth Council.</p>
+      <small class="text-muted">0d42f72975ee4369bbe2add02c90e98c.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/MxtCt-yA9_51RDMW8lLgvz_N4Q255FuV144GwQCQjPIW_JlsxIbdtweSMDH6POaFMgRd3AzGQrXPZuVSh3xy">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Gaming</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development and the National Youth Council.</p>
+      <small class="text-muted">bcd2c6a098e141a8930baded0e4952f1.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/V9dCuBXZ7taeKMqp1Ja7kphVgWDkLs2z0Qgu_tbsWdXMOuFDYDz_Y7ImL078Z_gSA_inWwEUVikJlOfCB537ow">
+    <div class="card-body ">
+     <h5 class="card-title">SHINE Festival 2016 - Urban Sports</h5>
+      <p class="card-text">SHINE is a nationwide festival in Singapore "by youth, for youth' and is jointly supported by the Ministry of Social and Family Development and the National Youth Council.</p>
+      <small class="text-muted">e5cfefa475bc42a8bea83ca0ed8e6c5d.1c</small>
+    </div>
+  </div>    
+    
+</div>
+
+
+{: .text-center }
 <div style="font-size: 1.2em;background:#ddd;color:black;">Sept 2015 - MD: Singapore SG50</div>
 <div class="card-group">
   
