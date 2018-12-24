@@ -1,7 +1,7 @@
 ---
 layout: single-post
-title:  History of Mission Days in Singapore
-description: List of all the previous mission day missions in Singapore
+title:  Previous Mission Days in Singapore
+description: Complete list of all the mission day missions in Singapore.
 date:   2018-11-20 21:00:00 +0800
 categories: news
 ---
