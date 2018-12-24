@@ -7,7 +7,7 @@ categories: news
 ---
 
 This is a complete list of all the mission day missions held in Singapore.
-{: .text-center .mt-5 .mb-4}
+
 
 | __Date__ | __Mission Day Event__ | __No. of Missions__ |
 | Aug 2018 | Sentosa | 18 |
