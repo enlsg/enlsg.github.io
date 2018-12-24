@@ -381,3 +381,193 @@ categories: news
   </div>    
     
 </div>
+
+
+{: .text-center }
+<div style="font-size: 1.2em;background:#ddd;color:black;">Sept 2015 - MD: Singapore SG50</div>
+<div class="card-group">
+  
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/WjU71Gn-P6wz-SXfdgEoPFp-ue-YQzaGuqUSFiGi8gPjCzZk8_UMZFPJbDOPPc7MeeGAgvAsCf0xoEhfJ_v1">
+    <div class="card-body ">
+     <h5 class="card-title">Palawan Beach, Singapore</h5>
+      <p class="card-text">With a suspension bridge linking beach-goers to the Southernmost Point of Continental Asia (and also Asia's closest point to the Equator), Palawan Beach is known as Singapore's happiest family beach.</p>
+      <small class="text-muted">5af341104e47443880c69a5c186386c8.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/6BRVNEY21nAyrCL1WbtPMohFXTUJm0i-OiSnmW6LVzBT54KvPOyd-70Kx8pZSQZ7vBgBMEYrFxhj7bRgpvA2">
+    <div class="card-body ">
+     <h5 class="card-title">Merlion Tower, Singapore</h5>
+      <p class="card-text">A 37 metre-tall mythical creature to be precise. The legendary Merlion is a half lion half fish guardian of prosperity which personifies Singapore’s history as a port city.</p>
+      <small class="text-muted">79b2fab2092a458eaa7fecf8e13cdd79.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/L4OzxhxpwsDyFDXi7LXHjYmP6i1qqwAtKygKlBlfvdHB4ZJnNLXcF5jk1fPq2zlEphRUZ1xdGdjB-5-YV54JcQ">
+    <div class="card-body ">
+     <h5 class="card-title">Buddha Tooth Relic Temple, Singapore</h5>
+      <p class="card-text">Based on the Tang dynasty architectural style & built to house the tooth relic of the historical Buddha. It is claimed that the relic  from which it gains its name was found in 1980 in Myanmar.</p>
+      <small class="text-muted">48a8917dae244385b303d7aa64558519.1c</small>
+    </div>
+  </div>    
+    
+</div>
+    
+<div class="card-group">
+      
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/7nVSS5NuN_QoMUbMZ4WaJ0MsMo6-0yCAVvrYpCWMRO1-4nN9basFAVtVb-h4Ft1Zu1lnTeVdvKSPJB6vHB7Z">
+    <div class="card-body ">
+     <h5 class="card-title">Maxwell Food Centre, Singapore</h5>
+      <p class="card-text">One of Singapore’s most popular hawker centres is Maxwell Food Centre. It’s home to the renowned Tian Tian Chicken Rice,Zhen Zhen Porridge, and Char Kway Teow from Marina South Delicious Food.</p>
+      <small class="text-muted">d81e8780c6874c9fa1564161706aeea7.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/Xeb61pjDVJ0Qy6iq8cD7t-n5ezrr-PWsrKv4DoMYzOdXz7-wumCMU6_Z1gWZnNmz7cLlXsygUxdYb0d0hGBaYA">
+    <div class="card-body ">
+     <h5 class="card-title">Red Dot Design Museum, Singapore</h5>
+      <p class="card-text">The Museum presents the latest trends in the international design scene with a collection of more than 1,000 exhibits in the field of product design & communication design from over 50 countries.</p>
+      <small class="text-muted">ac36ea1dda4348e1a1fa0d587207dcb8.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/DllzliBikCiS5v7JyZA7oV41ExZGa5yVXJMQaqTqxpwPHczvKTDd99pGak_Lqmf7Hj50bVT4GCahPSa18Ac">
+    <div class="card-body ">
+     <h5 class="card-title">Little India, Singapore</h5>
+      <p class="card-text">Little India is distinct from the Chulia Kampong area for Tamil immigrants under the British policy of ethnic segregation.  Today, many ethnic Tamils have moved into what is now known as Little India.</p>
+      <small class="text-muted">dc0cc3dbec2e4e47bc05c64556733efb.1c</small>
+    </div>
+  </div>    
+    
+</div>
+    
+<div class="card-group">
+  
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/UhUoSyy_8QFeShuwAHtVWdyowPaY6noQMBL7n5IiBGvMEVXLBDaMg_9p9_GwXCG5-MvejKil9zJy5piP-mI">
+    <div class="card-body ">
+     <h5 class="card-title">Majestic Theatre, Singapore</h5>
+      <p class="card-text">Majestic Theatre was a Cantonese opera house built by philanthropist Eu Tong Sen, a tin and rubber magnate, for his wife who was a Cantonese opera fan.</p>
+      <small class="text-muted">80f2c881c7bb49689141d3eccc1daca0.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/6EGLOYD2wEDu0qqUVHgxXKv_u8P-2EhraNMxLGoUTuKqQIzfy66XGfAQX1zX6BFKaxBrmVwN9tRhdNCh4jw">
+    <div class="card-body ">
+     <h5 class="card-title">Hong Lim Park, Singapore</h5>
+      <p class="card-text">Created by Hokkien businessman and philanthropist Cheang Hong Lim in 1885, Hong Lim Park was the first public garden in Singapore. It was the venue for many election rallies and political speeches.</p>
+      <small class="text-muted">ae4e5b5bc5184fd58a67d9cecaae2fb6.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/KpMFH3xNs8RyNruWqHi_5AiDMa-TEscZGFUfIwUvQDw5KpFu7ywPNOoxHnHFSsX-lAr0D0RoyCfQZ_LeQLUn">
+    <div class="card-body ">
+     <h5 class="card-title">Singapore River</h5>
+      <p class="card-text">When Sir Stamford Raffles landed in Singapore in 1819, he realised the importance of the river and this is where modern Singapore was born!</p>
+      <small class="text-muted">69a8110e6b0a401b884aa571ed8c7a63.1c</small>
+    </div>
+  </div>    
+    
+</div>
+    
+<div class="card-group">
+      
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/yRx53UlJDsO8M9H0d2aqSZezmtsitLX5DXU5vanYvw6Q1JkLvC91ATMCwquC2tIW9gtIpYRiThjv7ZRqiop6">
+    <div class="card-body ">
+     <h5 class="card-title">Peranakan Museum, Singapore</h5>
+      <p class="card-text">The Peranakan Museum is a museum in Singapore specialising in Peranakan culture. It is the first of its kind in the world, that explores the Peranakan culture of Southeast Asia.</p>
+      <small class="text-muted">27b6924d666d4e6bb446f429896c567c.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/__BXuXKNgr8qKVp22RDik_5GYl0lBwaQ28OpzG3Xibx16Nb7RiP91fxYYGmc4isN4_R1vMWVTDewHGfQGg1r1w">
+    <div class="card-body ">
+     <h5 class="card-title">Fort Canning, Singapore</h5>
+      <p class="card-text">Sir Stamford Raffles, founder of modern Singapore, built his first residence here and also built Singapore's first botanical garden there in 1822.</p>
+      <small class="text-muted">e17b7946e6e04d54a54f649f76517391.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/ThmE4jL_N9ofguERvPJ_nkKVXAZGS4Y6ZVHN_cHE4h7MoZgx36gH7qByG88dC-LXqx1nAkif5fRARrR8kAUP">
+    <div class="card-body ">
+     <h5 class="card-title">National Museum of Singapore</h5>
+      <p class="card-text">The oldest museum in Singapore. Its history dates back to 1849 when it was started as a section of a library at Singapore Institution. The Museum was relocated to its permanent site in 1887.</p>
+      <small class="text-muted">d0cf5ef7d9044299b829ed24ec662cb0.1c</small>
+    </div>
+  </div>    
+    
+</div>
+    
+<div class="card-group">
+  
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/lAlmeo6GETO0KWVP1G43BGkuEpgn9H7zJxBeAxwqPWG5CZwIzLOCop7QoDwD-km_AB-RsVdGvPVBOyRmYEHNlA">
+    <div class="card-body ">
+     <h5 class="card-title">Kwan Im Thong Hood Cho Temple, Singapore</h5>
+      <p class="card-text">Kwan Im Thong Hood Cho Temple is a traditional Chinese temple of significance to the Chinese in Singapore, and is believed to bring worshippers good luck after praying to the Kuan Yin (观音), or Avaloki</p>
+      <small class="text-muted">b7c4c4766add4077912c6e8035873be5.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/gN0PoEEi_g3aAuw6iSeELg-JhzIa10IHEzt0nu8BiKiW0PHT1beUJdfajn-e_HVqzBs3310QMACCdyiPiZAA">
+    <div class="card-body ">
+     <h5 class="card-title">Malay Heritage Centre, Singapore</h5>
+      <p class="card-text">The Malay Heritage Centre is a cultural centre and museum in Singapore that showcases the culture, heritage and history of Malay Singaporeans.</p>
+      <small class="text-muted">f6fda601800540cb81dbf6878d5f44cd.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/y51QPLQ7-oUNH_7t6XKAl5UNw-N-WIEt5O7E7jJ9KFJ1nVp4QYdTlXRxb37ujz1Q_U25suIerZqb8x7gl9I0">
+    <div class="card-body ">
+     <h5 class="card-title">Sultan Mosque, Singapore</h5>
+      <p class="card-text">Masjid Sultan or Sultan Mosque is considered one of the most important mosques in Singapore. The prayer hall and domes highlight the mosque's star features.</p>
+      <small class="text-muted">8e2df4e3d79a427989409f202744c45e.1c</small>
+    </div>
+  </div>    
+     
+</div>
+    
+<div class="card-group">
+     
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/mxd07daVKN0nb9ecyyCA5Yp6szfBMeIA_Tkl3RPmDMqg_SXnaGfZLOv85hTsmDTaUfnOiY5doqpzAUL_ONp9">
+    <div class="card-body ">
+     <h5 class="card-title">Haji Lane, Singapore</h5>
+      <p class="card-text">Haji Lane is in the Kampong Glam neighbourhood of Singapore. Young people frequent the shophouses along this lane for the independent fashion boutiques and Middle Eastern cafes.</p>
+      <small class="text-muted">f298f43e29d443838e797cbcf3907534.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/3GbRbb-Mn6HInjQA28GNl4T636yP6Pnw9sj7jmgCG8HAGzpZKnY1raxV27q8zst7ou76nRgDH-EycxGBHnWhbA">
+    <div class="card-body ">
+     <h5 class="card-title">Artscience Museum, Singapore</h5>
+      <p class="card-text">The lotus shaped ArtScience Museum promises to feature 21 gallery spaces equating to 50,000 square feet which will display exhibits from combined art/science, media/technology, as well as design/archi</p>
+      <small class="text-muted">0672de2ba25f4938b486497ab1edb7ec.1c</small>
+    </div>
+  </div>    
+    
+  <div class="card">
+    <img class="card-img-top" src="https://lh3.googleusercontent.com/yNYnTa7IIlcpiA-FAKulVzHOSeUDVmtygpkJkEyqwbvq7UzKHO5j_kLXvyhNWgSAn9nU4mznGL7akYmQLDAJ7w">
+    <div class="card-body ">
+     <h5 class="card-title">Gardens by the Bay, Singapore</h5>
+      <p class="card-text">Gardens by the Bay was established to transform Singapore from a "Garden City" to a "City in a Garden". Its aim to raise the quality of life by enhancing greenery and flora in the city.</p>
+      <small class="text-muted">9fbcc7780bc94f479bfb00e9533d8da5.1c</small>
+    </div>
+  </div>    
+    
+</div>
+
