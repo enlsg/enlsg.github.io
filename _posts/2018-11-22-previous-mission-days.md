@@ -6,6 +6,18 @@ date:   2018-11-20 21:00:00 +0800
 categories: news
 ---
 
+This is a complete list of all the mission day missions held in Singapore.
+{: .text-center .mt-5 .mb-4}
+
+| __Date__ | __Mission Day Event__ | __No. of Missions__ |
+| Aug 2018 | Sentosa | 18 |
+| Sep 2016 | Building Our Singapore | 18 |
+| Jul 2016 | Shine Festival 2016 | 6 |
+| Sep 2015 | Singapore SG50 | 18 |
+{: .table}
+
+
+
 {: .text-center }
 <div style="font-size: 1.2em;background:#ddd;color:black;">Aug 2018 - MD: Singapore-Sentosa</div>
 
