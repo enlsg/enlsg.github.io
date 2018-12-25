@@ -1,4 +1,4 @@
-name: "Aug 2018 - MD: Singapore-Sentosa"
+name: Singapore-Sentosa
 date: Aug 2018
 missions:
 - image: https://lh3.googleusercontent.com/l7wD4j9-8t4xPHo-2cmkPZ5kZGFDZo8McxjdPV1lzIjLQKgKnuFuBtZ6c4V1-e0ybDjuiD5ypX7t3CTxEiBj9Q
@@ -54,7 +54,7 @@ missions:
 - image: https://lh3.googleusercontent.com/vkPFh_iJ007INY67sWlU7pOsqvi3E-1yQc66JEvLkn5hIzm56k6eJWMwEjeYNc_jmFz0vykYmsa04aSM-ZtP
   name: "MD: Singapore-Sentosa, Sentosa Merlion"
   description: Singapore’s must-visit legendary icon, the 37m-tall mythical creature with a lion’s head and a fish’s body guards the prosperity of Singapore.
-  id: dfb3a5034cc24b44b3ef199b385535ac.1c	
+  id: dfb3a5034cc24b44b3ef199b385535ac.1c
 
 - image: https://lh3.googleusercontent.com/LR8YjwAiAptiXPF2V-qeWZQQTmXU3vW_fdomQHhUHCxbZsyXreIwXCIFeMj6oQTQx5XUZ4qKCWD9YdczRgs
   name: "MD: Singapore-Sentosa, Lake of Dreams"
