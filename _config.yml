@@ -24,7 +24,8 @@ logo: "/assets/images/logo.png"
 
 # Build settings
 markdown: kramdown
-theme: minima
+sass:
+  sass_dir: _sass
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

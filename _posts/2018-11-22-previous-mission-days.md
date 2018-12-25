@@ -50,13 +50,7 @@ This is a complete list of all the mission day missions held in Singapore.
         <tr>
       {% endif %}
       <td class="p-0" style="border: none;">
-        <a tabindex="0"
-           role="button"
-           data-toggle="popover"
-           data-trigger="focus"
-           title="{{ mission.name }}"
-           data-content="{{ mission.description }}">
-           <img src="{{ mission.image }}=s{{ page.image_size }}"
+        <a style="d-block" tabindex="0" role="button" data-toggle="popover" data-placement="auto" data-trigger="focus" title="{{ mission.name | escape }}" data-content="{{ mission.description | escape }}"><img src="{{ mission.image }}=s{{ page.image_size }}"
              alt="{{ mission.name }}" />
         </a>
       </td>
@@ -69,3 +63,9 @@ This is a complete list of all the mission day missions held in Singapore.
   </tbody>
   </table>
 {% endfor %}
+
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
+</script>
