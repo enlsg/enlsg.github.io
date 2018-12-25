@@ -43,7 +43,8 @@ This is a complete list of all the mission day missions held in Singapore.
   </thead>
   <tbody>
   <tr><td>
-    <table style="width:{{ page.image_size * 6 }}px">
+    {% assign w = page.image_size * 6 %}
+    <table style="width:{{ w }}px">
     {% for mission in data.missions %}
       {% assign m = forloop.index0 | modulo: 6 %}
       {% if m == 0 %}
