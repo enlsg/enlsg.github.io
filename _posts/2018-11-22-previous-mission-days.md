@@ -5,7 +5,7 @@ description: Complete list of all the mission day missions in Singapore.
 date:   2018-11-20 21:00:00 +0800
 categories: news
 
-image_size: 80
+image_size: 120
 md:
 - md_201808_sentosa
 - md_201609_building
@@ -43,13 +43,13 @@ This is a complete list of all the mission day missions held in Singapore.
   </thead>
   <tbody>
   <tr><td>
-    <table style="width:{{ page.image_size | times: 6 }}px">
+    <table style="width:100%">
     {% for mission in data.missions %}
       {% assign m = forloop.index0 | modulo: 6 %}
       {% if m == 0 %}
         <tr>
       {% endif %}
-      <td class="p-0">
+      <td class="p-0" style="border: none;">
         <img src="{{ mission.image }}=s{{ page.image_size }}"
              alt="{{ mission.name}}" />
       </td>
