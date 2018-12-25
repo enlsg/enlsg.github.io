@@ -15,16 +15,20 @@ This is a complete list of all the mission day missions held in Singapore.
 
 <table class="table">
   <thead>
-    <tr><th>Date</th></tr>
-    <tr><th>Mission Day Event</th></tr>
-    <tr><th>No. of Missions</th></tr>
+    <tr>
+      <th>Date</th>
+      <th>Mission Day Event</th>
+      <th>No. of Missions</th>
+    </tr>
   </thead>
   <tbody>
     {% for md in page.md %}
       {% assign data = site.data[md] %}
-      <tr><td>Date</td></tr>
-      <tr><td>{{ data.name }}</td></tr>
-      <tr><td>{{ data.size }}</td></tr>
+      <tr>
+        <td>{{ data.date }}</td>
+        <td>{{ data.name }}</td>
+        <td>{{ data.missions.size }}</td>
+      </tr>
     {% endfor %}
   </tbody>
 </table>
