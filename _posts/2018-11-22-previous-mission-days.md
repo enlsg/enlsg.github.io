@@ -4,10 +4,30 @@ title:  Previous Mission Days in Singapore
 description: Complete list of all the mission day missions in Singapore.
 date:   2018-11-20 21:00:00 +0800
 categories: news
+md:
+- md_201808_sentosa
+- md_201609_building
+- md_201607_shine
+- md_201509_sg50
 ---
 
 This is a complete list of all the mission day missions held in Singapore.
 
+<table class="table">
+  <thead>
+    <tr><th>Date</th></tr>
+    <tr><th>Mission Day Event</th></tr>
+    <tr><th>No. of Missions</th></tr>
+  </thead>
+  <tbody>
+    {% for md in page.md %}
+      {% assign data = site.data[md] %}
+      <tr><td>Date</td></tr>
+      <tr><td>{{ data.name }}</td></tr>
+      <tr><td>{{ data.size }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 | __Date__ | __Mission Day Event__ | __No. of Missions__ |
 | Aug 2018 | Sentosa | 18 |
