@@ -35,14 +35,14 @@ This is a complete list of all the mission day missions held in Singapore.
   </tbody>
 </table>
 
-
 {% for md in page.md %}
   {% assign data = site.data[md] %}
-  <table class="table table-sm">
+  <table class="table">
   <thead>
-    <tr><th colspan="6">{{ data.date }} - {{ data.name }}</th></tr>
+    <tr><th colspan="2">{{ data.date }} - {{ data.name }}</th></tr>
   </thead>
   <tbody>
+    <table style="width:{{ page.image_size * 6 }}px">
     {% for mission in data.missions %}
       {% assign m = forloop.index0 | modulo: 6 %}
       {% if m == 0 %}
@@ -56,6 +56,7 @@ This is a complete list of all the mission day missions held in Singapore.
         </tr>
       {% endif %}
     {% endfor %}
+    </table>
   </tbody>
   </table>
 {% endfor %}
