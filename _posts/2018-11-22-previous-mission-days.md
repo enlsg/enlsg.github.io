@@ -13,7 +13,7 @@ md:
 - md_201509_sg50
 ---
 
-This is a complete list of all the mission day missions held in Singapore.
+This is a complete list of all the mission day missions held in Singapore. Click on any of the missions to read their description.
 
 <table class="table">
   <thead>
