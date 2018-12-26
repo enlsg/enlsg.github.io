@@ -7,14 +7,20 @@ $xsWidth: 576px;
 section {
   margin: 3em 0;
   @media(max-width: $xsWidth) {
-    margin: 20px 15px;
+    margin: 20px 0;
   }
   .container {
-    background: white;
     @media(max-width: $xsWidth) {
-      padding: 20px;
+      padding: 0;
     }
     word-wrap: break-word;
+  }
+  .card {
+    border-radius: 0;
+    @media(max-width: $xsWidth) {
+      padding: 20px 15px;
+      margin: 0;
+    }
   }
   img {
     max-width: 100%;

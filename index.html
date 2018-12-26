@@ -15,38 +15,48 @@ stylesheets:
 </div>
 
 <section>
-  <div class="container card">
-    <h4>Hello Agent!</h4>
-    <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
-
-    <p>If you have just downloaded and started this game, <strong>Join Us Now</strong> to learn more about this game!</p>
-
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="m-0"><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
+  <div class="card">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <h4>Hello Agent!</h4>
+          <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
+          <p>If you have just downloaded and started this game, <strong>Join Us Now</strong> to learn more about this game!</p>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <p class="m-0"><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container card">
-    <h4>Latest News</h4>
+  <div class="card">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <h4>Latest News</h4>
 
-    {% for post in site.posts %}
-    {% if post.pin_home %}
-    <div class="post">
-      <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-      <div class="post-content pb-2 pt-2">
-        {{ post.content }}
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
+          {% for post in site.posts %}
+          {% if post.pin_home %}
+          <div class="post">
+            <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+            <div class="post-content pb-2 pt-2">
+              {{ post.content }}
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
 
-    <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <p class="m-0"><a href="/news" class="btn btn-enlightened btn-block">More News &gt;</a></p>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <p class="m-0"><a href="/news" class="btn btn-enlightened btn-block">More News &gt;</a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
