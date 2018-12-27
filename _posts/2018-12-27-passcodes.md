@@ -11,7 +11,7 @@ passcodes: |
 
 {:  .mt-2 .mb-4}
 
-{% assign passcodes = page.passcodes | newline_to_br | strip_newlines | split: "<br />" %}
+{% assign passcodes = page.passcodes | newline_to_br | strip_newlines  %}
 
 <table class="table table-sm table-bordered" style="font-size: 0.9em;">
 <tbody>
