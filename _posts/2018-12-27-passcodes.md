@@ -9,7 +9,7 @@ passcodes: |
   TBZ662019942MW: 1331 XM<br />Portal Shields x 5<br />Resonators x 15<br />Power Cubes x 10<br />XMP Bursters x 25
 ---
 
-{: .text-center .mt-5 .mb-4}
+{:  .mt-2 .mb-4}
 
 {% assign passcodes = page.passcodes | newline_to_br | strip_newlines | split: "<br />" %}
 
