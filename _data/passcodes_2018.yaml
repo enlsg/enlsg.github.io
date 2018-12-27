@@ -1,0 +1,64 @@
+#----------------------------------------------------------------
+# - Always prepend new codes on top, so that new codes are on top
+# - Check _data/items.yaml for the short codes. Should have covered all
+#----------------------------------------------------------------
+
+ASDF333MAHSFJSH:
+  date: 2018-11-27 10:05:00 +0800
+  items:
+  - CHS:12
+  - RHS:13
+  - VRHS:14
+  - CMH:1
+  - RMH:2
+  - VRMH:3
+  - CS:1
+  - RS:2
+  - VRS:3
+  - AEGIS:4
+  - JARVIS:3
+  - ADA:4
+  - ITO+:4
+  - ITO-:3
+  - Q:1
+  - C:4
+  - T:3
+  - FA:4
+  - R1:1
+  - R2:3
+  - R3:4
+  - R4:1
+  - R5:3
+  - R6:4
+  - R7:3
+  - R8:4
+  - X1:1
+  - X2:3
+  - X3:4
+  - X4:1
+  - X5:3
+  - X6:4
+  - X7:3
+  - X8:4
+  - C1:1
+  - C2:3
+  - C3:4
+  - C4:1
+  - C5:3
+  - C6:4
+  - C7:3
+  - C8:4
+  - US1:1
+  - US2:3
+  - US3:4
+  - US4:1
+  - US5:3
+  - US6:4
+  - US7:3
+  - US8:4
+  - LAWSON:3
+  - BEACON:2
+  - FRACKER:2
+  - AP:1331
+  - XM:1331
+  - M:1

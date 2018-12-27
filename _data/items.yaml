@@ -1,0 +1,246 @@
+categories:
+  powercube:
+    name: Power Cube
+    icon: images/prime-assets/powercube.png
+    color: level
+  resonator:
+    name: Resonator
+    icon: images/prime-assets/resonator.png
+    color: level
+  xmp:
+    name: XMP Burster
+    icon: images/prime-assets/xmp_burster.png
+    color: level
+  ultrastrike:
+    name: Ultra Strike
+    icon: images/prime-assets/ultrastrike.png
+    color: level
+  portalshield:
+    name: Portal Shield
+    icon: images/prime-assets/portalshield.png
+    color: rarity
+  heatsink:
+    name: Heat Sink
+    icon: images/prime-assets/heatsink.png
+    color: rarity
+  multihack:
+    name: Multi-hack
+    icon: images/prime-assets/multihack.png
+    color: rarity
+  forceamp:
+    name: Force Amp
+    icon: images/prime-assets/forceamp.png
+    color: rarity
+  turret:
+    name: Turret
+    icon: images/prime-assets/turret.png
+    color: rarity
+  ada_jarvis:
+    icon: images/prime-assets/ada_jarvis.png
+    color: rarity
+  fracker:
+    icon: images/prime-assets/fracker.png
+    color: rarity
+  beacon:
+    icon: images/prime-assets/beacon.png
+    color: rarity
+  capsule:
+    icon: images/prime-assets/capsule.png
+    color: rarity
+  quantum_capsule:
+    icon: images/prime-assets/quantum_capsule.png
+    color: rarity
+  media:
+    icon: images/prime-assets/media.png
+    color: rarity
+  ito+:
+    icon: images/prime-assets/itoen+.png
+    color: rarity
+  ito-:
+    icon: images/prime-assets/itoen-.png
+    color: rarity
+
+codes:
+  C1:
+    category: powercube
+    level: 1
+  C2:
+    category: powercube
+    level: 2
+  C3:
+    category: powercube
+    level: 3
+  C4:
+    category: powercube
+    level: 4
+  C5:
+    category: powercube
+    level: 5
+  C6:
+    category: powercube
+    level: 6
+  C7:
+    category: powercube
+    level: 7
+  C8:
+    category: powercube
+    level: 8
+  R1:
+    category: resonator
+    level: 1
+  R2:
+    category: resonator
+    level: 2
+  R3:
+    category: resonator
+    level: 3
+  R4:
+    category: resonator
+    level: 4
+  R5:
+    category: resonator
+    level: 5
+  R6:
+    category: resonator
+    level: 6
+  R7:
+    category: resonator
+    level: 7
+  R8:
+    category: resonator
+    level: 8
+  X1:
+    category: xmp
+    level: 1
+  X2:
+    category: xmp
+    level: 2
+  X3:
+    category: xmp
+    level: 3
+  X4:
+    category: xmp
+    level: 4
+  X5:
+    category: xmp
+    level: 5
+  X6:
+    category: xmp
+    level: 6
+  X7:
+    category: xmp
+    level: 7
+  X8:
+    category: xmp
+    level: 8
+  US1:
+    category: ultrastrike
+    level: 1
+  US2:
+    category: ultrastrike
+    level: 2
+  US3:
+    category: ultrastrike
+    level: 3
+  US4:
+    category: ultrastrike
+    level: 4
+  US5:
+    category: ultrastrike
+    level: 5
+  US6:
+    category: ultrastrike
+    level: 6
+  US7:
+    category: ultrastrike
+    level: 7
+  US8:
+    category: ultrastrike
+    level: 8
+  CS:
+    name: Common Shield
+    category: portalshield
+    rarity: common
+  RS:
+    name: Rare Shield
+    category: portalshield
+    rarity: rare
+  VRS:
+    name: Very Rare Shield
+    category: portalshield
+    rarity: veryrare
+  AEGIS:
+    name: Aegis
+    category: portalshield
+    rarity: veryrare
+  CHS:
+    name: Common Heat Sink
+    category: heatsink
+    rarity: common
+  RHS:
+    name: Rare Heat Sink
+    category: heatsink
+    rarity: rare
+  VRHS:
+    name: Very Rare Heat Sink
+    category: heatsink
+    rarity: veryrare
+  CMH:
+    name: Common Multi-hack
+    category: multihack
+    rarity: common
+  RMH:
+    name: Rare Multi-hack
+    category: multihack
+    rarity: rare
+  VRMH:
+    name: Very Rare Multi-hack
+    category: multihack
+    rarity: veryrare
+  FA:
+    category: forceamp
+    rarity: rare
+  T:
+    category: turret
+    rarity: rare
+  JARVIS:
+    name: Jarvis Virus
+    category: ada_jarvis
+    rarity: veryrare
+  ADA:
+    name: ADA Refactor
+    category: ada_jarvis
+    rarity: veryrare
+  LAWSON:
+    name: Lawson
+    category: powercube
+    color: rarity
+    rarity: veryrare
+  BEACON:
+    name: Beacon
+    category: beacon
+    rarity: veryrare
+  FRACKER:
+    name: Fracker
+    category: fracker
+    rarity: veryrare
+  C:
+    name: Capsule
+    category: capsule
+    rarity: rare
+  Q:
+    name: Quantum Capsule
+    category: quantum_capsule
+    rarity: veryrare
+  M:
+    name: Media
+    category: media
+    rarity: common
+  ITO+:
+    name: ITO EN Transmuter (+)
+    category: ito+
+    rarity: veryrare
+  ITO-:
+    name: ITO EN Transmuter (-)
+    category: ito-
+    rarity: common

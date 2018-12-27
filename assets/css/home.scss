@@ -10,17 +10,9 @@ section {
     margin: 20px 0;
   }
   .container {
-    @media(max-width: $xsWidth) {
-      padding: 0;
-    }
     word-wrap: break-word;
   }
   .card {
-    border-radius: 0;
-    @media(max-width: $xsWidth) {
-      padding: 20px 15px;
-      margin: 0;
-    }
   }
   img {
     max-width: 100%;

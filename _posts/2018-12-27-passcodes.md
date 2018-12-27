@@ -5,9 +5,12 @@ description: List of Passcodes
 date:   2018-12-27 14:24:28 +0800
 categories: news
 passcodes: |
-  JJT772019589FB: 1331 XM<br />Ultra Strikes x 8<br />Resonators x 25<br />Power Cubes x 15<br />XMP Bursters x 25 
+  JJT772019589FB: 1331 XM<br />Ultra Strikes x 8<br />Resonators x 25<br />Power Cubes x 15<br />XMP Bursters x 25
   TBZ662019942MW: 1331 XM<br />Portal Shields x 5<br />Resonators x 15<br />Power Cubes x 10<br />XMP Bursters x 25
 ---
+
+{% assign code = site.data.passcodes_2018['ASDF333MAHSFJSH'] %}
+{% include passcode.html code="ASDF333MAHSFJSH" date=code.date items=code.items %}
 
 {:  .mt-2 .mb-4}
 
@@ -26,5 +29,3 @@ passcodes: |
 {% endfor %}
 </tbody>
 </table>
-
-

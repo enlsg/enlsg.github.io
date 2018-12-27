@@ -276,6 +276,66 @@ body.over-top {
   }
 }
 
+.passcode-items {
+
+  .color-rarity {
+    &.rarity-veryrare {
+      color: #d977d2;
+    }
+    &.rarity-common {
+      color: #77d9a7;
+    }
+    &.rarity-rare {
+      color: #ad8eff;
+    }
+  }
+
+  .color-level {
+    &.level-1 {
+      color: #FECE5A;
+    }
+    &.level-2 {
+      color: #FFA630;
+    }
+    &.level-3 {
+      color: #FF7315;
+    }
+    &.level-4 {
+      color: #E40000;
+    }
+    &.level-5 {
+      color: #FD2992;
+    }
+    &.level-6 {
+      color: #EB26CD;
+    }
+    &.level-7 {
+      color: #C124E0;
+    }
+    &.level-8 {
+      color: #9627F4;
+    }
+  }
+
+  .item {
+    .quantity {
+      display: inline-block;
+      width: 30px;
+      color: #444;
+      text-align: right;
+    }
+    .name {
+      display: inline-block;
+      margin-left: 2px;
+
+      .level {
+        display: inline-block;
+        width: 20px;
+      }
+    }
+  }
+}
+
 #footer {
   background: #212121;
   color: #777;
