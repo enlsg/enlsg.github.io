@@ -15,8 +15,8 @@ passcodes: |
 
 <table class="table table-sm table-bordered" style="font-size: 0.9em;">
 <tbody>
-{% for passcodes in passcodes %}
-  {% assign splits = passcodes | split: ': ' %}
+{% for passcode in passcodes %}
+  {% assign splits = passcode | split: ': ' %}
   {% if splits.size == 2 %}
     <tr>
       <td class="text-center">{{splits[0] | strip}}</td>
