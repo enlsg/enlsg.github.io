@@ -11,8 +11,8 @@ categories: news
 }
 </style>
 
-As usual, to celebrate the coming of Year 2019, Niantic has release a countdown
-passcode giveaways to all agents! Redeem it now today!
+As usual, to celebrate the coming of Year 2019, Niantic has released wave of countdown
+passcodes to all agents! Redeem it now today!
 
 _Watch out this space as we will update this list daily until 2019!_
 
