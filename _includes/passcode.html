@@ -1,59 +1,62 @@
-<strong>{{ include.code }}</strong>
-<p><strong>{{ include.date }}</strong></p>
-
+<div class="passcode">
+<div class="code">{{ include.code }}</div>
+<div class="date">{{ include.date | date: "%b %-d, %Y"}}</div>
 <div class="passcode-items">
-  {% for item in include.items %}
-    {% assign m = forloop.index0 | modulo: 2 %}
-    {% if m == 0 %}
-      <div class="row">
-    {% endif %}
-      <div class="col-6">
-        {% assign sp = item | split: ':' %}
-        {% assign ref = sp[0] %}
-        {% assign quantity = sp[1] %}
-        {% assign type = site.data.items.codes[ref] %}
-        {% assign category = site.data.items.categories[type.category] %}
-        {% assign name = category.name %}
-        {% assign level = type.level %}
-        {% assign rarity = category.rarity %}
-        {% assign color_scheme = category.color %}
-        {% assign color_class = '' %}
-        {% assign level_label = '' %}
 
-        {% if type.name %}{% assign name = type.name %}{% endif %}
-        {% if type.color %}{% assign color_scheme = type.color %}{% endif %}
-        {% if type.rarity %}{% assign rarity = type.rarity %}{% endif %}
+  <div class="row">
+  {%- for item in include.items -%}
+    <div class="col-6 col-xl-4 pr-1 pl-1">
+      {%- assign sp = item | split: ':' -%}
+      {%- assign ref = sp[0] -%}
+      {%- assign quantity = sp[1] -%}
+      {%- assign type = site.data.items.codes[ref] -%}
+      {%- assign category = site.data.items.categories[type.category] -%}
+      {%- assign name = category.name -%}
+      {%- assign level = type.level -%}
+      {%- assign rarity = category.rarity -%}
+      {%- assign color_scheme = category.color -%}
+      {%- assign color_class = '' -%}
+      {%- assign level_label = '' -%}
 
-        {% if color_scheme == 'rarity' %}
-          {% assign color_class = "color-rarity rarity-" | append: rarity %}
-        {% else %}
-          {% assign color_class = "color-level level-" | append: level %}
-        {% endif %}
+      {%- if type.name -%}{%- assign name = type.name -%}{%- endif -%}
+      {%- if type.color -%}{%- assign color_scheme = type.color -%}{%- endif -%}
+      {%- if type.rarity -%}{%- assign rarity = type.rarity -%}{%- endif -%}
+      {%- if ref == 'XM' or ref == 'AP' -%}{%- assign name = quantity | append: ref -%}{%- endif -%}
 
-        {% if type.level %}
-          {% assign level_label = "L" | append: type.level %}
-        {% endif %}
+      {%- if color_scheme == 'rarity' -%}
+        {%- assign color_class = "item-grade-rarity rarity-" | append: rarity -%}
+      {%- else -%}
+        {%- assign color_class = "item-grade-level level-" | append: level -%}
+      {%- endif -%}
 
-        <div class="item">
-        {% if ref == 'XM' or ref == 'AP' %}
-          <span class="quantity"></span>
-          <span class="name">{{ quantity }} {{ ref }}</span>
-        {% else %}
-          <span class="quantity">{{ quantity }} &times;</span>
-          <span class="name">
-          {% if color_scheme == 'rarity' %}
-            <span class="level {{ color_class }}"><i class="fas fa-circle"></i></span>
-          {% elsif level_label  %}
-            <span class="level {{ color_class }}">{{ level_label }}</span>  
-          {% endif %}
-            {{ name }}
-          </span>
+      {%- if type.level -%}
+        {%- assign level_label = "L" | append: type.level -%}
+      {%- endif -%}
 
-        {% endif %}
-        </div>
+      <div class="item">
+
+        <span class="quantity">
+          {%- if ref != 'XM' and ref != 'AP' -%}
+            {{ quantity }} &times;
+          {%- endif -%}
+        </span>
+
+        <span class="item-grade">
+          {%- if color_scheme == 'rarity' -%}
+            <span class="{{ color_class }}">
+              <span class="bar bar-1"></span>
+              <span class="bar bar-2"></span>
+              <span class="bar bar-3"></span>
+            </span>
+          {%- elsif level_label  -%}
+            <span class="{{ color_class }}">{{ level_label }}</span>
+          {%- endif -%}
+        </span>
+
+        <span class="name">{{ name }}</span>
       </div>
-    {% if m == 1 %}
-      </div>
-    {% endif %}
-  {% endfor %}
+    </div>
+  {%- endfor -%}
+  </div>
+</div>
 </div>

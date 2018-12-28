@@ -3,62 +3,52 @@
 # - Check _data/items.yaml for the short codes. Should have covered all
 #----------------------------------------------------------------
 
-ASDF333MAHSFJSH:
-  date: 2018-11-27 10:05:00 +0800
+OWF662019787UZ:
+  date: 2018-12-28 10:00:00 +0800
+  tag: countdown-2019
+  description: Day 5 Passcode
   items:
-  - CHS:12
-  - RHS:13
-  - VRHS:14
-  - CMH:1
-  - RMH:2
-  - VRMH:3
-  - CS:1
-  - RS:2
-  - VRS:3
-  - AEGIS:4
-  - JARVIS:3
-  - ADA:4
-  - ITO+:4
-  - ITO-:3
-  - Q:1
-  - C:4
-  - T:3
-  - FA:4
-  - R1:1
-  - R2:3
-  - R3:4
-  - R4:1
-  - R5:3
-  - R6:4
-  - R7:3
-  - R8:4
-  - X1:1
-  - X2:3
-  - X3:4
-  - X4:1
-  - X5:3
-  - X6:4
-  - X7:3
-  - X8:4
-  - C1:1
-  - C2:3
-  - C3:4
-  - C4:1
-  - C5:3
-  - C6:4
-  - C7:3
-  - C8:4
-  - US1:1
-  - US2:3
-  - US3:4
-  - US4:1
-  - US5:3
-  - US6:4
-  - US7:3
-  - US8:4
-  - LAWSON:3
-  - BEACON:2
-  - FRACKER:2
-  - AP:1331
+  - R8:25
+  - X8:25
+  - US8:10
+  - CHS:2
   - XM:1331
-  - M:1
+
+JJT772019589FB:
+  date: 2018-12-27 10:00:00 +0800
+  tag: countdown-2019
+  description: Day 4 Passcode
+  items:
+  - R8:25
+  - X8:25
+  - US8:8
+  - C8:15
+  - XM:1331
+
+TBZ662019942MW:
+  date: 2018-12-26 10:00:00 +0800
+  tag: countdown-2019
+  description: Day 3 Passcode
+  items:
+  - R8:15
+  - X8:25
+  - C8:10
+  - CS:5
+  - XM:1331
+
+AYN662019294JB:
+  date: 2018-12-25 10:00:00 +0800
+  tag: countdown-2019
+  description: Day 2 Passcode
+  items:
+  - R8:10
+  - X8:10
+  - C8:10
+
+GRD892019649MU:
+  date: 2018-12-24 10:00:00 +0800
+  tag: countdown-2019
+  description: Day 1 Passcode
+  items:
+  - R8:10
+  - X8:10

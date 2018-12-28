@@ -8,7 +8,7 @@ categories:
     icon: images/prime-assets/resonator.png
     color: level
   xmp:
-    name: XMP Burster
+    name: Xmp Burster
     icon: images/prime-assets/xmp_burster.png
     color: level
   ultrastrike:
@@ -158,15 +158,12 @@ codes:
     category: ultrastrike
     level: 8
   CS:
-    name: Common Shield
     category: portalshield
     rarity: common
   RS:
-    name: Rare Shield
     category: portalshield
     rarity: rare
   VRS:
-    name: Very Rare Shield
     category: portalshield
     rarity: veryrare
   AEGIS:
@@ -174,27 +171,21 @@ codes:
     category: portalshield
     rarity: veryrare
   CHS:
-    name: Common Heat Sink
     category: heatsink
     rarity: common
   RHS:
-    name: Rare Heat Sink
     category: heatsink
     rarity: rare
   VRHS:
-    name: Very Rare Heat Sink
     category: heatsink
     rarity: veryrare
   CMH:
-    name: Common Multi-hack
     category: multihack
     rarity: common
   RMH:
-    name: Rare Multi-hack
     category: multihack
     rarity: rare
   VRMH:
-    name: Very Rare Multi-hack
     category: multihack
     rarity: veryrare
   FA:
@@ -204,7 +195,7 @@ codes:
     category: turret
     rarity: rare
   JARVIS:
-    name: Jarvis Virus
+    name: JARVIS Virus
     category: ada_jarvis
     rarity: veryrare
   ADA:
@@ -212,7 +203,7 @@ codes:
     category: ada_jarvis
     rarity: veryrare
   LAWSON:
-    name: Lawson
+    name: Lawson Power Cube
     category: powercube
     color: rarity
     rarity: veryrare
