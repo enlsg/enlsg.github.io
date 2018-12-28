@@ -1,30 +1,25 @@
 ---
 layout: single-post
-title:  Passcode History
-description: List of Passcodes
-date:   2018-12-27 14:24:28 +0800
+title: Passcodes Counting Down to 2019
+description: It's new year again! Here are all the codes we've collected!
+date: 2018-12-28 11:13:51 +0800
 categories: news
-passcodes: |
-  JJT772019589FB: 1331 XM<br />Ultra Strikes x 8<br />Resonators x 25<br />Power Cubes x 15<br />XMP Bursters x 25 
-  TBZ662019942MW: 1331 XM<br />Portal Shields x 5<br />Resonators x 15<br />Power Cubes x 10<br />XMP Bursters x 25
 ---
+<style type="text/css">
+.passcode {
+  margin-bottom: 1em;
+}
+</style>
 
-{:  .mt-2 .mb-4}
+As usual, to celebrate the coming of Year 2019, Niantic has release a countdown
+passcode giveaways to all agents! Redeem it now today!
 
-{% assign passcodes = page.passcodes | newline_to_br | strip_newlines | split: "<br />" %}
+_Watch out this space as we will update this list daily until 2019!_
 
-<table class="table table-sm table-bordered" style="font-size: 0.9em;">
-<tbody>
-{% for passcode in passcodes %}
-  {% assign splits = passcode | split: ': ' %}
-  {% if splits.size == 2 %}
-    <tr>
-      <td class="text-center">{{splits[0] | strip}}</td>
-      <td>{{splits[1] | strip}}</td>
-    </tr>
-  {% endif %}
+{% for codes in site.data.passcodes_2018 %}
+{%- assign code = codes[0] -%}
+{%- assign data = codes[1] -%}
+{%- if data.tag == 'countdown-2019' -%}
+{%- include passcode.html code=code date=data.date items=data.items -%}
+{%- endif -%}
 {% endfor %}
-</tbody>
-</table>
-
-
