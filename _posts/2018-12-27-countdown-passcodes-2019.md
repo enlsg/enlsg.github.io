@@ -1,7 +1,7 @@
 ---
 layout: single-post
 title: Passcodes Counting Down to 2019
-description: It's new year again! Here are all the codes we've collected!
+description: It's the end of year again! Here is the list of passcodes counting down to 2019!
 date: 2018-12-28 11:13:51 +0800
 categories: news
 ---
@@ -11,7 +11,7 @@ categories: news
 }
 </style>
 
-As usual, to celebrate the coming of Year 2019, Niantic has released wave of countdown
+As usual, to celebrate the coming of Year 2019, Niantic has released a wave of countdown
 passcodes to all agents! Redeem it now today!
 
 _Watch out this space as we will update this list daily until 2019!_
