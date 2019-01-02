@@ -133,28 +133,28 @@ codes:
   X8:
     category: xmp
     level: 8
-  US1:
+  U1:
     category: ultrastrike
     level: 1
-  US2:
+  U2:
     category: ultrastrike
     level: 2
-  US3:
+  U3:
     category: ultrastrike
     level: 3
-  US4:
+  U4:
     category: ultrastrike
     level: 4
-  US5:
+  U5:
     category: ultrastrike
     level: 5
-  US6:
+  U6:
     category: ultrastrike
     level: 6
-  US7:
+  U7:
     category: ultrastrike
     level: 7
-  US8:
+  U8:
     category: ultrastrike
     level: 8
   CS:
