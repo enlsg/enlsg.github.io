@@ -10,7 +10,7 @@ categories: news
 Congratulations to the following agents for winning the January IFS Agent stats Challenge!
 
 {: .mt-5 .mb-4}
-| Top AP Gain Resistance | <span class='badge badge-primary'>slapyouall</span> | 795,294 AP |
+| Top AP Gain Resistance | ![slapyouall](https://img.shields.io/badge/L16-slapyouall-deepskyblue.svg) | 795,294 AP |
 | Top AP Gain Enlightened | <span class='badge badge-success'>soonofagun</span> | 373,516 AP |
 | Top Trekker Gain | <span class='badge badge-success'>Rockgambit</span> | 7KM |
 | Top Builder Gain | <span class='badge badge-primary'>Eaglechang</span> | 1,962 Resonators |
@@ -18,3 +18,5 @@ Congratulations to the following agents for winning the January IFS Agent stats 
 {: .table}
 
 Thank You everyone else for participating and supporting the event!  We hope you enjoyed yourselves. 😊
+
+
