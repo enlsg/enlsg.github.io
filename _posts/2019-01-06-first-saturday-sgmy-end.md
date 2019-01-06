@@ -9,27 +9,12 @@ categories: news
 
 Congratulations to the following agents for winning the January IFS Agent stats Challenge!
 
-{: .text-center .mt-5 .mb-4}
-| Top AP Gain Resistance | <span class='badge badge-primary'>slapyouall</span> | (795,294 AP) |
-| Top AP Gain Enlightened | <span class='badge badge-success'>soonofagun</span> | (373,516 AP) |
-| Top Trekker Gain | <span class='badge badge-success'>Rockgambit</span> | (7KM) |
-| Top Builder Gain | <span class='badge badge-primary'>Eaglechang</span> | (1962 Resonators) |
-| Top Connector Gain | <span class='badge badge-primary'>Woonie</span> | (163 Links) |
-
-
-Top AP Gain Resistance
-<span class='badge badge-primary'>slapyouall</span> (795,294 AP)
-
-Top AP Gain Enlightened
-<span class='badge badge-success'>soonofagun</span> (373,516 AP)
-
-Top Trekker Gain
-<span class='badge badge-success'>Rockgambit</span> (7KM)
-
-Top Builder Gain
-<span class='badge badge-primary'>Eaglechang</span> (1962 Resonators)
-
-Top Connector Gain
-<span class='badge badge-primary'>Woonie</span> (163 Links)
+{: .mt-5 .mb-4}
+| Top AP Gain Resistance | <span class='badge badge-primary'>slapyouall</span> | 795,294 AP |
+| Top AP Gain Enlightened | <span class='badge badge-success'>soonofagun</span> | 373,516 AP |
+| Top Trekker Gain | <span class='badge badge-success'>Rockgambit</span> | 7KM |
+| Top Builder Gain | <span class='badge badge-primary'>Eaglechang</span> | 1,962 Resonators |
+| Top Connector Gain | <span class='badge badge-primary'>Woonie</span> | 163 Links |
+{: .table}
 
 Thank You everyone else for participating and supporting the event!  We hope you enjoyed yourselves. 😊
