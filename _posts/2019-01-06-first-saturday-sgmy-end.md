@@ -18,5 +18,8 @@ Congratulations to the following agents for winning the January IFS Agent stats 
 {: .table}
 
 Thank You everyone else for participating and supporting the event!  We hope you enjoyed yourselves. 😊 <br/>
-IFS POC: ![sylarspock](https://img.shields.io/badge/L16-sylarspock-limegreen.svg)
+
+![Group Picture](/assets/images/news/ifs_sg_group.jpg){: .fill-width}
+
+IFS POC ![sylarspock](https://img.shields.io/badge/L16-sylarspock-limegreen.svg)
 
