@@ -12,7 +12,7 @@ Congratulations to the following agents for winning the January IFS Agent stats 
 <style>
 .badge { border-radius: 0; }
 </style>
-
+<!--
 {: .mt-5 .mb-4}
 | Top AP Gain Resistance | <span class="badge badge-secondary">L16</span><span class="badge badge-primary">slapyouall</span> | 795,294 AP |
 | Top AP Gain Enlightened | <span class="badge badge-secondary">L11</span><span class="badge badge-success">soonofagun</span> | 373,516 AP |
@@ -20,7 +20,7 @@ Congratulations to the following agents for winning the January IFS Agent stats 
 | Top Builder Gain | <span class="badge badge-secondary">L16</span><span class="badge badge-primary">Eaglechang</span> | 1,962 Resonators |
 | Top Connector Gain | <span class="badge badge-secondary">L16</span><span class="badge badge-primary">Woonie</span> | 163 Links |
 {: .table}
-
+//-->
 
 {: .mt-5 .mb-4}
 | Top AP Gain Resistance | ![slapyouall](https://img.shields.io/badge/L16-slapyouall-deepskyblue.svg) | 795,294 AP |
