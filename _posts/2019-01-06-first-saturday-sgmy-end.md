@@ -9,14 +9,19 @@ categories: news
 
 Congratulations to the following agents for winning the January IFS Agent stats Challenge!
 
-Top AP Gain Resistance<div class='badge badge-primary'>slapyouall</div> (795,294 AP)
+Top AP Gain Resistance
+<span class='badge badge-primary'>slapyouall</span> (795,294 AP)
 
-Top AP Gain Enlightened<div class='badge badge-success'>soonofagun</div> (373,516 AP)
+Top AP Gain Enlightened
+<span class='badge badge-success'>soonofagun</span> (373,516 AP)
 
-Top Trekker Gain<div class='badge badge-success'>Rockgambit</div> (7KM)
+Top Trekker Gain
+<span class='badge badge-success'>Rockgambit</span> (7KM)
 
-Top Builder Gain<div class='badge badge-primary'>Eaglechang</div> (1962 Resonators)
+Top Builder Gain
+<span class='badge badge-primary'>Eaglechang</span> (1962 Resonators)
 
-Top Connector Gain<div class='badge badge-primary'>Woonie</div> (163 Links)
+Top Connector Gain
+<span class='badge badge-primary'>Woonie</span> (163 Links)
 
 Thank You everyone else for participating and supporting the event!  We hope you enjoyed yourselves. 😊
