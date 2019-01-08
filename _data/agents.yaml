@@ -25,7 +25,7 @@ PixelBytes:
 RockGambit:
   level: 12
   team: Enlightened
-  recursed: false
+  recursed: true
 
 SlapYouAll:
   level: 9
