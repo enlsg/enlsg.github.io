@@ -1,0 +1,48 @@
+# Agent stats. Update this when you need to update their badges
+# This data is used by agent_badge.html to render agent badges.
+# Do it alphabetical.
+
+Advent9thplayer:
+  level: 13
+  team: Enlightened
+  recursed: true
+  
+EagleChang:
+  level: 16
+  team: Resistance
+  recursed: false
+
+jo3f:
+  level: 9
+  team: Resistance
+  recursed: true
+
+PixelBytes:
+  level: 11
+  team: Enlightened
+  recursed: true
+
+RockGambit:
+  level: 12
+  team: Enlightened
+  recursed: false
+
+SlapYouAll:
+  level: 9
+  team: Resistance
+  recursed: true
+
+soonofagun:
+  level: 11
+  team: Enlightened
+  recursed: false
+
+sylarspock:
+  level: 14
+  team: Enlightened
+  recursed: true
+
+Woonie:
+  level: 11
+  team: Resistance
+  recursed: true

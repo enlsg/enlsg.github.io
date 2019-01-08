@@ -7,19 +7,19 @@ categories: news
 
 tops:
 - name: Top AP Gain resistance
-  badge: R9+,SlapYouAll
+  agent: SlapYouAll
   value: 795,294 AP
 - name: Top AP Gain Enlightened
-  badge: E11,soonofagun
+  agent: soonofagun
   value: 373,516 AP
 - name: Top Trekker Gain
-  badge: E12+,RockGambit
+  agent: RockGambit
   value: 7KM
 - name: Top Builder Gain
-  badge: R16,EagleChang
+  agent: EagleChang
   value: 1,962 Resonators
 - name: Top Connector Gain
-  badge: R11+,Woonie
+  agent: Woonie
   value: 163 Links
 ---
 <style type="text/css">
@@ -60,7 +60,7 @@ Congratulations to the following agents for winning the January IFS Agent stats 
   <h5 class="mb-1">{{ top.name }}</h5>
     <div class="row">
       <div class="col-6">
-        {%- include agent_badge.html badge=top.badge -%}
+        {%- include agent_badge.html agent=top.agent -%}
       </div>
       <div class="col-6 text-right value">
         {{top.value}}
@@ -75,5 +75,5 @@ Thank You everyone else for participating and supporting the event!  We hope you
 ![Group Picture](/assets/images/news/ifs_sg_group.jpg){: .fill-width}
 
 IFS POCs<br/>
-{%- include agent_badge.html badge="E14+,sylarspock" -%}
-{%- include agent_badge.html badge="R9+,jo3f" -%}
+{%- include agent_badge.html agent="sylarspock" -%}{: .mr-1 }
+{%- include agent_badge.html agent="jo3f" -%}
