@@ -23,10 +23,10 @@ Congratulations to the following agents for winning the January IFS Agent stats 
 //-->
 
 {: .mt-5 .mb-4}
-| Top AP Gain Resistance | ![slapyouall](https://img.shields.io/badge/L16-slapyouall-deepskyblue.svg) | 795,294 AP |
+| Top AP Gain Resistance | ![SlapYouAll](https://img.shields.io/badge/L16-SlapYouAll-deepskyblue.svg) | 795,294 AP |
 | Top AP Gain Enlightened | ![soonofagun](https://img.shields.io/badge/L11-soonofagun-limegreen.svg) | 373,516 AP |
-| Top Trekker Gain | ![Rockgambit](https://img.shields.io/badge/L16-Rockgambit-limegreen.svg) | 7KM |
-| Top Builder Gain | ![Eaglechang](https://img.shields.io/badge/L16-Eaglechang-deepskyblue.svg)| 1,962 Resonators |
+| Top Trekker Gain | ![RockGambit](https://img.shields.io/badge/L16-RockGambit-limegreen.svg) | 7KM |
+| Top Builder Gain | ![EagleChang](https://img.shields.io/badge/L16-EagleChang-deepskyblue.svg)| 1,962 Resonators |
 | Top Connector Gain | ![Woonie](https://img.shields.io/badge/L16-Woonie-deepskyblue.svg)| 163 Links |
 {: .table}
 
@@ -34,5 +34,5 @@ Thank You everyone else for participating and supporting the event!  We hope you
 
 ![Group Picture](/assets/images/news/ifs_sg_group.jpg){: .fill-width}
 
-IFS POC ![sylarspock](https://img.shields.io/badge/L16-sylarspock-limegreen.svg)
+IFS POC ![sylarspock](https://img.shields.io/badge/L16-sylarspock-limegreen.svg) ![jo3f](https://img.shields.io/badge/L16-jo3f-limegreen.svg)
 
