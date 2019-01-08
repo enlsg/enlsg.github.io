@@ -2,47 +2,59 @@
 # This data is used by agent_badge.html to render agent badges.
 # Do it alphabetical.
 
-Advent9thplayer:
+# Noticed we added `name` in the data array because this is to cater
+# for cases where someone change their IGN.
+
+Advent9thPlayer:
+  name: Advent9thPlayer
   level: 13
   team: Enlightened
   recursed: true
 
 EagleChang:
+  name: EagleChang
   level: 16
   team: Resistance
   recursed: false
 
 jo3f:
+  name: jo3f
   level: 9
   team: Enlightened
   recursed: true
 
 PixelBytes:
+  name: PixelBytes
   level: 11
   team: Enlightened
   recursed: true
 
 RockGambit:
+  name: RockGambit
   level: 12
   team: Enlightened
-  recursed: false
+  recursed: true
 
 SlapYouAll:
+  name: SlapYouAll
   level: 9
   team: Resistance
   recursed: true
 
 soonofagun:
+  name: soonofagun
   level: 11
   team: Enlightened
   recursed: false
 
 sylarspock:
+  name: sylarspock
   level: 14
   team: Enlightened
   recursed: true
 
 Woonie:
+  name: Woonie
   level: 11
   team: Resistance
   recursed: true
