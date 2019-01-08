@@ -6,7 +6,7 @@ Advent9thplayer:
   level: 13
   team: Enlightened
   recursed: true
-  
+
 EagleChang:
   level: 16
   team: Resistance
@@ -14,7 +14,7 @@ EagleChang:
 
 jo3f:
   level: 9
-  team: Resistance
+  team: Enlightened
   recursed: true
 
 PixelBytes:
