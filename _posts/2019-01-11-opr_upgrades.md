@@ -21,7 +21,7 @@ pin_home: false
 
 Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. How does an "Upgrade" actually work? Here's the FAQ published in full.
 
-[![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20FAQ)](https://opr.ingress.com/upgrades/){: target="_blank"}
+[![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20FAQ.svg)](https://opr.ingress.com/upgrades/){: target="_blank"}
 
 <table class="table table-sm">
 <tbody>
