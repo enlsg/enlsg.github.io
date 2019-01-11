@@ -21,7 +21,7 @@ pin_home: false
 
 Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. How does an "Upgrade" actually work? Here's the FAQ published in full.
 
-[![Source](https://img.shields.io/badge/source-OPR%20Upgrades)](https://opr.ingress.com/upgrades/){: target="_blank"}
+[![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20FAQ)](https://opr.ingress.com/upgrades/){: target="_blank"}
 
 <table class="table table-sm">
 <tbody>
@@ -70,6 +70,58 @@ Currently it is undergoing staged rollout, so local agents may not see the "Upgr
     <tr>
       <td>
          No. Upgrades will only prioritize the Candidate Portal for a more timely analysis within OPR. The selection criteria will not change in any way.
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">How long will it take for my Upgraded Candidate Portal to be decided?</th>
+  </tr>
+    <tr>
+      <td>
+         There are many factors that play into the decision-time on any Candidate Portal, so it’s not possible to know how long it may take to reach a decision. Since your Upgraded Candidate Portal has been prioritized, rest assured that a decision will be made in a more timely manner than if it was not Upgraded.
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">Will Niantic Ops be directly reviewing Upgraded Candidate Portals?</th>
+  </tr>
+    <tr>
+      <td>
+         No, Upgraded Portal Candidates will go through the same OPR analysis -- they will simply be processed in a more timely manner.
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">Can Upgrades be used for Portal edits?</th>
+  </tr>
+    <tr>
+      <td>
+         No, Upgrades can only be applied to Candidate Portals submissions.
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">Can I be rewarded with Upgrades if my performance is poor?</th>
+  </tr>
+    <tr>
+      <td>
+         Yes! If you contribute to 100 Agreements, you will receive an Upgrade regardless of the current status of your performance.
       </td>
     </tr>
 </tbody>
