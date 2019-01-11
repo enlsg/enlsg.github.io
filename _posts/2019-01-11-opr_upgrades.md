@@ -24,11 +24,25 @@ Currently it is undergoing staged rollout, so local agents may not see the "Upgr
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">FAQ</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">I don’t have any Candidate Portals to submit right now. How many Upgrades can I save for future use?</th>
   </tr>
     <tr>
       <td>
-        I don’t have any Candidate Portals to submit right now. How many Upgrades can I save for future use? You can save a maximum of 10 unredeemed Upgrades. Any agreements you contribute to beyond that will no longer be tracked towards future Upgrade rewards. Don’t forget to submit a new Candidate Portal and redeem an Upgrade before you reach 10 available.
+         You can save a maximum of 10 unredeemed Upgrades. Any agreements you contribute to beyond that will no longer be tracked towards future Upgrade rewards. Don’t forget to submit a new Candidate Portal and redeem an Upgrade before you reach 10 available.
+      </td>
+    </tr>
+  <tr><td colspan="5" style="height: 50px;">&nbsp;</td></tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">Can I choose which of my Candidate Portals I want to redeem Upgrades on?</th>
+  </tr>
+    <tr>
+      <td>
+         No. An Upgrade will be redeemed for a Candidate Portal in your existing submissions queue at random. If you have only one pending Candidate Portal, the Upgrade will be used on that submission.
       </td>
     </tr>
   <tr><td colspan="5" style="height: 50px;">&nbsp;</td></tr>
