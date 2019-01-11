@@ -19,7 +19,9 @@ pin_home: false
 
 [![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"}
 
-Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet.
+Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. How does an "Upgrade" actually work? Here's the FAQ published in full.
+
+[![Source](https://img.shields.io/badge/source-OPR%20Upgrades)](https://opr.ingress.com/upgrades/){: target="_blank"}
 
 <table class="table table-sm">
 <tbody>
@@ -31,7 +33,6 @@ Currently it is undergoing staged rollout, so local agents may not see the "Upgr
          You can save a maximum of 10 unredeemed Upgrades. Any agreements you contribute to beyond that will no longer be tracked towards future Upgrade rewards. Don’t forget to submit a new Candidate Portal and redeem an Upgrade before you reach 10 available.
       </td>
     </tr>
-  <tr><td colspan="5" style="height: 50px;">&nbsp;</td></tr>
 </tbody>
 </table>
 
@@ -45,6 +46,31 @@ Currently it is undergoing staged rollout, so local agents may not see the "Upgr
          No. An Upgrade will be redeemed for a Candidate Portal in your existing submissions queue at random. If you have only one pending Candidate Portal, the Upgrade will be used on that submission.
       </td>
     </tr>
-  <tr><td colspan="5" style="height: 50px;">&nbsp;</td></tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">What exactly is an Agreement in OPR?</th>
+  </tr>
+    <tr>
+      <td>
+         When your analysis of a Candidate Portal ultimately aligns with the final decision reached by OPR -- regardless of whether it is approved or rejected -- you will receive an Agreement. These Agreements are currently shown as “Portals Created and Rejected” in the OPR stats area, accessible by selecting your profile photo. Please note that you will not receive Agreements for edits made to already existing Portals.
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">Is my Upgraded Candidate Portal more likely to be accepted?</th>
+  </tr>
+    <tr>
+      <td>
+         No. Upgrades will only prioritize the Candidate Portal for a more timely analysis within OPR. The selection criteria will not change in any way.
+      </td>
+    </tr>
 </tbody>
 </table>
