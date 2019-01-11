@@ -18,7 +18,7 @@ pin_home: false
 
 [![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"}
 
-The above is a screenshot taken from  ![Source](https://opr.ingress.com/upgrades/){: target="_blank"}
+The above is a screenshot taken from  [https://opr.ingress.com/upgrades/](https://opr.ingress.com/upgrades/){: target="_blank"}.
 
 Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. How does an "Upgrade" actually work? Here's the FAQ published in full.
 
