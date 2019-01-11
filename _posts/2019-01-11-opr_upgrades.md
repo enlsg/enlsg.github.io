@@ -17,7 +17,7 @@ pin_home: false
 ![OPR Upgrades](/assets/images/news/opr_upgrades.png){: .fill-width}
 
 
-[![Source](https://img.shields.io/badge/Source-reddit-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"} 
+[![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"}<br\> 
 
 Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet.
 
