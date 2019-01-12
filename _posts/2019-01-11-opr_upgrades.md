@@ -20,9 +20,26 @@ pin_home: false
 
 The above is a screenshot taken from  [https://opr.ingress.com/upgrades/](https://opr.ingress.com/upgrades/){: target="_blank"}. Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. Clicking on the link now may redirect you back to the OPR landing page instead.
 
-What is an "Upgrade" and how does an "Upgrade" actually work? Here's the FAQ published in full.
+What is an "OPR Upgrade" and how does an "Upgrade" actually work? Here's the FAQ republished in full.
 
 [![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20FAQ-red.svg)](https://opr.ingress.com/upgrades/){: target="_blank"}
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">What is an OPR Upgrade?</th>
+  </tr>
+    <tr>
+      <td>
+         OPR Upgrade Rewards gives you the opportunity to earn priority Upgrades by analyzing Candidate Portals in OPR. Upgrades can be used to fast-track your own Candidate Portals that have been submitted.
+
+An Upgrade will be rewarded when you contribute to 100 Agreements. When you earn an Upgrade, it will automatically prioritize one of your existing Candidate Portals. The particular Candidate Portal which the Upgrade is applied to will be chosen at random from your available Candidate Portal submissions. If you do not have any pending Candidate Portal submissions, your Upgrade will be saved for future use. You can only have a maximum of 10 Upgrades saved for future use, so be sure to submit a new Candidate Portal and redeem an Upgrade before you reach this limit. You will be notified on the OPR homepage when an Upgrade has been awarded or redeemed, and you can see your most recent Candidate Portal submissions that have have been prioritized.
+
+Please note that Upgrades will only prioritize the Candidate Portal for a more timely analysis within OPR; the selection criteria will not change in any way.
+      </td>
+    </tr>
+</tbody>
+</table>
+
 
 <table class="table table-sm">
 <tbody>
