@@ -30,9 +30,9 @@ What is an "OPR Upgrade" and how does an "Upgrade" actually work? Here's the FAQ
   </tr>
     <tr>
       <td>
-         OPR Upgrade Rewards gives you the opportunity to earn priority Upgrades by analyzing Candidate Portals in OPR. Upgrades can be used to fast-track your own Candidate Portals that have been submitted.<br/>
+         OPR Upgrade Rewards gives you the opportunity to earn priority Upgrades by analyzing Candidate Portals in OPR. Upgrades can be used to fast-track your own Candidate Portals that have been submitted.<br/><br/>
 
-An Upgrade will be rewarded when you contribute to 100 Agreements. When you earn an Upgrade, it will automatically prioritize one of your existing Candidate Portals. The particular Candidate Portal which the Upgrade is applied to will be chosen at random from your available Candidate Portal submissions. If you do not have any pending Candidate Portal submissions, your Upgrade will be saved for future use. You can only have a maximum of 10 Upgrades saved for future use, so be sure to submit a new Candidate Portal and redeem an Upgrade before you reach this limit. You will be notified on the OPR homepage when an Upgrade has been awarded or redeemed, and you can see your most recent Candidate Portal submissions that have have been prioritized.<br/>
+An Upgrade will be rewarded when you contribute to 100 Agreements. When you earn an Upgrade, it will automatically prioritize one of your existing Candidate Portals. The particular Candidate Portal which the Upgrade is applied to will be chosen at random from your available Candidate Portal submissions. If you do not have any pending Candidate Portal submissions, your Upgrade will be saved for future use. You can only have a maximum of 10 Upgrades saved for future use, so be sure to submit a new Candidate Portal and redeem an Upgrade before you reach this limit. You will be notified on the OPR homepage when an Upgrade has been awarded or redeemed, and you can see your most recent Candidate Portal submissions that have have been prioritized.<br/><br/>
 
 Please note that Upgrades will only prioritize the Candidate Portal for a more timely analysis within OPR; the selection criteria will not change in any way.
       </td>
