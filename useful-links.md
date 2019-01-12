@@ -26,7 +26,7 @@ Here are some of the helpful links for your convenience!
 - [OPR Main Website](https://opr.ingress.com){: target="_blank"}
 - [OPR Candidate Action Guide](https://plus.google.com/+NIAOps/posts/Uw3rzL352Ut){: target="_blank"} - OPR guidelines for agents
 - [Candidate Portal criteria](https://support.ingress.com/hc/en-us/articles/207343987-Candidate-Portal-criteria){: target="_blank"} - Updated OPR guidelines for agents
-- [PokéStop Nominations](https://support.pokemongo.nianticlabs.com/hc/en-us/articles/360001689907){: target="_blank"} - For Pokémon Go players
+- [OPR Upgrades](https://opr.ingress.com/upgrades/){: target="_blank"} - Fast track your own submissions
 
 ##### Ingress Missions
 - [Ingress Mission Creator Tool](https://mission-author-dot-betaspike.appspot.com/){: target="_blank"} - For creating new Ingress Missions
