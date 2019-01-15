@@ -34,6 +34,7 @@ Here are some of the helpful links for your convenience!
 
 ##### Unofficial Fansites and Guides
 - [Ingress Reddit Guide](https://www.reddit.com/r/Ingress/comments/9o9scg/moronic_monday_10152018_your_weekly_questions/){: target="_blank"} - Useful for newbies to get started
+- [OPR Guidelines Criteria Sheet](https://docs.google.com/spreadsheets/d/1rTfW8UJQ24ynoNLm0vHmOFUF5QNqVQieCvVvhj5ItRU/){: target="_blank"} - ORP Guidelins data consolidated from AMA sessions and everywhere else
 - [Ingress Prime Recursion Guide](https://metahub.info/ingress-prime/3390/ingress-prime-recursion-guide/){: target="_blank"}
 - [Ingress Lore Explained](https://imgur.com/a/E4sG7#hShRQUh/){: target="_blank"} - Abridged version and made simple
 - [Ingress Timeline](https://fevgames.net/ingress/ingress-timeline/){: target="_blank"} - History of Ingress Events
