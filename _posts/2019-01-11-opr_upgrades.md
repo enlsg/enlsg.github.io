@@ -17,7 +17,7 @@ pin_home: false
 
 <div class="row justify-content-center mb-3">
 <div class="col-8 col-sm-6 col-md-4">
-  <img src="/assets/images/news/opr_upgrades.png" class="img-responsive" />
+  <img src="/assets/images/news/opr_upgrades2.png" class="img-responsive" />
 </div>
 </div>
 
