@@ -31,7 +31,7 @@ In addition, Niantic has also sent out emails notifying all IFS participants of 
 
 <div class="row justify-content-center mb-3">
 <div class="col-12 col-sm-8 col-md-6">
-  <img src="/assets/images/news/ifs_email.png" class="img-responsive" />
+  <img src="/assets/images/news/ifs_email2.png" class="img-responsive" />
 </div>
 </div>
 
