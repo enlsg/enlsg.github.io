@@ -1,6 +1,6 @@
 ---
 layout: single-post
-title:  Singapore January IFS Winners
+title:  Singapore January IFS Badges Pushed Out
 description: Ingress First Saturday is a cross-faction event organised and run by agents, for agents on the First Saturday of each month!
 date:   2019-01-06 00:01:00 +0800
 categories: news
