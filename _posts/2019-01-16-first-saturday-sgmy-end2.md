@@ -26,15 +26,16 @@ categories: news
 
 The shiny new IFS badge has been pushed out to all qualifying agents as of now, together with the 2x AP gained during the event.
 You should see the change already reflected on your profile.
+
 In addition, Niantic has also sent out emails notifying all IFS participants of his or her own worldwide ranking.
 
 <div class="row justify-content-center mb-3">
-<div class="col-8 col-sm-6 col-md-4">
+<div class="col-12 col-sm-8 col-md-6">
   <img src="/assets/images/news/ifs_email.png" class="img-responsive" />
 </div>
 </div>
 
-Singapore is ranked 89th of 241 locations for Jan 2019 IFS.
+Interestingly, Singapore is ranked 89th of 241 locations for Jan 2019 IFS.
 Once again, our IFS POCs wishes to thank all agents for their participation!
 
 IFS POCs<br/>
