@@ -2,7 +2,7 @@
 layout: single-post
 title:  Singapore January 2019 IFS Badges Pushed Out
 description: IFS badge and AP has been pushed out to all qualifying agents.
-date:   2019-01-06 00:01:00 +0800
+date:   2019-01-16 10:00:00 +0800
 categories: news
 
 

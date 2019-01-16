@@ -25,7 +25,7 @@ pin_home: false
 [![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"}
 
 The above is a screenshot taken from  [https://opr.ingress.com/upgrades/](https://opr.ingress.com/upgrades/){: target="_blank"}. Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. Clicking on the link now may redirect you back to the OPR landing page instead. 
-<br/>EDIT: It's now live in Singapore as of ![Date](https://img.shields.io/badge/-Jan%2016%2C%202019%209:00am-orange.svg)
+<br/><br/>EDIT: It's now live in Singapore as of ![Date](https://img.shields.io/badge/-Jan%2016%2C%202019%209:00am-orange.svg)
 
 What is an "OPR Upgrade" and how does an "Upgrade" actually work? Here's the FAQ republished in full.
 
