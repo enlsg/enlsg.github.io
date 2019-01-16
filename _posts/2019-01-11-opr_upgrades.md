@@ -14,19 +14,25 @@ pin_home: false
 </div>
 </div>
 //-->
-![OPR Upgrades](/assets/images/news/opr_upgrades.png){: .fill-width}
+
+<div class="row justify-content-center mb-3">
+<div class="col-8 col-sm-6 col-md-4">
+  <img src="/assets/images/news/opr_upgrades.png" class="img-responsive" />
+</div>
+</div>
+
 
 [![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/aeo2o8/opr_upgrades_now_avaliable/){: target="_blank"}
 
-The above is a screenshot taken from  [https://opr.ingress.com/upgrades/](https://opr.ingress.com/upgrades/){: target="_blank"}. Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. Clicking on the link now may redirect you back to the OPR landing page instead.
+The above is a screenshot taken from  [https://opr.ingress.com/upgrades/](https://opr.ingress.com/upgrades/){: target="_blank"}. Currently it is undergoing staged rollout, so local agents may not see the "Upgrades" tab yet. Clicking on the link now may redirect you back to the OPR landing page instead. EDIT: It's now live in Singapore as of ![Date](https://img.shields.io/badge/-Jan%2016%2C%202019%209:00am-orange.svg)
 
 What is an "OPR Upgrade" and how does an "Upgrade" actually work? Here's the FAQ republished in full.
 
-[![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20FAQ-red.svg)](https://opr.ingress.com/upgrades/){: target="_blank"}
+[![Source](https://img.shields.io/badge/source-OPR%20Upgrades%20Help-red.svg)](https://opr.ingress.com/upgrades/){: target="_blank"}
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">What is an OPR Upgrade?</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">What are OPR Upgrade Rewards?</th>
   </tr>
     <tr>
       <td>
