@@ -26,11 +26,11 @@ categories: news
 
 Fourteen teams comprising of six members each with seven from each faction have been selected to participate in qualifying for [Operation Ko Lan](https://events.ingress.com/operationkolan){: target="_blank"}. 
 Described as the Ultimate Ingress Challenge, successful applicants will be brought to the remote island of Ko Lan in Thailand, with travel, food, and lodging expenses fully paid for by the NIA. 
-It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges. <br\>
+It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges. 
 
 Spanning five days. this gruelling event will take place from ![Start Date](https://img.shields.io/badge/7:00am-11%20Apr%202019-orange.svg) to ![End Date](https://img.shields.io/badge/10:00pm-15%20Apr%202019-orange.svg)
 <br/><br/>
-Although this is a global challenge, ENL SG is happy to have representation in Team F, named "Six". You might even know some of them personally!
+Although this is a global challenge, ENL SG is happy to have local representation in Team F, named "Six". You might even know some of them personally, so please give them your support!
 <br/><br/>
 Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
