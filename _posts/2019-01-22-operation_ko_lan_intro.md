@@ -192,12 +192,12 @@ Click on the Youtube links to view each team's individual personalities / skills
   </tr>
     <tr>
       <td>
-<img src="https://img.shields.io/badge/ENL-CaptOrange-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-DarkKnight-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-DRBragg-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-FleetofFeet-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-KingofHearts-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-thesolo-007bff.svg"> 
+<img src="https://img.shields.io/badge/RES-CaptOrange-007bff.svg">
+<img src="https://img.shields.io/badge/RES-DarkKnight-007bff.svg">
+<img src="https://img.shields.io/badge/RES-DRBragg-007bff.svg">
+<img src="https://img.shields.io/badge/RES-FleetofFeet-007bff.svg">
+<img src="https://img.shields.io/badge/RES-KingofHearts-007bff.svg">
+<img src="https://img.shields.io/badge/RES-thesolo-007bff.svg"> 
 </td></tr><tr><td>
 <a href="https://youtu.be/ds0eLz8Jxhc" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/2N5KdihkstI" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
