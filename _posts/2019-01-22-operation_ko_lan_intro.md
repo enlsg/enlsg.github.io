@@ -35,6 +35,7 @@ Although this is a global challenge, ENL SG is happy to have local representatio
 Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
 #### Enlightened Teams
+{: .text-center .mb-4}
 <table class="table table-sm">
 <tbody>
   <tr>
@@ -183,6 +184,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 </table>
 
 #### Resistance Teams
+{: .text-center .mb-4}
 <table class="table table-sm">
 <tbody>
   <tr>
