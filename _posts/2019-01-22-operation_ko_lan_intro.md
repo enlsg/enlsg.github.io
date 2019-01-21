@@ -28,7 +28,7 @@ Fourteen teams comprising of six members each with seven from each faction have 
 Described as the Ultimate Ingress Challenge, successful applicants will be brought to the remote island of Ko Lan in Thailand, with travel, food, and lodging expenses fully paid for by the NIA. 
 It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges.
 <br/><br/>
-ENL SG has representation in Team F, named "Six". You might even know some of them personally!
+Although this is a global challenge, ENL SG is happy to have representation in Team F, named "Six". You might even know some of them personally!
 <br/><br/>
 Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
@@ -264,3 +264,67 @@ Click on the Youtube links to view each team's individual personalities / skills
     </tr>
 </tbody>
 </table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team E: Nightfury </th>
+  </tr>
+    <tr>
+      <td>
+<img src="https://img.shields.io/badge/RES-verdreher-007bff.svg">
+<img src="https://img.shields.io/badge/RES-h4eschen-007bff.svg">
+<img src="https://img.shields.io/badge/RES-JackKenway-007bff.svg">
+<img src="https://img.shields.io/badge/RES-BTKrisztian-007bff.svg">
+<img src="https://img.shields.io/badge/RES-FireWorksX-007bff.svg">
+<img src="https://img.shields.io/badge/RES-nibiru-007bff.svg"> 
+</td></tr><tr><td>
+<a href="https://youtu.be/4SOwjyO8m7c" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/4s6_2wqWC6M" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team F: GiantSquirrel </th>
+  </tr>
+    <tr>
+      <td>
+<img src="https://img.shields.io/badge/RES-GiantSquirrel-007bff.svg">
+<img src="https://img.shields.io/badge/RES-earthtraveler5-007bff.svg">
+<img src="https://img.shields.io/badge/RES-Chics-007bff.svg">
+<img src="https://img.shields.io/badge/RES-ITLed-007bff.svg">
+<img src="https://img.shields.io/badge/RES-Techknow-007bff.svg">
+<img src="https://img.shields.io/badge/RES-Kromoggo-007bff.svg"> 
+</td></tr><tr><td>
+<a href="https://youtu.be/nTkzZvf-CDo" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/lrgc0OeJCbU" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team G: Tango 6 </th>
+  </tr>
+    <tr>
+      <td>
+<img src="https://img.shields.io/badge/RES-dasKupfer-007bff.svg">
+<img src="https://img.shields.io/badge/RES-FuZeBx-007bff.svg">
+<img src="https://img.shields.io/badge/RES-whitecrash-007bff.svg">
+<img src="https://img.shields.io/badge/RES-onecino-007bff.svg">
+<img src="https://img.shields.io/badge/RES-kblackie90-007bff.svg">
+<img src="https://img.shields.io/badge/RES-DongXiaoMiau-007bff.svg"> 
+</td></tr><tr><td>
+<a href="https://youtu.be/HKgUPx4SYr4" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/jFK509TMbQo" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+      </td>
+    </tr>
+</tbody>
+</table>
+
