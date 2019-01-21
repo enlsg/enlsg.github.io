@@ -28,14 +28,14 @@ Fourteen teams comprising of six members each and seven teams from each faction 
 Described as the Ultimate Ingress Challenge, successful applicants will be brought to the remote island of Ko Lan in Thailand, with travel, food, and lodging expenses fully paid for by the NIA. 
 It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges.
 <br/><br/>
-ENL SG has representation in F), named "Team Six".  
+ENL SG has representation in Team F, named "Six". You might even know some of them personally!
 <br/>
 Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">A) ENL Team Centauro</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team A: Centauro</th>
   </tr>
     <tr>
       <td>
@@ -56,7 +56,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">B) ENL Team Ex Machina</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team B: Ex Machina</th>
   </tr>
     <tr>
       <td>
@@ -77,7 +77,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">C) ENL Team Green Ninja</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team C: Green Ninja</th>
   </tr>
     <tr>
       <td>
@@ -98,7 +98,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">D) ENL Team Jungle Bundle</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team D: Jungle Bundle</th>
   </tr>
     <tr>
       <td>
@@ -119,7 +119,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">E) ENL Team Sapporo PC</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team E: Sapporo PC</th>
   </tr>
     <tr>
       <td>
@@ -140,28 +140,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">E) ENL Team Sapporo PC</th>
-  </tr>
-    <tr>
-      <td>
-<img src="https://img.shields.io/badge/ENL-OkinawaHiroT-limegreen.svg">
-<img src="https://img.shields.io/badge/ENL-HybridOrbital-limegreen.svg">
-<img src="https://img.shields.io/badge/ENL-katops-limegreen.svg">
-<img src="https://img.shields.io/badge/ENL-KxnxuxeTxuxsxi-limegreen.svg">
-<img src="https://img.shields.io/badge/ENL-TAT21-limegreen.svg">
-<img src="https://img.shields.io/badge/ENL-Tokiyomi-limegreen.svg"> 
-<br/>
-<a href="https://youtu.be/gObaRrqY2OU" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
-<a href="https://youtu.be/091xcqXMvsI" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
-      </td>
-    </tr>
-</tbody>
-</table>
-
-<table class="table table-sm">
-<tbody>
-  <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">F) ENL Team Six</th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team F: Six</th>
   </tr>
     <tr>
       <td>
@@ -182,7 +161,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">G) ENL Team TimberTigers </th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">ENL Team G: TimberTigers </th>
   </tr>
     <tr>
       <td>
