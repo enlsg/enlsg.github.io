@@ -47,8 +47,7 @@ Here are the video's for each team's individual personalities / skills and commu
 <img src="https://img.shields.io/badge/ENL-TheGuySmiling-limegreen.svg"> 
 <br/><br/>
 <a href="https://youtu.be/KTXuC-CNxlE" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
-<br/>
-<a href="https://youtu.be/O1qM9X5o4mQ" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000">
+<a href="https://youtu.be/O1qM9X5o4mQ" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 
 
       </td>
