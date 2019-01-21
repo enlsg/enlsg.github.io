@@ -30,7 +30,7 @@ It's no holiday resort, as they will be put to the test by NIA's Tactical and Ki
 <br/><br/>
 ENL SG has representation in F), named "Team Six".  
 <br/>
-Here are the video's for each team's individual personalities / skills and community contribution. 
+Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
 <table class="table table-sm">
 <tbody>
@@ -48,8 +48,6 @@ Here are the video's for each team's individual personalities / skills and commu
 <br/><br/>
 <a href="https://youtu.be/KTXuC-CNxlE" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/O1qM9X5o4mQ" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
-
-
       </td>
     </tr>
 </tbody>
@@ -62,9 +60,15 @@ Here are the video's for each team's individual personalities / skills and commu
   </tr>
     <tr>
       <td>
-Formed by RoselessThorn, darknyght00, AsunaYui, Magnus09, 0xH3XLUTHOR, wrenchflats
-<br/>Video about individual personalities and skills (https://youtu.be/xFn6vzppT4E)
-<br/>Video about community contribution (https://youtu.be/x4XMTmQkunM)
+<img src="https://img.shields.io/badge/ENL-RoselessThorn-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-darknyght00-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-AsunaYui-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-Magnus09-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-0xH3XLUTHOR-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-wrenchflats-limegreen.svg"> 
+<br/><br/>
+<a href="https://youtu.be/xFn6vzppT4E" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/xFn6vzppT4E" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
     </tr>
 </tbody>
