@@ -182,7 +182,7 @@ Click on the Youtube links to view each team's individual personalities / skills
     </tr>
 </tbody>
 </table>
-<br/><br/><br/>
+<br/><br/>
 #### Resistance Teams
 {: .text-center .mb-1 .mt-3}
 <table class="table table-sm">
