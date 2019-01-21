@@ -29,7 +29,7 @@ Described as the Ultimate Ingress Challenge, successful applicants will be broug
 It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges.
 <br/><br/>
 ENL SG has representation in Team F, named "Six". You might even know some of them personally!
-<br/>
+<br/><br/>
 Click on the Youtube links to view each team's individual personalities / skills and community contribution. 
 
 <table class="table table-sm">
@@ -172,10 +172,34 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-smokedmonkee-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-nukedcookie-limegreen.svg"> 
 </td></tr><tr><td>
-<a href="https://youtu.be/9Lr_FLGiaTc" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
-<a href="https://youtu.be/w3saInIpSRg" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/UZeO55-GNwQ" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/czN5NABQehE" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
     </tr>
 </tbody>
 </table>
+
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team A: FoxtrotTangoWhiskey </th>
+  </tr>
+    <tr>
+      <td>
+<img src="https://img.shields.io/badge/ENL-CaptOrange-007bff.svg">
+<img src="https://img.shields.io/badge/ENL-DarkKnight-007bff.svg">
+<img src="https://img.shields.io/badge/ENL-DRBragg-007bff.svg">
+<img src="https://img.shields.io/badge/ENL-FleetofFeet-007bff.svg">
+<img src="https://img.shields.io/badge/ENL-KingofHearts-007bff.svg">
+<img src="https://img.shields.io/badge/ENL-thesolo-007bff.svg"> 
+</td></tr><tr><td>
+<a href="https://youtu.be/ds0eLz8Jxhc" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/2N5KdihkstI" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+      </td>
+    </tr>
+</tbody>
+</table>
+
+
 
