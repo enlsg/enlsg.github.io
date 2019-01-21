@@ -204,16 +204,16 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team B: FoxtrotTangoWhiskey </th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team B: Goldfish </th>
   </tr>
     <tr>
       <td>
-<img src="https://img.shields.io/badge/ENL-mothergoose-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-appastair-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-spectotr-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-lacera-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-andafter-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-boomfish-007bff.svg"> 
+<img src="https://img.shields.io/badge/RES-mothergoose-007bff.svg">
+<img src="https://img.shields.io/badge/RES-appastair-007bff.svg">
+<img src="https://img.shields.io/badge/RES-spectotr-007bff.svg">
+<img src="https://img.shields.io/badge/RES-lacera-007bff.svg">
+<img src="https://img.shields.io/badge/RES-andafter-007bff.svg">
+<img src="https://img.shields.io/badge/RES-boomfish-007bff.svg"> 
 </td></tr><tr><td>
 <a href="https://youtu.be/yQMDs0XBjKg" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/PiV0E-g8NpY" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
@@ -225,16 +225,16 @@ Click on the Youtube links to view each team's individual personalities / skills
 <table class="table table-sm">
 <tbody>
   <tr>
-  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team B: FoxtrotTangoWhiskey </th>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team C: Hikyaku Asia</th>
   </tr>
     <tr>
       <td>
-<img src="https://img.shields.io/badge/ENL-wzh-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-renkur-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-shutupthere-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-maxfalcon2-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-ryugoA-007bff.svg">
-<img src="https://img.shields.io/badge/ENL-mattun0924-007bff.svg"> 
+<img src="https://img.shields.io/badge/RES-wzh-007bff.svg">
+<img src="https://img.shields.io/badge/RES-renkur-007bff.svg">
+<img src="https://img.shields.io/badge/RES-shutupthere-007bff.svg">
+<img src="https://img.shields.io/badge/RES-maxfalcon2-007bff.svg">
+<img src="https://img.shields.io/badge/RES-ryugoA-007bff.svg">
+<img src="https://img.shields.io/badge/RES-mattun0924-007bff.svg"> 
 </td></tr><tr><td>
 <a href="https://youtu.be/Vtkie9jJ9Ds" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/K6nq9ZVoQD8" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
@@ -243,3 +243,24 @@ Click on the Youtube links to view each team's individual personalities / skills
 </tbody>
 </table>
 
+
+<table class="table table-sm">
+<tbody>
+  <tr>
+  <th colspan="5" style="font-size: 1.2em;background:#ddd;color:black;">RES Team D: Loona </th>
+  </tr>
+    <tr>
+      <td>
+<img src="https://img.shields.io/badge/RES-heavenmaiden-007bff.svg">
+<img src="https://img.shields.io/badge/RES-ConsiliumDei1-007bff.svg">
+<img src="https://img.shields.io/badge/RES-retraut-007bff.svg">
+<img src="https://img.shields.io/badge/RES-Gryb-007bff.svg">
+<img src="https://img.shields.io/badge/RES-DeepEvIL-007bff.svg">
+<img src="https://img.shields.io/badge/RES-xuxukc-007bff.svg"> 
+</td></tr><tr><td>
+<a href="https://youtu.be/Il0EwonUarA" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+<a href="https://youtu.be/Bur2xYP3nS0" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
+      </td>
+    </tr>
+</tbody>
+</table>
