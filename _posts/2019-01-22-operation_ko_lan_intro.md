@@ -27,7 +27,7 @@ categories: news
 Twelve teams comprising of six from each faction have been selected to participate in qualifying for [Operation Ko Lan](https://events.ingress.com/operationkolan){: target="_blank"}. 
 Described as the Ultimate Ingress Challenge, successful applicants will be brought to the remote island of Ko Lan in Thailand, with travel, food, and lodging expenses fully paid for by the NIA. 
 It's no holiday resort, as they will be put to the test by NIA's Tactical and Kinetic Operations special forces to complete a series of intense physical and strategy challenges.
-<br/>
+<br/><br/>
 ENL SG has representation in F), named "Team Six".  
 <br/>
 Here are the video's for each team's individual personalities / skills and community contribution. 
@@ -39,9 +39,16 @@ Here are the video's for each team's individual personalities / skills and commu
   </tr>
     <tr>
       <td>
-Formed by yazminqc, BlueThug, MelyGG, MK1310s, suy, TheGuySmiling
-- Video about individual personalities and skills (https://youtu.be/KTXuC-CNxlE)
-- Video about community contribution (https://youtu.be/O1qM9X5o4mQ)         
+<img src="https://img.shields.io/badge/ENL-yazminqc-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-BlueThug-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-MelyGG-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-MK1310s-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-suy-limegreen.svg">
+<img src="https://img.shields.io/badge/ENL-TheGuySmiling-limegreen.svg"> 
+<br/>
+[Individual personalities and skills](https://youtu.be/KTXuC-CNxlE){: target="_blank"}
+<br/>
+[community contribution](https://youtu.be/O1qM9X5o4mQ){: target="_blank"}
       </td>
     </tr>
 </tbody>
@@ -55,8 +62,8 @@ Formed by yazminqc, BlueThug, MelyGG, MK1310s, suy, TheGuySmiling
     <tr>
       <td>
 Formed by RoselessThorn, darknyght00, AsunaYui, Magnus09, 0xH3XLUTHOR, wrenchflats
-- Video about individual personalities and skills (https://youtu.be/xFn6vzppT4E)
-- Video about community contribution (https://youtu.be/x4XMTmQkunM)
+<br/>Video about individual personalities and skills (https://youtu.be/xFn6vzppT4E)
+<br/>Video about community contribution (https://youtu.be/x4XMTmQkunM)
       </td>
     </tr>
 </tbody>
