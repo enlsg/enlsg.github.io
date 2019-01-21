@@ -46,8 +46,10 @@ Here are the video's for each team's individual personalities / skills and commu
 <img src="https://img.shields.io/badge/ENL-suy-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-TheGuySmiling-limegreen.svg"> 
 <br/>
+
 [Individual personalities and skills](https://youtu.be/KTXuC-CNxlE){: target="_blank"}
 <br/>
+
 [community contribution](https://youtu.be/O1qM9X5o4mQ){: target="_blank"}
       </td>
     </tr>
