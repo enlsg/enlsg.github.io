@@ -66,7 +66,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-Magnus09-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-0xH3XLUTHOR-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-wrenchflats-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/xFn6vzppT4E" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/x4XMTmQkunM" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
@@ -108,7 +108,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-LEYNADMAR-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-PascalRoose-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-TropperCZ-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/fzRoip81RL0" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/Bta6t3zYodg" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
@@ -129,7 +129,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-KxnxuxeTxuxsxi-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-TAT21-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-Tokiyomi-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/gObaRrqY2OU" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/091xcqXMvsI" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
@@ -150,7 +150,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-KxnxuxeTxuxsxi-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-TAT21-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-Tokiyomi-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/gObaRrqY2OU" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/091xcqXMvsI" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
@@ -171,7 +171,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-yaturugi-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-KonaExplosif-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-Fushigidane-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/9Lr_FLGiaTc" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/w3saInIpSRg" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
@@ -192,7 +192,7 @@ Click on the Youtube links to view each team's individual personalities / skills
 <img src="https://img.shields.io/badge/ENL-luckydragon-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-smokedmonkee-limegreen.svg">
 <img src="https://img.shields.io/badge/ENL-nukedcookie-limegreen.svg"> 
-<br/><br/>
+<br/>
 <a href="https://youtu.be/9Lr_FLGiaTc" target="_blank"><img src="https://img.shields.io/badge/youtube-Individual%20personalities%20and%20skills-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
 <a href="https://youtu.be/w3saInIpSRg" target="_blank"><img src="https://img.shields.io/badge/youtube-Community%20Contribution-FF0000.svg?logo=youtube&logoColor=FF0000"></a>
       </td>
