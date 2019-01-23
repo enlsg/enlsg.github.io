@@ -108,6 +108,8 @@ This post will be updated once more details are in.
 		map.on('mouseleave', 'unclustered-point', function() {
 		    map.getCanvas().style.cursor = '';
 		});
+
+	});	
 </script>
 
 
