@@ -38,6 +38,7 @@ This post will be updated once more details are in.
 		center: [103.860755,1.301481],
 		style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
 		zoom: 15.0,
+		attributionControl: false,
 		container: 'map'
 		//style: 'mapbox://styles/mapbox/streets-v11'
 	});
