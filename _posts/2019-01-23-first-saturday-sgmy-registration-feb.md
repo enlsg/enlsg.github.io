@@ -8,7 +8,7 @@ pin_home: true
 ---
 ![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
-Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00p,-2%20Feb%202019-orange.svg) 
+Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00p,-2%20Feb%202019-orange.svg), which is a little more than a week away
 
 Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic after the event.
 
@@ -16,7 +16,7 @@ There will also be a special restocking portal after the event.
 
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=11075){: .btn .btn-enlightened target="_blank"}
 
-For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a> [
+For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a> 
 
 This post will be updated once more details are in.
 
