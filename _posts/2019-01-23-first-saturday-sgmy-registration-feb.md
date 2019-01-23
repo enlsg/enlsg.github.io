@@ -64,7 +64,9 @@ This post will be updated once more details are in.
 		    "data": {
 		        "type": "FeatureCollection",
 		        "features": [
-					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.860755,1.301481]},"properties": {"title":"Seow Choon Hua", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/TSaC_NRpZ2sULjeAg2Kwn0h-pIWQQnEkymIPmkpmgzoB07_Cntme-3XM1_lM796J9DURmUkqHh_mf9lXrHjZ", "id":"103.860755,1.301481", "desc": "Registration Portal"  }}}
+
+
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.860755,1.301481]},"properties": {"title":"Seow Choon Hua", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/TSaC_NRpZ2sULjeAg2Kwn0h-pIWQQnEkymIPmkpmgzoB07_Cntme-3XM1_lM796J9DURmUkqHh_mf9lXrHjZ", "id":"103.860755,1.301481", "desc": "Registration Portal"  }}
 
 		        ]
 		    }
