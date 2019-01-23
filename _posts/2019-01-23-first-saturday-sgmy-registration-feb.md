@@ -4,7 +4,7 @@ title:  Singapore IngressFS Registration for February 2019
 description: Ingress First Saturday is a cross-faction event organised and run by agents, for agents on the First Saturday of each month.!
 date:   2018-01-23 13:12:00 +0800
 categories: news
-pinned: true
+pin_home: true
 ---
 ![ingress fs](/assets/images/news/ifs.jpg){: .fill-width}
 
