@@ -8,6 +8,21 @@ pin_home: true
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+	.mapboxgl-popup {
+	  max-width: 260px;
+	  max-height: 358px;
+	}
+	.mapboxgl-popup-content {
+	  text-align: center;
+	  font-family: 'Open Sans', sans-serif;
+	}
+	.img2 {
+		text-align: left;
+		height:340px;
+		width:240px;
+	}
+</style>
 ![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
 Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00pm-02%20Feb%202019-orange.svg) which is just 10 days away.
@@ -110,6 +125,35 @@ This post will be updated once more details are in.
 
 		map.on('mouseleave', 'unclustered-point', function() {
 		    map.getCanvas().style.cursor = '';
+		});
+
+		map.on('click', function(e) {
+
+		  var features = map.queryRenderedFeatures(e.point, {
+		    layers: ['unclustered-point'] // replace this with the name of the layer
+		  });
+
+		  if (!features.length) {
+		    return;
+		  }
+
+		  var feature = features[0];
+
+		  var title = feature.properties.title;
+		  var image = feature.properties.i;
+		  var desc = feature.properties.desc;
+		  var latlng = feature.properties.id;
+
+		  var data = '<div class="img2" id="p103.818165,1.270491" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:228px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green;" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
+
+
+
+		  var popup = new mapboxgl.Popup({ offset: [0, 0] })
+		    .setLngLat(feature.geometry.coordinates)
+		    .setHTML(data)
+		    .setLngLat(feature.geometry.coordinates)
+		    .addTo(map);
+
 		});
 
 
