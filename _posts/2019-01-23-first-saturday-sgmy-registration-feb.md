@@ -6,6 +6,8 @@ date:   2019-01-23 13:12:00 +0800
 categories: news
 pin_home: true
 ---
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
 ![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
 Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00pm-02%20Feb%202019-orange.svg) which is just 10 days away.
@@ -28,6 +30,83 @@ This post will be updated once more details are in.
 {: .table}
 
 {: .mb-5}
+
+<div id='map' style='height: 300px;'></div>{: .fill-width}
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
+		var map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mapbox/streets-v11'
+	});
+
+	map.addControl(new mapboxgl.ScaleControl({
+	    maxWidth: 100,
+	    unit: 'metric'
+	}));
+
+
+	map.addControl(new mapboxgl.GeolocateControl({
+	    positionOptions: {
+	        enableHighAccuracy: true
+	    },
+	    fitBoundsOptions: {maxZoom: 18}
+	    //trackUserLocation: true
+	}));
+
+	map.addControl(new mapboxgl.NavigationControl());
+
+	map.on('load', function () {
+
+
+		map.addSource("portal_data", {
+		    "type": "geojson",
+		    "data": {
+		        "type": "FeatureCollection",
+		        "features": [
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.860755,1.301481]},"properties": {"title":"Seow Choon Hua", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/TSaC_NRpZ2sULjeAg2Kwn0h-pIWQQnEkymIPmkpmgzoB07_Cntme-3XM1_lM796J9DURmUkqHh_mf9lXrHjZ", "id":"103.860755,1.301481", "desc": "Registration Portal"  }}}
+
+		        ]
+		    }
+		});
+
+
+
+		map.addLayer({
+		    id: "unclustered-point",
+		    type: "symbol",
+		    source: "portal_data",
+		    layout: {
+		        "icon-image": "marker-11",
+		        "icon-optional": true,
+		        "text-size": 11.45,
+		        "text-field": "{title}",
+		        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+		        "text-offset": [0, 0.9],
+		        "text-anchor": "top"
+		    },
+			"paint": {
+			    //"text-color": "#EBEDEF",
+			    "text-color": "#c7cbd1",
+			    "text-opacity": 0.9,
+			    "text-halo-color": "#131c20",
+	            "text-halo-blur": 0.0,
+	            "text-halo-width": 1
+			}
+		});
+
+
+
+
+		map.on('mouseenter', 'unclustered-point', function(e) {
+		    // Change the cursor style as a UI indicator.
+		    map.getCanvas().style.cursor = 'pointer';
+		 });
+
+		map.on('mouseleave', 'unclustered-point', function() {
+		    map.getCanvas().style.cursor = '';
+		});
+</script>
+
 
 ENL IFS POCs<br/>
 <img src="https://img.shields.io/badge/L13-Yacatect-28a745.svg?colorA=darkgray&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAAAXNSR0IArs4c6QAAAlJJREFUOBGtk0toU0EYhc99pjcx5mGRhqbapKhRqaW21lppIyh25QtBVz4oCEpx4VYEF0oXdaGuFJSiK2mIyyIi0lZQ24Xgwj6UKkXUGqqmIokmub3jmVt00wi+DvnIzPn/OXfuZAIA68j/UkgGTZNGOfhH+bn+vswQ5Bs5RTTyN9rORVNEZkGcS7QJE6qcyCf4pPkHOsHe+W2BahH1+BYCR7ceEv1Ne0XcG3RYHCWtvxEoz+umpRn22VXtYqy5S9R5A0KXC82Sgi3+Kgxs3q90Pb3T8jj77jLtWyQu62WUoxdebvoO923ahQ1GEMVCyW1zA+VIn1ewVDHRm+hAcjTV4DjOFdrHG8MRI6YF3GZNU5HOTEAIcYNGR3d1CxrVEJR5oOh2AKr8LhkCDo9Q5QvXmkHsrlztoX2E3PWWHFxasxNX1yeRDEdlWIb+g5BhxbsiiYWTp8H9gJ+FwJ4Xj/DZtqFqBkw4OBBdC4+mJ1mfeJL7iGdfP2HOsXH+5UNaSJPek7Fm6NyOomgoGsDAzATeFPPuNZmezGdrUpnnEb9WoUStCkS8fgzPvlbeF3OvbOHki45d44GB/sx4gS8xtEQ3O0/XtcKiN5x9izOTg+JaZvyD7TgX5RN/qJsDYZmm6KvfJ9INB+UVyJONpOTRdTm/QO7tCK0QI01HRX2gSnqSFCl7h2Ms9GiqNte+LCa4E9ncQ4bIDJHhhfbKlSKkubXbnCdJ2TD6P1XL0SD5QsbIHnKdHCMFIv8VnWSR5A/zK/Go0UZMIsPlRbZIAxkhs2SRvgMgV7kSB0nKVQAAAABJRU5ErkJggg=="> <a href="https://t.me/Azerlete" target="_blank"><img src="https://img.shields.io/badge/Telegram-Azerlete-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a>
