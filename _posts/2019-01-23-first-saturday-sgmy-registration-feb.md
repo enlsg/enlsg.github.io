@@ -84,7 +84,7 @@ This post will be updated once more details are in.
 		        "features": [
 
 
-					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.860755,1.301481]},"properties": {"title":"Seow Choon Hua", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/TSaC_NRpZ2sULjeAg2Kwn0h-pIWQQnEkymIPmkpmgzoB07_Cntme-3XM1_lM796J9DURmUkqHh_mf9lXrHjZ", "id":"103.860755,1.301481", "desc": "Registration Portal"  }}
+					{"type":"Feature","geometry":{"type":"Point","coordinates":[103.860755,1.301481]},"properties": {"title":"Seow Choon Hua", "p":"N", "d": "N", "i": "https://lh3.ggpht.com/TSaC_NRpZ2sULjeAg2Kwn0h-pIWQQnEkymIPmkpmgzoB07_Cntme-3XM1_lM796J9DURmUkqHh_mf9lXrHjZ", "id":"103.860755,1.301481", "desc": "IFS Registration Portal"  }}
 
 		        ]
 		    }
@@ -144,7 +144,7 @@ This post will be updated once more details are in.
 		  var desc = feature.properties.desc;
 		  var latlng = feature.properties.id;
 
-		  var data = '<div class="img2" id="p103.818165,1.270491" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:228px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green;" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
+		  var data = '<div class="img2" id="p' + latlng + '" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:228px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green; font-weight: bold" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
 
 
 
