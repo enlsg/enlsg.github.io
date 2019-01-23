@@ -89,8 +89,8 @@ This post will be updated once more details are in.
 		        "text-anchor": "top"
 		    },
 			"paint": {
-			    //"text-color": "#EBEDEF",
-			    "text-color": "#c7cbd1",
+			    "text-color": "#EBEDEF",
+			    //"text-color": "#c7cbd1",
 			    "text-opacity": 0.9,
 			    "text-halo-color": "#131c20",
 	            "text-halo-blur": 0.0,
