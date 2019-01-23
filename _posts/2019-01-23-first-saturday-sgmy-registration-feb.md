@@ -35,6 +35,7 @@ This post will be updated once more details are in.
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
 		var map = new mapboxgl.Map({
+		center: [103.860755,1.301481],
 		container: 'map',
 		style: 'mapbox://styles/mapbox/streets-v11'
 	});
