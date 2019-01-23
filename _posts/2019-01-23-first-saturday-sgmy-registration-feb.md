@@ -111,6 +111,56 @@ This post will be updated once more details are in.
 		    map.getCanvas().style.cursor = '';
 		});
 
+
+		// Insert the layer beneath any symbol layer.
+		var layers = map.getStyle().layers;
+
+		var labelLayerId;
+		for (var i = 0; i < layers.length; i++) {
+		    if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+		        labelLayerId = layers[i].id;
+		        break;
+		    }
+		}
+
+		map.addLayer({
+		    'id': '3d-map',
+		    'source': 'composite',
+		    'source-layer': 'building',
+		    'filter': ['==', 'extrude', 'true'],
+		    'type': 'fill-extrusion',
+		    'minzoom': 15,
+		    'paint': {
+		        //'fill-extrusion-color': '#5D6D7E',
+		        'fill-extrusion-color': '#EBEDEF',
+
+		        //'fill-extrusion-color': {
+		        //    "property": "height",
+		        //    "stops":[
+		        //        [2.75, "rgb(220, 239, 151)"], // 1 floor
+		        //        [5.5, "rgb(178, 234, 129)"],  // 2 floors
+		        //        [13.75, "rgb(122, 217, 141)"],// 5 floors
+		        //        [27.5, "rgb(65, 184, 164)"],  // 10 floors
+		        //        [55, "rgb(8, 69, 148)"]       // 20 floors
+		        //    ]
+		        //},
+
+		        // use an 'interpolate' expression to add a smooth transition effect to the
+		        // buildings as the user zooms in
+		        'fill-extrusion-height': [
+		            "interpolate", ["linear"], ["zoom"],
+		            15, 0,
+		            15.05, ["get", "height"]
+		        ],
+		        'fill-extrusion-base': [
+		            "interpolate", ["linear"], ["zoom"],
+		            15, 0,
+		            15.05, ["get", "min_height"]
+		        ],
+		        'fill-extrusion-opacity': 0.3
+		    }
+		}, labelLayerId);
+
 	});	
 </script>
 
