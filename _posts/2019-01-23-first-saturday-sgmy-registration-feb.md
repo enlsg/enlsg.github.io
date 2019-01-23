@@ -20,6 +20,12 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 
 This post will be updated once more details are in.
 
+#### Activities on 2 February 2019
+{: .text-center .mt-5 .mb-4}
+
+| 12 PM | Check In / Hack Reg Portal |
+{: .table}
+
 |<i class="fas fa-burn"></i>|Registration Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}|
 |<i class="fas fa-burn"></i>|Restocking Portal: __Wall of art__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301978,103.860891){: target="_blank"}|
 {: .mb-3}
