@@ -8,7 +8,7 @@ pin_home: true
 ---
 ![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
-Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00p,-2%20Feb%202019-orange.svg), which is a little more than a week away
+Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00pm-20Feb%202019-orange.svg), which is a little more than a week away.
 
 Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic after the event.
 
