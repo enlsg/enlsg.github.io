@@ -6,7 +6,7 @@ date:   2019-01-23 13:12:00 +0800
 categories: news
 pin_home: true
 ---
-![ingress fs](/assets/images/news/ifs.jpg){: .fill-width}
+![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
 Singapore's 2nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/12:00p,-2%20Feb%202019-orange.svg) 
 
@@ -16,11 +16,11 @@ There will also be a special restocking portal after the event.
 
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=11075){: .btn .btn-enlightened target="_blank"}
 
-For official announcements, join [SG IFS TG Channel](https://t.me/SingaporeIngressFS){: .link-telegram}
+For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a> [
 
-This post will be update once more details are in.
+This post will be updated once more details are in.
 
-|<i class="fas fa-burn"></i>|Reg Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}|
+|<i class="fas fa-burn"></i>|Registration Portal: __Seow Choon Hua__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301481,103.860755){: target="_blank"}|
 |<i class="fas fa-burn"></i>|Restocking Portal: __Wall of art__ - [Intel Link](https://intel.ingress.com/intel?ll=1.301566,103.860973&z=20&pll=1.301978,103.860891){: target="_blank"}|
 {: .mb-3}
 
