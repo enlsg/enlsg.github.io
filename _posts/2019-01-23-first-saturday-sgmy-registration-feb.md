@@ -35,7 +35,6 @@ There will also be a special restocking portal after the event.
 
 For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a> 
 
-This post will be updated once more details are in.
 
 #### Activities on 2 February 2019
 {: .text-center .mt-5 .mb-4}
