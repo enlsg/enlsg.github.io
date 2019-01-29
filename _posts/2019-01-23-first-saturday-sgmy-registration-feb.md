@@ -57,7 +57,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		var map = new mapboxgl.Map({
 		center: [103.851091,1.348975],
 		style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
-		zoom: 14.0,
+		zoom: 16.5,
 		attributionControl: false,
 		container: 'map'
 		//style: 'mapbox://styles/mapbox/streets-v11'
