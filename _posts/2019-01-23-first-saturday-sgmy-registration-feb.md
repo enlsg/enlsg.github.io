@@ -51,13 +51,13 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 ![ingress fs](/assets/images/news/feb_ifs.jpg){: .fill-width}
 //-->
 
-<div id='map' style='height: 300px;'></div>{: .fill-width}
+<div id='map' style='height: 400px;'></div>{: .fill-width}
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
 		var map = new mapboxgl.Map({
 		center: [103.851091,1.348975],
 		style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
-		zoom: 15.0,
+		zoom: 14.0,
 		attributionControl: false,
 		container: 'map'
 		//style: 'mapbox://styles/mapbox/streets-v11'
