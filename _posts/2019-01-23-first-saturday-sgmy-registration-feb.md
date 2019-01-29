@@ -115,10 +115,14 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		        "text-anchor": "top"
 		    },
 			"paint": {
-			    "text-color": "lightsalmon",
-			    //"text-color": "#c7cbd1",
+			    "text-color": "#664f3d",
 			    "text-opacity": 0.9,
-			    "text-halo-color": "#131c20",
+			    "text-halo-color": "#ffffff",
+
+			    //"text-color": "lightsalmon",
+			    //"text-color": "#c7cbd1",
+			    //"text-opacity": 0.9,
+			    //"text-halo-color": "#131c20",
 	            "text-halo-blur": 0.0,
 	            "text-halo-width": 1
 			}
