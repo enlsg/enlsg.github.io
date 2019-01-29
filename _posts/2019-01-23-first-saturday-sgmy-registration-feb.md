@@ -88,12 +88,6 @@ a { text-decoration: none;font-weight: bold; color: #2b2b2b }
 
 <div id='map'></div>
 
-<div class='map-overlay-container'>
-  <div class='map-overlay'>
-    <h2 id='location-title'><img src='/assets/images/news/ifs_logo_new.png'>IFS 2 Feb</h2>
-    <p id='location-description'>Check in at BBQ Pit 2</p>
-  </div>
-</div>
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
