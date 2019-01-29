@@ -80,9 +80,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
     margin: 0 0 5px;
 }
 
-a:link { text-decoration: none;font-weight: bold; } 
-a:visited { text-decoration: none;font-weight: bold; }
-a { text-decoration: none;font-weight: bold; color: #2b2b2b }
+
 
 </style>
 
