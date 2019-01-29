@@ -56,7 +56,8 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
 		var map = new mapboxgl.Map({
 		center: [103.851091,1.348975],
-		style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
+		//style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
+		style: 'mapbox://styles/mapbox/streets-v11',
 		zoom: 16.5,
 		attributionControl: false,
 		container: 'map'
