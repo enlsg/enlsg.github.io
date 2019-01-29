@@ -47,9 +47,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 {: .table}
 
 {: .mb-5}
-<!--
-![ingress fs](/assets/images/news/feb_ifs.jpg){: .fill-width}
-//-->
+
 
 <style>
 .map-overlay-container {
