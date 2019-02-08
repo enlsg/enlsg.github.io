@@ -130,19 +130,19 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 
 
 
-		map3.on('mouseenter', 'unclustered-point', function(e) {
+		map3.on('mouseenter', 'unclustered-point3', function(e) {
 		    // Change the cursor style as a UI indicator.
 		    map3.getCanvas().style.cursor = 'pointer';
 		 });
 
-		map3.on('mouseleave', 'unclustered-point', function() {
+		map3.on('mouseleave', 'unclustered-point3', function() {
 		    map3.getCanvas().style.cursor = '';
 		});
 
 		map3.on('click', function(e) {
 
 		  var features = map3.queryRenderedFeatures(e.point, {
-		    layers: ['unclustered-point'] // replace this with the name of the layer
+		    layers: ['unclustered-point3'] // replace this with the name of the layer
 		  });
 
 		  if (!features.length) {
