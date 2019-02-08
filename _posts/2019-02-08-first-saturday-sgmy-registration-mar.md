@@ -51,26 +51,26 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 ![ingress fs](/assets/images/news/feb_ifs.jpg){: .fill-width}
 //-->
 
-<div id='map' style='height: 400px;'></div>{: .fill-width}
+<div id='map3' style='height: 400px;'></div>{: .fill-width}
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
-		var map = new mapboxgl.Map({
+		var map3 = new mapboxgl.Map({
 		center: [103.815295,1.321826],
 		//style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
 		style: 'mapbox://styles/mapbox/streets-v11',
 		zoom: 17,
 		attributionControl: false,
-		container: 'map'
+		container: 'map3'
 		//style: 'mapbox://styles/mapbox/streets-v11'
 	});
 
-	map.addControl(new mapboxgl.ScaleControl({
+	map3.addControl(new mapboxgl.ScaleControl({
 	    maxWidth: 100,
 	    unit: 'metric'
 	}));
 
 
-	map.addControl(new mapboxgl.GeolocateControl({
+	map3.addControl(new mapboxgl.GeolocateControl({
 	    positionOptions: {
 	        enableHighAccuracy: true
 	    },
@@ -78,12 +78,12 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 	    //trackUserLocation: true
 	}));
 
-	map.addControl(new mapboxgl.NavigationControl());
+	map3.addControl(new mapboxgl.NavigationControl());
 
-	map.on('load', function () {
+	map3.on('load', function () {
 
 
-		map.addSource("portal_data", {
+		map3.addSource("portal_data3", {
 		    "type": "geojson",
 		    "data": {
 		        "type": "FeatureCollection",
@@ -100,10 +100,10 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 
 
 
-		map.addLayer({
-		    id: "unclustered-point",
+		map3.addLayer({
+		    id: "unclustered-point3",
 		    type: "symbol",
-		    source: "portal_data",
+		    source: "portal_data3",
 		    layout: {
 		        "icon-image": "marker-11",
 		        "icon-optional": true,
@@ -130,18 +130,18 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 
 
 
-		map.on('mouseenter', 'unclustered-point', function(e) {
+		map3.on('mouseenter', 'unclustered-point', function(e) {
 		    // Change the cursor style as a UI indicator.
-		    map.getCanvas().style.cursor = 'pointer';
+		    map3.getCanvas().style.cursor = 'pointer';
 		 });
 
-		map.on('mouseleave', 'unclustered-point', function() {
-		    map.getCanvas().style.cursor = '';
+		map3.on('mouseleave', 'unclustered-point', function() {
+		    map3.getCanvas().style.cursor = '';
 		});
 
-		map.on('click', function(e) {
+		map3.on('click', function(e) {
 
-		  var features = map.queryRenderedFeatures(e.point, {
+		  var features = map3.queryRenderedFeatures(e.point, {
 		    layers: ['unclustered-point'] // replace this with the name of the layer
 		  });
 
@@ -164,13 +164,13 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		    .setLngLat(feature.geometry.coordinates)
 		    .setHTML(data)
 		    .setLngLat(feature.geometry.coordinates)
-		    .addTo(map);
+		    .addTo(map3);
 
 		});
 
 
 		// Insert the layer beneath any symbol layer.
-		var layers = map.getStyle().layers;
+		var layers = map3.getStyle().layers;
 
 		var labelLayerId;
 		for (var i = 0; i < layers.length; i++) {
@@ -180,8 +180,8 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		    }
 		}
 
-		map.addLayer({
-		    'id': '3d-map',
+		map3.addLayer({
+		    'id': '3d-map3',
 		    'source': 'composite',
 		    'source-layer': 'building',
 		    'filter': ['==', 'extrude', 'true'],
