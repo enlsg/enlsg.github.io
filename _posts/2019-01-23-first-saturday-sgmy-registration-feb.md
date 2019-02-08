@@ -33,7 +33,7 @@ There will also be a special restocking portal after the event.
 
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=11075){: .btn .btn-enlightened target="_blank"}
 
-For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="Azerlete" /></a> 
+For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="SingaporeIngressFS" /></a> 
 
 
 #### Activities on 2 February 2019
@@ -157,7 +157,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		  var desc = feature.properties.desc;
 		  var latlng = feature.properties.id;
 
-		  var data = '<div class="img2" id="p' + latlng + '" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:228px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green; font-weight: bold" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
+		  var data = '<div class="img2" id="p' + latlng + '" style="font-size: 11px;text-align: left; height:340px; width:240px; border: 1px solid rgba(0,0,0,0.5); background-size: cover; background-repeat:no-repeat; background-position:center;background-image:url(' + image + ') !important"><div style="padding: 6px; padding-bottom:4px; width:238px; position: absolute; background:rgba(255,255,255, 0.7);"><a style="font-size: 12px;color: green; font-weight: bold" href="https://intel.ingress.com/intel?ll=' + latlng + '&z=17&pll=' + latlng + '" target="_blank" >' + title + '</a><br>' + desc + '<br/></div></div>';
 
 
 
