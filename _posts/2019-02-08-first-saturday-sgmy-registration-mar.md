@@ -27,7 +27,7 @@ pin_home: true
 
 Singapore's 3nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/02:00pm-02%20Mar%202019-orange.svg) at the Botanic Gardens.
 
-Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic after the event.
+Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic after the event. So mark your calenders!
 
 There will also be a special restocking portal after the event.
 
