@@ -220,9 +220,10 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 
 	});	
 </script>
-
-
 {: .mt-5}
+
+![IFS Location](/assets/images/news/if_smarch_19.jpg){: .fill-width}
+
 
 ###### IFS POCs
 {: .mt-5 .mb-1}
