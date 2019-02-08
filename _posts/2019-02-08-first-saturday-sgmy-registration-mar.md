@@ -58,7 +58,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 		center: [103.815295,1.321826],
 		//style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
 		style: 'mapbox://styles/mapbox/streets-v11',
-		zoom: 16.5,
+		zoom: 17,
 		attributionControl: false,
 		container: 'map'
 		//style: 'mapbox://styles/mapbox/streets-v11'
