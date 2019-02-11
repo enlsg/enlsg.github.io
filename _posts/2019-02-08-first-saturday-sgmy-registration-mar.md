@@ -222,7 +222,7 @@ For official announcements, join  <a href="https://t.me/SingaporeIngressFS" targ
 </script>
 {: .mt-5}
 
-![IFS Location](/assets/images/news/ifs_march_2019.jpg){: .fill-width}
+![IFS Location](/assets/images/news/ifs_march_2019.png){: .fill-width}
 
 
 ###### IFS POCs
