@@ -21,7 +21,7 @@ Read the entirety of the rules embedded below
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <br/>
-<div><canvas id="the-canvas"></canvas></div>{: .fill-width}
+<div><canvas id="the-canvas" width="100%"></canvas></div>{: .fill-width}
 
 <script>
 // If absolute URL from the remote server is provided, configure the CORS
