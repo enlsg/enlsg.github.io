@@ -14,7 +14,7 @@ Niantic has published the gameplay rules for the upcoming anomaly Darsana Prime.
 Much like Recursion Prime, the event will run continuously for 3 hours. 
 Read the entirety of the rules embedded below
 
-<iframe src="http://docs.google.com/viewer?url=https://enl.sg/assets/files/ING_Darsana-Rules.pdf&embedded=true" width="100%" height="1300" style="width: 100%; height: 1300;" frameborder="0" scrolling="no"></iframe>
+<iframe src="http://docs.google.com/viewer?url=https://enl.sg/assets/files/ING_Darsana-Rules.pdf&embedded=true" width="100%" height="600" style="width: 100%; height: 600;" frameborder="0" scrolling="no"></iframe>
 
 
 
