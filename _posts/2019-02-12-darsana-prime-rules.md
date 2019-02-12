@@ -13,7 +13,7 @@ pin_home: false
   &nbsp; &nbsp;
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
-<canvas id="the-canvas"></canvas>
+<div><canvas id="the-canvas"></canvas></div>{: .fill-width}
 
 
 
