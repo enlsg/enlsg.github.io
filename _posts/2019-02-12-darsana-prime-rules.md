@@ -7,13 +7,20 @@ categories: news
 pin_home: false
 ---
 <script src='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js'></script>
-<div>
-  <button id="prev">Previous</button>
-  <button id="next">Next</button>
-  &nbsp; &nbsp;
-  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+
+<div class="row">
+   <div class="col-md-1" style="padding-right: 15px;">
+     <input type="button" ng-click="openPreviousPage()"/>
+   </div>
+   <div class="col-md-8">
+     <canvas id="the-canvas" style="border: 1px solid black;"></canvas>
+    </div>
+    <div class="col-md-1 col-md-offset-2" style="padding-right:15px;">
+      <input type="button" ng-click="openNextPage()" />
+    </div>
 </div>
-<canvas id="the-canvas"></canvas>
+
+
 <script>
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
