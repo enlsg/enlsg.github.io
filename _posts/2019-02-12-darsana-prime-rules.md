@@ -1,7 +1,7 @@
 ---
 layout: single-post
-title:  Darsana Prime Rules
-description: Anomaly rules for Darsana Prime in Feb/Mar 2019
+title:  Darsana Prime Anomaly Gameplay Rules
+description: Updated gameplay rules for Darsana Prime anomaly happening in Feb/Mar 2019
 date:   2019-02-12 10:56:00 +0800
 categories: news
 pin_home: false
@@ -13,6 +13,7 @@ pin_home: false
   &nbsp; &nbsp;
   <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
+<br/>
 <div><canvas id="the-canvas"></canvas></div>{: .fill-width}
 
 
@@ -32,7 +33,7 @@ var pdfDoc = null,
     pageNum = 1,
     pageRendering = false,
     pageNumPending = null,
-    scale = 0.8,
+    scale = 0.5,
     canvas = document.getElementById('the-canvas'),
     ctx = canvas.getContext('2d');
 
