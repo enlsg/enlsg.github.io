@@ -1,6 +1,6 @@
 ---
 layout: single-post
-title:  Darsana Prime Anomaly Gameplay Rules
+title:  Darsana Prime Anomaly Rules
 description: Updated gameplay rules for Darsana Prime anomaly happening in Feb/Mar 2019
 date:   2019-02-12 10:56:00 +0800
 categories: news
