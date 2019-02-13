@@ -22,8 +22,7 @@ The Darsana Prime XM Anomaly POCs of the Faction that wins this challenge will b
 <br/>
 The Shapers might step in if the POCs can’t come to a consensus.
 
-<br/>
-This section will be updated once Niantic posts new scores.
+This section will be updated once Niantic posts new scores.<br/>
 Current Standing is as follows: 
 
 <div class="row justify-content-center mb-3">
