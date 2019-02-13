@@ -19,6 +19,8 @@ The Darsana Prime XM Anomaly POCs of the Faction that wins this challenge will b
 <li>Stasis: Double mitigation from links and XMP damage will only be at 75% of normal.</li>
 <li>Instability: Half mitigation from links and XMP damage will be 125% of normal.</li>
 <li>Loyalty: Opposite Faction portal hack output will decrease 50% and same Faction portal output will increase 20%.</li>
+<br/>
+The Shapers might step in if the POCs can’t come to a consensus.
 
 <br/>
 This section will be updated once Niantic posts new scores.
