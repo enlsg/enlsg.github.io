@@ -14,7 +14,7 @@ Between ![9 Feb 2019 2:00am](https://img.shields.io/badge/02:00am-09%20Feb%20201
 
 Niantic further clarified what consititues as a "Unique Hack".
 
-<blockquote>The number being measured will be the number of different portals hacked per faction: each portal will count towards the faction's total if it is hacked by anyone from that faction, at least once during the event. It does not affect the outcome if an Agent already hacked the portal before the event (whether or not it is a new unique portal for them individually). Any action other than hacking (e.g. capture, deploying, etc.) will not affect the outcome of the challenge.</blockquote>
+<blockquote>The number being measured will be the number of different portals hacked per faction: each portal will count towards the faction's total if it is hacked by anyone from that faction, at least once during the event. It does not affect the outcome if an Agent already hacked the portal before the event (whether or not it is a new unique portal for them individually). Any action other than hacking (e.g. capture, deploying, etc.) will not affect the outcome of the challenge.</blockquote>{: .blockquote}
 
 In other words, each portal can earn our faction 1 point if hacked by an ENL agent. Further ENL agents hacking the same portal will not earn additional points. It is estimated that there are 8,042,190 portals worldwide.
 
