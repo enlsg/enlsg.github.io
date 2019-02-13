@@ -7,6 +7,9 @@ categories: news
 pin_home: false
 ---
 
+
+[![Source](https://img.shields.io/badge/Google%2B-Ingress-DC4E41.svg?logo=googleplus)](https://plus.google.com/+Ingress){: target="_blank"}
+
 Between ![9 Feb 2019 2:00am](https://img.shields.io/badge/02:00am-09%20Feb%202019-orange.svg) and ![16 Feb 2019 2:00am](https://img.shields.io/badge/02:00am-16%20Feb%202019-orange.svg), whichever faction with the highest number of Unique Hacks will have the opportunity to influence gameplay through the entirety of the Darsana Prime anomaly.
 
 Niantic further clarified what consititues as a "Unique Hack".
@@ -25,7 +28,7 @@ The Darsana Prime XM Anomaly POCs of the Faction that wins this challenge will b
 The Shapers might step in if the POCs can’t come to a consensus.
 
 This section will be updated once Niantic posts new scores.<br/>
-Current Standing is as follows: 
+Current Standings are as follows: 
 
 <div class="row justify-content-center mb-3">
 <div class="col-8 col-sm-6 col-md-4">
