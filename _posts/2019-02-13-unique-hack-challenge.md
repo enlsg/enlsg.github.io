@@ -20,10 +20,10 @@ In other words, each portal can earn our faction 1 point if hacked by an ENL age
 
 
 The Darsana Prime XM Anomaly POCs of the Faction that wins this challenge will be able to choose one of the following: 
-<li>Energy: The Power Cube Drop rate will increase by 100%</li>
-<li>Stasis: Double mitigation from links and XMP damage will only be at 75% of normal.</li>
-<li>Instability: Half mitigation from links and XMP damage will be 125% of normal.</li>
-<li>Loyalty: Opposite Faction portal hack output will decrease 50% and same Faction portal output will increase 20%.</li>
+<li><b>Energy:</b> The Power Cube Drop rate will increase by 100%</li>
+<li><b>Stasis:</b> Double mitigation from links and XMP damage will only be at 75% of normal.</li>
+<li><b>Instability:</b> Half mitigation from links and XMP damage will be 125% of normal.</li>
+<li><b>Loyalty:</b> Opposite Faction portal hack output will decrease 50% and same Faction portal output will increase 20%.</li>
 <br/>
 The Shapers might step in if the POCs can’t come to a consensus.
 
