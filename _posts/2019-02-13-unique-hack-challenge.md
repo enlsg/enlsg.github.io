@@ -32,10 +32,10 @@ Current Standings are as follows:
 
 <div class="row justify-content-center mb-3">
 <div class="col-8 col-sm-6 col-md-4">
-  <img src="/assets/images/news/13feb.jpg" class="img-responsive" />
+  <img src="/assets/images/news/12feb.jpg" class="img-responsive" />
 </div>
 <div class="col-8 col-sm-6 col-md-4">
-  <img src="/assets/images/news/12feb.jpg" class="img-responsive" />
+  <img src="/assets/images/news/13feb.jpg" class="img-responsive" />
 </div>
 <div class="col-8 col-sm-6 col-md-4">
   <img src="/assets/images/news/17feb.jpg" class="img-responsive" />
