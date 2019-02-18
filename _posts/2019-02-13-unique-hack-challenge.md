@@ -37,6 +37,9 @@ Current Standings are as follows:
 <div class="col-8 col-sm-6 col-md-4">
   <img src="/assets/images/news/12feb.jpg" class="img-responsive" />
 </div>
+<div class="col-8 col-sm-6 col-md-4">
+  <img src="/assets/images/news/17feb.jpg" class="img-responsive" />
+</div>
 </div>
 
 
