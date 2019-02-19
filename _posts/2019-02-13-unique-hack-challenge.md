@@ -42,4 +42,8 @@ Current Standings are as follows:
 </div>
 </div>
 
+[![Source](https://img.shields.io/badge/Twitter%2B-Ingress-1DA1F2.svg?logo=twitter)](https://twitter.com/ingress/status/1096502645987004416){: target="_blank"}
+
+Final Results:
+The Resistance wins the Unique Hack Challenge by 2,385,756 to 2,223,849
 
