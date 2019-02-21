@@ -47,6 +47,6 @@ Current Standings are as follows:
 Final Results:
 The Resistance wins the Unique Hack Challenge by 2,385,756 to 2,223,849
 
-Niantic has also confirmed the POCs decision of choosing<b>Loyalty</b>.
+Niantic has also confirmed the POCs decision of choosing <b>Loyalty</b>.
 Effective from ![20 Feb 2019 2:00am](https://img.shields.io/badge/02:00am-20%20Feb%202019-orange.svg) to ![26 Mar 2019 2:00am](https://img.shields.io/badge/02:00am-26%20Mar%202019-orange.svg), both factions will experience 20% increased portal output if the portal they hack belongs to the same faction, and 50% decreased output if the portal belongs to the opposite faction.
 
