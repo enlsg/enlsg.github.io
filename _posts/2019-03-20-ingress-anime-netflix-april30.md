@@ -1,7 +1,7 @@
 ---
 layout: single-post
 title:  Ingress Anime Release on Netflix
-date:   2018-03-20 11:10:00 +0800
+date:   2019-03-20 11:10:00 +0800
 categories: news
 ---
 ![Ingress Anime](/assets/images/news/ingress_anime_placeholder.png){: .fill-width}
