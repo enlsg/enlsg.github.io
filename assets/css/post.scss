@@ -3,7 +3,7 @@
 @import "variables";
 
 .post {
-  margin: 0 0 15px;
+  margin: 0 0 16px;
   padding-bottom: 10px;
   background: white;
   position: relative;
@@ -11,13 +11,14 @@
 
   .post-title {
     background: #7cb342;
-    padding: 10px 40px;
+    padding: 16px 40px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     color: white;
     margin: -10px -40px 20px;
     font-size: 1.8em;
     line-height: 1.2;
     font-weight: 600;
+    display: inline-block;
     @media(max-width: $xsWidth) {
       font-size: 1.5em;
       margin: 0 -20px 20px;
