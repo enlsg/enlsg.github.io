@@ -25,7 +25,7 @@ pin_home: true
 </style>
 ![ingress fs](/assets/images/news/ifs_sg_banner.jpg){: .fill-width}
 
-Singapore's 3nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/02:00pm-02%20Mar%202019-orange.svg) at the Botanic Gardens.
+Singapore's 3nd Ingress First Saturday is going to be held on ![Date](https://img.shields.io/badge/02:00pm-02%20Mar%202019-orange.svg) at Orchard Central.
 
 Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic after the event. So mark your calenders!
 
