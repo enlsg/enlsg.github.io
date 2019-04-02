@@ -31,6 +31,8 @@ Make progress towards your IFS Badge and enjoy double AP rewarded by Niantic aft
 
 There will also be a special restocking portal after the event.
 
+Public parking space is available at the nearby HDB estates. Within walking distance to eateries, Tiong Bahru Market and Tiong Bahru Plaza.
+
 [Register Now &raquo;](https://fevgames.net/ifs/event/?e=11857){: .btn .btn-enlightened target="_blank"}
 
 For official announcements, join  <a href="https://t.me/SingaporeIngressFS" target="_blank"><img src="https://img.shields.io/badge/Telegram-SingaporeIngressFS-2CA5E0.svg?logo=telegram&amp;logoColor=2CA5E0" alt="SingaporeIngressFS" /></a> 
