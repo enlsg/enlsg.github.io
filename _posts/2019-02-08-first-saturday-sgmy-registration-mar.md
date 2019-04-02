@@ -4,7 +4,7 @@ title:  Singapore IngressFS Registration for March 2019
 description: Ingress First Saturday is a cross-faction event organised and run by agents, for agents on the First Saturday of each month.!
 date:   2019-02-08 09:12:00 +0800
 categories: news
-pin_home: true
+pin_home: no
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet' />
