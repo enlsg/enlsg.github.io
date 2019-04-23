@@ -83,7 +83,7 @@ There will also be a special restocking portal after the event.
 	map5.on('load', function () {
 
 
-		map5.addSource("portal_data3", {
+		map5.addSource("portal_data5", {
 		    "type": "geojson",
 		    "data": {
 		        "type": "FeatureCollection",
@@ -101,9 +101,9 @@ There will also be a special restocking portal after the event.
 
 
 		map5.addLayer({
-		    id: "unclustered-point3",
+		    id: "unclustered-point5",
 		    type: "symbol",
-		    source: "portal_data3",
+		    source: "portal_data5",
 		    layout: {
 		        "icon-image": "marker-11",
 		        "icon-optional": true,
@@ -130,19 +130,19 @@ There will also be a special restocking portal after the event.
 
 
 
-		map5.on('mouseenter', 'unclustered-point3', function(e) {
+		map5.on('mouseenter', 'unclustered-point5', function(e) {
 		    // Change the cursor style as a UI indicator.
 		    map5.getCanvas().style.cursor = 'pointer';
 		 });
 
-		map5.on('mouseleave', 'unclustered-point3', function() {
+		map5.on('mouseleave', 'unclustered-point5', function() {
 		    map5.getCanvas().style.cursor = '';
 		});
 
 		map5.on('click', function(e) {
 
 		  var features = map5.queryRenderedFeatures(e.point, {
-		    layers: ['unclustered-point3'] // replace this with the name of the layer
+		    layers: ['unclustered-point5'] // replace this with the name of the layer
 		  });
 
 		  if (!features.length) {
