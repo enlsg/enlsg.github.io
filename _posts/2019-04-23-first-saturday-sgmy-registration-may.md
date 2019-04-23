@@ -55,7 +55,7 @@ There will also be a special restocking portal after the event.
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5sc2ciLCJhIjoiY2pyOHZpcGpwMDNqYTN5cnBodHB6MGJkOCJ9.R2DHq1-Jzl97WhjzWPDXIA';
 		var map5 = new mapboxgl.Map({
-		center: [103.845434,1.276335], 
+		center: [103.845834,1.276335], 
 		//style: 'mapbox://styles/mapbox/navigation-guidance-night-v4',
 		style: 'mapbox://styles/mapbox/streets-v11',
 		zoom: 17,
