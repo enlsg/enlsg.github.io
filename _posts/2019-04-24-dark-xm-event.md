@@ -12,9 +12,9 @@ pin_home: false
 
 Between ![26 Apr 2019 1:00am](https://img.shields.io/badge/01:00am-26%20Apr%202019-orange.svg) and ![01 May 2019 1:00am](https://img.shields.io/badge/01:00am-01%20May%202019-orange.svg), create links totalling 5km, 50km, and 250km cumulatively to earn a new tiered medal! Portal decay rate will be affected and both factions have to work towards the goal of capturing 400,000 additional portals, with the reward of 3x AP during the June First Saturday.
 
-Don't really understand how this "Dark XM" event works? Andrew Krug (Global Community Manager at Niantic, Inc.) took the oppotunity to clarify some misconceptions in this TG channel. 
 [![Source](https://img.shields.io/badge/reddit-r%2FIngress-red.svg?logo=reddit)](https://www.reddit.com/r/Ingress/comments/bh0l96/andrew_krug_clarifies_some_misconceptions_about/){: target="_blank"}
 
+Don't really understand how this "Dark XM" event works? Andrew Krug (Global Community Manager at Niantic, Inc.) took the oppotunity to clarify some misconceptions in his TG channel. 
 
 1: A baseline measurement of the number of Portals owned by both factions globally will be taken at 10am PDT (UTC -7) on April 25th. Let's call this amount X.
 
