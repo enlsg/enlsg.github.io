@@ -13,7 +13,7 @@ $(function() {
     if ($(e.target).get(0) === document.body && $(e.target).hasClass('menu-opened')) {
       $(document.body).removeClass('menu-opened');
     }
-  })
+  });
 
   // Announcement
   var $el = $('.announcement'),

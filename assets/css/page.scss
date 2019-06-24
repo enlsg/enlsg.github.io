@@ -1,5 +1,13 @@
 ---
 ---
+section {
+  background: white;
+  padding: 24px 16px;
+  margin-bottom: 1px;
+}
+section:last-child {
+  margin-bottom: 0;
+}
 .top-nav {
   .logo {
     display: block !important;
@@ -10,8 +18,8 @@
   color: white;
   background-color: black;
   background-image: url('../images/pages/banner-game.jpg');
-  height: 250px;
-  margin-bottom: 2em;
+  height: 220px;
+  margin-bottom: 1px;
 
   background-repeat: no-repeat;
   background-position: top center;
@@ -62,6 +70,6 @@
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }

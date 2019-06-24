@@ -1,0 +1,100 @@
+---
+layout: page
+title: Useful Links
+description: Directory of links to everywhere else on the Internet
+groups:
+- name: Official Websites and FAQs
+  links:
+  - name: Niantic Labs
+    url: https://www.nianticlabs.com
+    description: The official Niantic website
+  - name: Ingress
+    url: https://www.ingress.com
+    description: The official Ingress website
+  - name: Ingress Intel
+    url: https://www.ingress.com/intel
+    description: The official Ingress Intel website
+  - name: Ingress Help Center
+    url: https://ingress.com/support
+  - name: "Ingress: The Animation"
+    url: http://ingressanime.com/en/
+    description: The official Ingress anime website
+  - name: Ingress Community
+    url: https://community.ingress.com/en
+
+- name: Social Media
+  links:
+  - name: Ingress Facebook
+    url: https://www.facebook.com/Ingress/
+  - name: Ingress Instagram
+    url: https://www.instagram.com/ingress/
+  - name: Ingress Twitter
+    url: https://twitter.com/ingress
+  - name: NianticLabs Twitter
+    url: https://twitter.com/NianticLabs
+  - name: "Ingress: The Animation"
+    url: http://ingressanime.com/en/
+
+- name: Operation Portal Recon
+  links:
+  - name: OPR Main Website
+    url: https://opr.ingress.com
+    description: The official Niantic website
+  - name: OPR Upgrades
+    url: https://opr.ingress.com/upgrades/
+    description: Fast track your own submissions
+
+- name: Ingress Missions
+  links:
+  - name: Ingress Mission Creator Tool
+    url: https://mission-author-dot-betaspike.appspot.com/
+    description: For creating new Ingress Missions
+
+- name: Unofficial Fansites and Guides
+  links:
+  - name: Ingress Reddit Guide
+    url: https://www.reddit.com/r/Ingress/comments/9o9scg/moronic_monday_10152018_your_weekly_questions/
+    description: Useful for newbies to get started
+  - name: OPR Guidelines Criteria Sheet
+    url: https://docs.google.com/spreadsheets/d/1rTfW8UJQ24ynoNLm0vHmOFUF5QNqVQieCvVvhj5ItRU/
+    description: OPR Guidelines consolidated from AMA sessions and everywhere else
+  - name: Ingress Prime Recursion Guide
+    url: https://metahub.info/ingress-prime/3390/ingress-prime-recursion-guide/
+  - name: Ingress Lore Explained
+    url: https://imgur.com/a/E4sG7#hShRQUh/
+    description: Abridged version and made simple
+  - name: Ingress Timeline
+    url: https://fevgames.net/ingress/ingress-timeline/
+    description: History of Ingress Events
+  - name: Mission Art in Singapore
+    url: https://ingressmosaik.com/sg/other
+
+
+- name: Reviews and Interviews
+  links:
+  - name: Ingress Prime Announcement
+    url: https://www.theverge.com/2017/12/2/16725884/ingress-prime-update-niantic-pokemon-go
+    description: Niantic’s first AR game Ingress is getting a massive overhaul in 2018
+  - name: Venturebeat Group Interview
+    url: https://venturebeat.com/2018/11/11/how-niantic-designers-tackled-ingress-prime-reboot/view-all/
+    description: How Niantic designers tackled Ingress Prime reboot
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      {% for group in page.groups %}
+      <div class="col-12 col-lg-6 mb-3">
+        <h5>{{ group.name }}</h5>
+          <ul>
+          {% for link in group.links %}
+          <li>
+            <a href="{{ link.url }}" alt="{{ link.name }}" target="_blank">{{ link.name }}</a>{% if link.description %} - {{ link.description }} {% endif %}
+          </li>
+          {% endfor %}
+          </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

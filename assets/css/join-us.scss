@@ -4,10 +4,11 @@
   list-style-type: none;
   counter-reset: steps-counter;
   background: white;
+  padding-left: 0;
 
   li {
     counter-increment: steps-counter;
-    padding-left: 40px;
+    padding-left: 36px;
     position: relative;
     margin-bottom: 1.4em;
   }
@@ -17,19 +18,20 @@
     color: white;
     background-color: #777;
     border-radius: 100%;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     text-align: center;
     position: absolute;
     left: 0;
-    top: -1px;
+    top: 0;
     font-weight: 600;
+    font-size: 0.9em;
   }
 
   .download {
     img {
-      width: 180px;
+      width: 140px;
     }
   }
 }

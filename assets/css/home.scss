@@ -5,9 +5,11 @@ $phoneHeight: 738px;
 $xsWidth: 576px;
 
 section {
-  margin: 3em 0;
+  background: white;
+  padding: 32px 16px;
+  margin: 1px 0;
   @media(max-width: $xsWidth) {
-    margin: 20px 0;
+    //margin: 20px 0;
   }
   .container {
     word-wrap: break-word;
@@ -46,8 +48,8 @@ section {
 
 .banner {
   color: white;
-  background-image: url('/assets/images/home/banner2.jpg');
-  height: 550px;
+  background-image: url('/assets/images/banners/banner3.jpg');
+  height: 450px;
   position: relative;
   font-family: Ubuntu, sans-serif;
 
@@ -55,7 +57,9 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:before {
     content: '';
@@ -74,19 +78,59 @@ section {
     height: $phoneHeight;
     float: left;
     animation: image-in 1s;
+    display: none;
   }
 
   .welcome {
-    margin-left: $phoneWidth + 50px;
-    padding-top: 310px;
+    border-radius: 32px;
+    box-shadow: 0 0 30px rgba(29, 107, 50, 0.3);
+    background: rgba(29, 107, 50, 0.3);
+    padding: 32px;
+    text-align: center;
     line-height: 1;
     font-size: 3.5em;
-    text-shadow: 0 0 10px rgba(0,0,0,0.9);
+    text-shadow: 0 0 8px rgba(0,0,0,1);
     font-weight: 400;
     .tagline {
       font-weight: 400;
       font-size: 0.6em;
-      opacity: 0.7;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.comm-steps {
+  .comm-step {
+    display: flex;
+    margin-bottom: 16px;
+    background: #f3f3f3;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    .comm-step-image {
+      flex: 0 0 250px;
+      overflow: hidden;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .comm-step-description {
+      padding: 16px;
+      flex-grow: 1;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .comm-step {
+      display: block;
+      margin: 0 auto 16px;
+      max-width: 300px;
+      .comm-step-image {
+        margin: 0;
+        border-radius: 4px 4px 0 0;
+      }
+      .comm-step-description {
+        padding-top: 8px;
+        margin-top: 8px;
+      }
     }
   }
 }
@@ -101,14 +145,13 @@ section {
 }
 
 .section-banner-visitor {
-  background-image: url('/assets/images/home/merlion.jpg');
+  background-image: url('/assets/images/home/footer.jpg');
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (max-width: 1200px) {
   .banner {
     .welcome {
-      padding-top: 320px;
       font-size: 3em;
     }
   }
@@ -119,8 +162,6 @@ section {
   .banner{
     height: 400px;
     .welcome {
-      padding-top: 200px;
-      margin-left: ($phoneWidth + 50px) * 0.7;
       font-size: 2.4em;
     }
     .phone {
@@ -136,8 +177,6 @@ section {
   .banner{
     height: 350px;
     .welcome {
-      padding-top: 100px;
-      margin-left: ($phoneWidth + 50px) * 0.5;
       font-size:1.8em;
     }
     .phone {
@@ -154,7 +193,6 @@ section {
     background-attachment: local;
     background-position: bottom;
     .welcome {
-      padding-top: 0;
       margin-left: 0;
       font-size: 1.9em;
       text-align: center;

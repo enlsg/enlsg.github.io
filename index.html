@@ -4,29 +4,84 @@ title: Welcome to the Enlightened Singapore
 stylesheets:
   - /assets/css/home.css
 ---
-<div class="banner breaker-bottom">
-  <div class="container">
+<div class="banner">
     <div class="phone"></div>
     <div class="welcome">
       <div class="tagline">Welcome to the</div>
       <div>Enlightened Singapore</div>
     </div>
-  </div>
+
+<!--  <div class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">-->
+<!--    <div class="carousel-inner">-->
+<!--      <div class="carousel-item active">-->
+<!--        <img class="d-block w-100" src="/assets/images/banners/banner1.jpg">-->
+<!--      </div>-->
+<!--      <div class="carousel-item">-->
+<!--        <img class="d-block w-100" src="/assets/images/banners/banner2.jpg">-->
+<!--      </div>-->
+<!--      <div class="carousel-item">-->
+<!--        <img class="d-block w-100" src="/assets/images/banners/banner3.jpg">-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 </div>
 
 <section>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-10">
-        <div class="card">
-          <h4>Hello Agent!</h4>
-          <p>We, the Singapore Enlightened agents, are thrilled to welcome you to our city!</p>
-          <p>If you have just downloaded and started this game, <strong>Join Us Now</strong> to learn more about this game!</p>
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <p class="m-0"><a href="/join" class="btn btn-enlightened btn-block">Join Us Now &gt;</a></p>
+      <div class="col-12 col-lg-8">
+        <p>Welcome to the Enlightened.</p>
+
+        <p>Ingress is more fun when played as a team, the community is a means for us to keep in contact with each other.</p>
+
+        <p>Do shout out in comms (the in game chat system) should you require assistance at anytime.</p>
+
+        <p>Ingress is more fun when played as a team, the community is a means for us to keep in contact with each other. Do
+          contact us should you require assistance at any stage in the process.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <h4>Shout Out on Comm!</h4>
+        <p>Feel free to message us on the in-game comm should you want to join our community. Here is how:</p>
+
+        <div class="comm-steps">
+
+          <div class="comm-step">
+            <div class="comm-step-image">
+              <img src="/assets/images/home/step1.gif" alt="Step 1"/>
+            </div>
+            <div class="comm-step-description">
+              <p>1. In the main game screen, tap on the main menu (white circle) at the bottom of the screen.</p>
             </div>
           </div>
+
+          <div class="comm-step">
+            <div class="comm-step-image">
+              <img src="/assets/images/home/step2.gif" alt="Step 2"/>
+            </div>
+            <div class="comm-step-description">
+              <p>2. Tap on the <strong>Comm</strong> menu to launch the communication screen.</p>
+            </div>
+          </div>
+
+          <div class="comm-step">
+            <div class="comm-step-image">
+              <img src="/assets/images/home/step3.gif" alt="Step 3"/>
+            </div>
+            <div class="comm-step-description">
+              <p>3. Tap on the <strong>CHAT</strong> on top, and make sure <strong>Faction</strong> is highlighted, then tap on the keyboard icon
+              at the lower right of the screen to initiate the chat. All of us (Enlightened) will then be able to see your message.</p>
+              <p>If you need to alert/reply an agent, you should add their agent name in the message. For example, to reply to an agent named "agent123",
+                simply include <strong>@agent123</strong> before your actual message.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -36,31 +91,54 @@ stylesheets:
 <section>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-10">
-        <div class="card">
-          <h4>Latest News</h4>
-
-          {% for post in site.posts %}
-          {% if post.pin_home %}
-          <div class="post">
-            <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-            <div class="post-content pb-2 pt-2">
-              {{ post.content }}
-            </div>
-          </div>
-          {% endif %}
-          {% endfor %}
-
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <p class="m-0"><a href="/news" class="btn btn-enlightened btn-block">More News &gt;</a></p>
-            </div>
+      <div class="col-12 col-lg-8">
+        <h4>That's all for now, agent</h4>
+        <p>If you have just downloaded and started this game, <strong>Join Us Now</strong> to learn more about this game!</p>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <p class="m-0"><a href="/join" class="btn btn-enlightened btn-block">Join Us Now</a></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!--<section>-->
+<!--  <div class="container">-->
+<!--    <h4>Visiting Singapore?</h4>-->
+<!--    <p>If this is your first time visiting Singapore, check out our place of interests!</p>-->
+<!--  </div>-->
+<!--</section>-->
+
+<!--<section>-->
+<!--  <div class="container">-->
+<!--    <div class="row justify-content-center">-->
+<!--      <div class="col-12 col-lg-10">-->
+<!--        <div class="card">-->
+<!--          <h4>Latest News</h4>-->
+
+<!--          {% for post in site.posts %}-->
+<!--          {% if post.pin_home %}-->
+<!--          <div class="post">-->
+<!--            <h5 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>-->
+<!--            <div class="post-content pb-2 pt-2">-->
+<!--              {{ post.content }}-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          {% endif %}-->
+<!--          {% endfor %}-->
+
+<!--          <div class="row">-->
+<!--            <div class="col-12 col-sm-6 col-md-4 col-lg-3">-->
+<!--              <p class="m-0"><a href="/news" class="btn btn-enlightened btn-block">More News &gt;</a></p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
 
 {% if site.version > 1 %}
 <section>

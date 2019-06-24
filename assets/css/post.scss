@@ -3,22 +3,20 @@
 @import "variables";
 
 .post {
-  margin: 0 0 16px;
-  padding-bottom: 10px;
+  margin: 0 0 32px;
+  padding-bottom: 32px;
   background: white;
   position: relative;
   word-wrap: break-word;
+  border-bottom: 1px dotted #607d8b;;
 
   .post-title {
-    background: #7cb342;
-    padding: 16px 40px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    color: white;
-    margin: -10px -40px 20px;
+    color: #607d8b;
     font-size: 1.8em;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 800;
     display: inline-block;
+    border-radius: 0 4px 4px 0;
     @media(max-width: $xsWidth) {
       font-size: 1.5em;
       margin: 0 -20px 20px;
@@ -26,11 +24,11 @@
       padding-right: 20px;
     }
     a {
-      color: white;
+      color: #607d8b;
       text-decoration: none;
     }
     a:hover{
-      color: #eee;
+      color: #607d8b;
     }
   }
 
