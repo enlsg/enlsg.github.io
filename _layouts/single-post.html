@@ -4,20 +4,26 @@ stylesheets:
   - /assets/css/page.css # layout extending layout, include again!
   - /assets/css/post.css
 ---
-<nav class="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/news">News</a></li>
-    <li class="breadcrumb-item">{{ page.title }}</li>
-  </ol>
-</nav>
-<div class="post single-post card">
-  <div class="post-title">
-    {{ page.title }}
+<section>
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-9 col-xl-8">
+      <nav class="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/news">News</a></li>
+          <li class="breadcrumb-item">{{ page.title }}</li>
+        </ol>
+      </nav>
+      <div class="post single-post">
+        <div class="post-title">
+          {{ page.title }}
+        </div>
+        <div class="post-date">
+          <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%b %-d, %Y %-I:%M%p" }}
+        </div>
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="post-date">
-    <i class="fas fa-calendar-alt"></i> {{ page.date | date: "%b %-d, %Y %-I:%M%p" }}
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-</div>
+</section>
