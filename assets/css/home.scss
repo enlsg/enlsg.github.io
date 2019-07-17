@@ -6,7 +6,7 @@ $xsWidth: 576px;
 
 section {
   background: white;
-  padding: 32px 16px;
+  padding: 24px 16px;
   margin: 1px 0;
   @media(max-width: $xsWidth) {
     //margin: 20px 0;
@@ -48,14 +48,11 @@ section {
 
 .banner {
   color: white;
-  background-image: url('/assets/images/banners/banner3.jpg');
+  background: linear-gradient(to bottom, rgb(20, 41, 5) 0%, rgb(55, 74, 31) 100%);
+  //background-image: url('/assets/images/banners/banner3.jpg');
   height: 450px;
   position: relative;
   font-family: Ubuntu, sans-serif;
-
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -72,24 +69,23 @@ section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
   }
 
-  .phone {
-    background-image: url('/assets/images/home/phone.png');
-    width: $phoneWidth;
-    height: $phoneHeight;
-    float: left;
-    animation: image-in 1s;
-    display: none;
+  .particles {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    z-index: 10;
   }
 
   .welcome {
-    border-radius: 32px;
-    box-shadow: 0 0 30px rgba(29, 107, 50, 0.3);
-    background: rgba(29, 107, 50, 0.3);
+    position: relative;
+    z-index: 20;
     padding: 32px;
     text-align: center;
     line-height: 1;
     font-size: 3.5em;
-    text-shadow: 0 0 8px rgba(0,0,0,1);
     font-weight: 400;
     .tagline {
       font-weight: 400;
@@ -97,6 +93,9 @@ section {
       margin-bottom: 8px;
     }
   }
+}
+
+.section-below-banner {
 }
 
 .comm-steps {
