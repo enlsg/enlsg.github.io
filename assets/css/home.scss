@@ -46,28 +46,27 @@ section {
   }
 }
 
+
+@keyframes banner-lighten {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
 .banner {
   color: white;
-  background: linear-gradient(to bottom, rgb(20, 41, 5) 0%, rgb(55, 74, 31) 100%);
+  background: linear-gradient(to bottom, rgb(15, 31, 5) 0%, rgb(38, 52, 26) 100%);
   //background-image: url('/assets/images/banners/banner3.jpg');
-  height: 450px;
+  height: 100%;
   position: relative;
   font-family: Ubuntu, sans-serif;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    height: 70px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0));
-  }
+  animation: 2s banner-lighten;
 
   .particles {
     position: absolute;
@@ -77,6 +76,11 @@ section {
     bottom: 0;
     opacity: 0.7;
     z-index: 10;
+  }
+
+  @keyframes fade-in-up {
+    from {margin-top: -100px; opacity: 0;}
+    to {margin-top:0; opacity: 1;}
   }
 
   .welcome {
@@ -92,7 +96,38 @@ section {
       font-size: 0.6em;
       margin-bottom: 8px;
     }
+
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation: 2s fade-in-up;
   }
+
+
+  @keyframes fade-in-down {
+    from {opacity: 0.5; bottom: 24px;}
+    to {opacity: 0.8; bottom: 16px;}
+  }
+
+  .arrow-down {
+    opacity: 0;
+    z-index: 23;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.2em;
+
+    animation-timing-function: ease;
+    animation-duration: 0.8s;
+    animation-name: fade-in-down;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+.over-top .banner .arrow-down{
+  display: none;
 }
 
 .section-below-banner {
@@ -159,7 +194,7 @@ section {
 // Large devices (desktops, 992px and up)
 @media (max-width: 992px) {
   .banner{
-    height: 400px;
+    //height: 400px;
     .welcome {
       font-size: 2.4em;
     }
@@ -174,7 +209,7 @@ section {
 // Medium devices (tablets, 768px and up)
 @media (max-width: 768px) {
   .banner{
-    height: 350px;
+    //height: 350px;
     .welcome {
       font-size:1.8em;
     }
@@ -188,7 +223,7 @@ section {
 // Small devices (landscape phones, 576px and up)
 @media (max-width: $xsWidth) {
   .banner{
-    height: 200px;
+    //height: 200px;
     background-attachment: local;
     background-position: bottom;
     .welcome {
