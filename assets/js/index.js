@@ -99,7 +99,22 @@
     "retina_detect": true
   };
 
+  $.extend($.easing,
+    {
+      easeOutQuint: function (x, t, b, c, d) {
+        return c*((t=t/d-1)*t*t*t*t + 1) + b;
+      }
+    });
+
   $(function () {
-    particlesJS("particles", config)
+    particlesJS("particles", config);
+
+    $('.arrow-down').click(function() {
+      $('html, body').animate({
+        scrollTop: $('.section-below-banner').offset().top - $('.top-nav').height()
+      }, 1000, 'easeOutQuint');
+    });
+
+
   });
 })();
